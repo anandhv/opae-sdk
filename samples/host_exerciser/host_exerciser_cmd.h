@@ -765,7 +765,7 @@ public:
               token_device_, mem_cal_glob.str().c_str(), FPGA_OBJECT_GLOB);
           if (testobj) { // if !=null, the sysfs entry was found
             // Error out if calibration has failed
-            if (testobj->read64(0)) {  // Non-zero value (typically '1') means
+            if (!testobj->read64(0)) {  // Non-zero value (typically '1') means
                                        // calibration has failed
               std::cout
                   << "This sysfs entry reports that memory calibration has failed:"
