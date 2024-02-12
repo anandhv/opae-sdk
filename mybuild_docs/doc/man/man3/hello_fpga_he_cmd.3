@@ -1,0 +1,246 @@
+.TH "hello_fpga::he_cmd" 3 "Mon Feb 12 2024" "Version -.." "OPAE C API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+hello_fpga::he_cmd
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include </root/samples/cxl_hello_fpga/cxl_he_cmd\&.h>\fP
+.PP
+Inherits \fBopae::afu_test::command\fP\&.
+.PP
+Inherited by \fBhello_fpga::he_cache_cmd\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBhe_cmd\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~he_cmd\fP ()"
+.br
+.ti -1c
+.RI "double \fBhe_num_xfers_to_bw\fP (uint64_t num_lines, uint64_t num_ticks)"
+.br
+.ti -1c
+.RI "void \fBhe_perf_counters\fP (\fBhe_cxl_latency\fP cxl_latency=\fBHE_CXL_LATENCY_NONE\fP)"
+.br
+.ti -1c
+.RI "void \fBprint_csr\fP ()"
+.br
+.ti -1c
+.RI "void \fBhost_exerciser_errors\fP ()"
+.br
+.ti -1c
+.RI "int \fBparse_input_options\fP ()"
+.br
+.ti -1c
+.RI "bool \fBhe_wait_test_completion\fP (const char *str='Test started \&.\&.\&.\&.\&.\&.')"
+.br
+.ti -1c
+.RI "bool \fBhe_set_bias_mode\fP ()"
+.br
+.ti -1c
+.RI "void \fBhe_start_test\fP ()"
+.br
+.ti -1c
+.RI "bool \fBverify_numa_node\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBhello_fpga\fP * \fBhost_exe_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_clock_mhz_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBnuma_node_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_target_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_bias_\fP"
+.br
+.ti -1c
+.RI "\fBhe_ctl\fP \fBhe_ctl_\fP"
+.br
+.ti -1c
+.RI "\fBhe_info\fP \fBhe_info_\fP"
+.br
+.ti -1c
+.RI "\fBhe_rd_config\fP \fBhe_rd_cfg_\fP"
+.br
+.ti -1c
+.RI "\fBhe_wr_config\fP \fBhe_wr_cfg_\fP"
+.br
+.ti -1c
+.RI "\fBhe_rd_addr_table_ctrl\fP \fBrd_table_ctl_\fP"
+.br
+.ti -1c
+.RI "\fBhe_wr_addr_table_ctrl\fP \fBwr_table_ctl_\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Definition at line 40 of file cxl_he_cmd\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "hello_fpga::he_cmd::he_cmd ()\fC [inline]\fP"
+
+.PP
+Definition at line 42 of file cxl_he_cmd\&.h\&.
+.PP
+References he_ctl_, he_info_, he_rd_cfg_, he_wr_cfg_, rd_table_ctl_, hello_fpga::he_ctl::value, hello_fpga::he_info::value, hello_fpga::he_wr_config::value, hello_fpga::he_wr_addr_table_ctrl::value, hello_fpga::he_rd_config::value, hello_fpga::he_rd_addr_table_ctrl::value, and wr_table_ctl_\&.
+.SS "virtual hello_fpga::he_cmd::~he_cmd ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 56 of file cxl_he_cmd\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "double hello_fpga::he_cmd::he_num_xfers_to_bw (uint64_t num_lines, uint64_t num_ticks)\fC [inline]\fP"
+
+.PP
+Definition at line 59 of file cxl_he_cmd\&.h\&.
+.PP
+References he_clock_mhz_\&.
+.PP
+Referenced by he_perf_counters()\&.
+.SS "void hello_fpga::he_cmd::he_perf_counters (\fBhe_cxl_latency\fP cxl_latency = \fC\fBHE_CXL_LATENCY_NONE\fP\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 63 of file cxl_he_cmd\&.h\&.
+.PP
+References hello_fpga::he_cache_dsm_status::actual_data, hello_fpga::he_cache_dsm_status::dsm_number, hello_fpga::he_cache_dsm_status::err_vector, hello_fpga::he_cache_dsm_status::expected_data, opae::afu_test::afu::get_dsm(), hello_fpga::HE_CXL_RD_LATENCY, he_num_xfers_to_bw(), host_exe_, opae::afu_test::afu::logger_, hello_fpga::he_cache_dsm_status::num_reads, hello_fpga::he_cache_dsm_status::num_ticks, hello_fpga::he_cache_dsm_status::num_writes, hello_fpga::he_cache_dsm_status::penalty_end, hello_fpga::he_cache_dsm_status::penalty_start, and hello_fpga::he_cache_dsm_status::test_completed\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "void hello_fpga::he_cmd::print_csr ()\fC [inline]\fP"
+
+.PP
+Definition at line 106 of file cxl_he_cmd\&.h\&.
+.PP
+References hello_fpga::HE_CTL, hello_fpga::HE_DFH, hello_fpga::HE_DSM_BASE, hello_fpga::HE_ERROR_ACT_DATA0, hello_fpga::HE_ERROR_ACT_DATA1, hello_fpga::HE_ERROR_ACT_DATA2, hello_fpga::HE_ERROR_ACT_DATA3, hello_fpga::HE_ERROR_ACT_DATA4, hello_fpga::HE_ERROR_ACT_DATA5, hello_fpga::HE_ERROR_ACT_DATA6, hello_fpga::HE_ERROR_ACT_DATA7, hello_fpga::HE_ERROR_EXP_DATA, hello_fpga::HE_ERROR_STATUS, hello_fpga::HE_ID_H, hello_fpga::HE_ID_L, hello_fpga::HE_INFO, hello_fpga::HE_RD_ADDR_TABLE_CTRL, hello_fpga::HE_RD_ADDR_TABLE_DATA, hello_fpga::HE_RD_CONFIG, hello_fpga::HE_RD_NUM_LINES, hello_fpga::HE_SCRATCHPAD0, hello_fpga::HE_WR_ADDR_TABLE_CTRL, hello_fpga::HE_WR_ADDR_TABLE_DATA, hello_fpga::HE_WR_BYTE_ENABLE, hello_fpga::HE_WR_CONFIG, hello_fpga::HE_WR_NUM_LINES, host_exe_, opae::afu_test::afu::logger_, and opae::afu_test::afu::read64()\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::run()\&.
+.SS "void hello_fpga::he_cmd::host_exerciser_errors ()\fC [inline]\fP"
+
+.PP
+Definition at line 179 of file cxl_he_cmd\&.h\&.
+.PP
+References hello_fpga::HE_ERROR_ACT_DATA0, hello_fpga::HE_ERROR_ACT_DATA1, hello_fpga::HE_ERROR_ACT_DATA2, hello_fpga::HE_ERROR_ACT_DATA3, hello_fpga::HE_ERROR_ACT_DATA4, hello_fpga::HE_ERROR_ACT_DATA5, hello_fpga::HE_ERROR_ACT_DATA6, hello_fpga::HE_ERROR_ACT_DATA7, hello_fpga::HE_ERROR_EXP_DATA, hello_fpga::HE_ERROR_STATUS, host_exe_, opae::afu_test::afu::read64(), and hello_fpga::he_err_status::value\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "int hello_fpga::he_cmd::parse_input_options ()\fC [inline]\fP"
+
+.PP
+Definition at line 222 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exe_\&.
+.SS "bool hello_fpga::he_cmd::he_wait_test_completion (const char * str = \fC'Test started \&.\&.\&.\&.\&.\&.'\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 228 of file cxl_he_cmd\&.h\&.
+.PP
+References opae::afu_test::afu::get_dsm(), hello_fpga::HE_CACHE_TEST_SLEEP_INVL, hello_fpga::HE_CACHE_TEST_TIMEOUT, host_exe_, and usleep()\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "bool hello_fpga::he_cmd::he_set_bias_mode ()\fC [inline]\fP"
+
+.PP
+Definition at line 244 of file cxl_he_cmd\&.h\&.
+.PP
+References hello_fpga::FPGAMEM_DEVICE_BIAS, hello_fpga::FPGAMEM_HOST_BIAS, he_bias_, he_ctl_, he_target_, hello_fpga::HE_TARGET_HOST, and hello_fpga::HOSTMEM_BIAS\&.
+.SS "void hello_fpga::he_cmd::he_start_test ()\fC [inline]\fP"
+
+.PP
+Definition at line 267 of file cxl_he_cmd\&.h\&.
+.PP
+References hello_fpga::HE_CTL, he_ctl_, host_exe_, hello_fpga::he_ctl::value, and opae::afu_test::afu::write64()\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "bool hello_fpga::he_cmd::verify_numa_node ()\fC [inline]\fP"
+
+.PP
+Definition at line 275 of file cxl_he_cmd\&.h\&.
+.PP
+References he_target_, hello_fpga::HE_TARGET_HOST, and numa_node_\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::run()\&.
+.SH "Field Documentation"
+.PP 
+.SS "\fBhello_fpga\fP* hello_fpga::he_cmd::host_exe_\fC [protected]\fP"
+
+.PP
+Definition at line 300 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_perf_counters(), hello_fpga::he_cache_cmd::he_run_hello_fpga_test(), he_start_test(), he_wait_test_completion(), hello_fpga::he_cache_cmd::hello_fpga_data_intg_check(), host_exerciser_errors(), parse_input_options(), print_csr(), and hello_fpga::he_cache_cmd::run()\&.
+.SS "uint32_t hello_fpga::he_cmd::he_clock_mhz_\fC [protected]\fP"
+
+.PP
+Definition at line 301 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_num_xfers_to_bw()\&.
+.SS "uint32_t hello_fpga::he_cmd::numa_node_\fC [protected]\fP"
+
+.PP
+Definition at line 302 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by hello_fpga::he_cache_cmd::he_run_hello_fpga_test(), hello_fpga::he_cache_cmd::run(), and verify_numa_node()\&.
+.SS "uint32_t hello_fpga::he_cmd::he_target_\fC [protected]\fP"
+
+.PP
+Definition at line 303 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_set_bias_mode(), and verify_numa_node()\&.
+.SS "uint32_t hello_fpga::he_cmd::he_bias_\fC [protected]\fP"
+
+.PP
+Definition at line 304 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_set_bias_mode()\&.
+.SS "\fBhe_ctl\fP hello_fpga::he_cmd::he_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 306 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), he_set_bias_mode(), he_start_test(), and hello_fpga::he_cache_cmd::run()\&.
+.SS "\fBhe_info\fP hello_fpga::he_cmd::he_info_\fC [protected]\fP"
+
+.PP
+Definition at line 307 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), and hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "\fBhe_rd_config\fP hello_fpga::he_cmd::he_rd_cfg_\fC [protected]\fP"
+
+.PP
+Definition at line 308 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd()\&.
+.SS "\fBhe_wr_config\fP hello_fpga::he_cmd::he_wr_cfg_\fC [protected]\fP"
+
+.PP
+Definition at line 309 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), and hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "\fBhe_rd_addr_table_ctrl\fP hello_fpga::he_cmd::rd_table_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 310 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd()\&.
+.SS "\fBhe_wr_addr_table_ctrl\fP hello_fpga::he_cmd::wr_table_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 311 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), and hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OPAE C API from the source code\&.

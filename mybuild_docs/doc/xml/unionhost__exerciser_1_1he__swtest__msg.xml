@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__swtest__msg" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_swtest_msg</compoundname>
+    <includes refid="host__exerciser_8h" local="no">/root/samples/host_exerciser/host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__swtest__msg_1a73e209303e47cfcbe57477df6c24cd89" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@168</name>
+        <enumvalue id="unionhost__exerciser_1_1he__swtest__msg_1a73e209303e47cfcbe57477df6c24cd89a5b2011678763da5bfb8840740311b7fe" prot="public">
+          <name>offset</name>
+          <initializer>= HE_SWTEST_MSG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="237" column="3" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="237" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__swtest__msg_1a73cc68766ca6718b51aeaf59ab0ff392" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_swtest_msg::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="240" column="12" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__swtest__msg_1ac8e35c00b6ddc6d9f8d3f13456547858" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_swtest_msg::@169</type>
+        <definition>struct host_exerciser::he_swtest_msg::@169 host_exerciser::he_swtest_msg::@170</definition>
+        <argsstring></argsstring>
+        <name>@170</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="243" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_swtest_msg</label>
+        <link refid="unionhost__exerciser_1_1he__swtest__msg"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/host_exerciser/host_exerciser.h" line="236" column="1" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="236" bodyend="244"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__swtest__msg_1a73e209303e47cfcbe57477df6c24cd89a5b2011678763da5bfb8840740311b7fe" prot="public" virt="non-virtual"><scope>host_exerciser::he_swtest_msg</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__swtest__msg_1a73cc68766ca6718b51aeaf59ab0ff392" prot="public" virt="non-virtual"><scope>host_exerciser::he_swtest_msg</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

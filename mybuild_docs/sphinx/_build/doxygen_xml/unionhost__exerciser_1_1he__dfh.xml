@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__dfh" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_dfh</compoundname>
+    <includes refid="cxl__host__exerciser_8h" local="no">/root/samples/cxl_host_exerciser/cxl_host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__dfh_1a48ace96d7499c277bbb1d00028c89974" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@46</name>
+        <enumvalue id="unionhost__exerciser_1_1he__dfh_1a1a14809d61216fcc27a261a0effd7b7fae801660fc9ca8f8a7efee1806f06e092" prot="public">
+          <name>offset</name>
+          <initializer>= HE_DFH</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="111" column="3" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__dfh_1a1a14809d61216fcc27a261a0effd7b7f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@144</name>
+        <enumvalue id="unionhost__exerciser_1_1he__dfh_1a1a14809d61216fcc27a261a0effd7b7fae801660fc9ca8f8a7efee1806f06e092" prot="public">
+          <name>offset</name>
+          <initializer>= HE_DFH</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="124" column="3" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="124" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__dfh_1abe99ad2d58ffd76b1b69503d2102b9c0" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_dfh::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="112" column="12" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__dfh_1a9c26caca87a9f7f36e3f84da81c1e838" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_dfh::@47</type>
+        <definition>struct host_exerciser::he_dfh::@47 host_exerciser::he_dfh::@48</definition>
+        <argsstring></argsstring>
+        <name>@48</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="120" column="3"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__dfh_1a1616d0e283bf90811935c26d8cc1d9ab" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_dfh::@145</type>
+        <definition>struct host_exerciser::he_dfh::@145 host_exerciser::he_dfh::@146</definition>
+        <argsstring></argsstring>
+        <name>@146</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="135" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_dfh</label>
+        <link refid="unionhost__exerciser_1_1he__dfh"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="110" column="1" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="110" bodyend="121"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__dfh_1a1a14809d61216fcc27a261a0effd7b7fae801660fc9ca8f8a7efee1806f06e092" prot="public" virt="non-virtual"><scope>host_exerciser::he_dfh</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__dfh_1abe99ad2d58ffd76b1b69503d2102b9c0" prot="public" virt="non-virtual"><scope>host_exerciser::he_dfh</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

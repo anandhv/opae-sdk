@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113____" kind="struct" language="C++" prot="public">
+    <compoundname>cxl_mem_tg::tg_mem_size.__unnamed113__</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113_____1aa24cd6db27965ff8540bc6132b4a86ef" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>hdm_mem_size</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="194" column="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113_____1a78469c58f4f44de9888910fae2e64bf4" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>total_mem_size</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="195" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>cxl_mem_tg::tg_mem_size.__unnamed113__</label>
+        <link refid="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113____"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="193" column="5" bodyfile="samples/cxl_mem_tg/cxl_mem_tg.h" bodystart="193" bodyend="196"/>
+    <listofallmembers>
+      <member refid="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113_____1aa24cd6db27965ff8540bc6132b4a86ef" prot="public" virt="non-virtual"><scope>cxl_mem_tg::tg_mem_size.__unnamed113__</scope><name>hdm_mem_size</name></member>
+      <member refid="structcxl__mem__tg_1_1tg__mem__size_8____unnamed113_____1a78469c58f4f44de9888910fae2e64bf4" prot="public" virt="non-virtual"><scope>cxl_mem_tg::tg_mem_size.__unnamed113__</scope><name>total_mem_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

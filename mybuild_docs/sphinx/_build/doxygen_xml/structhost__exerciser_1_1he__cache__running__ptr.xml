@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhost__exerciser_1_1he__cache__running__ptr" kind="struct" language="C++" prot="public">
+    <compoundname>host_exerciser::he_cache_running_ptr</compoundname>
+    <includes refid="cxl__host__exerciser_8h" local="no">/root/samples/cxl_host_exerciser/cxl_host_exerciser.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_1a506e09865ae97164d08eae9f40312c52" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_cache_running_ptr::phy_next_ptr</definition>
+        <argsstring></argsstring>
+        <name>phy_next_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="416" column="14" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="416" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1ae3494a51d4605e3c671681719329aa12" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="471" endline="558">host_exerciser::he_cmd::create_linked_list</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_1a17565fd560027c758e150b75d38c869a" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_cache_running_ptr::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="417" column="14" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="417" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1ae3494a51d4605e3c671681719329aa12" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="471" endline="558">host_exerciser::he_cmd::create_linked_list</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1afb601c17545cab7a12088755eeeaebc3" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="591" endline="615">host_exerciser::he_cmd::print_linked_list</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1aa070ef9b8a30e71a30f712d4029c1959" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="560" endline="589">host_exerciser::he_cmd::verify_linked_list</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_1a29814c2fb8119997350be8814e9b7733" prot="public" static="no" mutable="no">
+        <type><ref refid="structhost__exerciser_1_1he__cache__running__ptr" kindref="compound">he_cache_running_ptr</ref> *</type>
+        <definition>he_cache_running_ptr* host_exerciser::he_cache_running_ptr::virt_next_ptr</definition>
+        <argsstring></argsstring>
+        <name>virt_next_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="418" column="26" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="418" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1ae3494a51d4605e3c671681719329aa12" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="471" endline="558">host_exerciser::he_cmd::create_linked_list</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1afb601c17545cab7a12088755eeeaebc3" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="591" endline="615">host_exerciser::he_cmd::print_linked_list</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1aa070ef9b8a30e71a30f712d4029c1959" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="560" endline="589">host_exerciser::he_cmd::verify_linked_list</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_1a9934593aaf61e7a2fe5db8f2da0db0aa" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_cache_running_ptr::rsvd[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>rsvd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="419" column="14" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_1ab002f0a2863cb31d4b894830f5d146ab" prot="public" static="no" mutable="no">
+        <type>union host_exerciser::he_cache_running_ptr::@88</type>
+        <definition>union host_exerciser::he_cache_running_ptr::@88 host_exerciser::he_cache_running_ptr::@89</definition>
+        <argsstring></argsstring>
+        <name>@89</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="426" column="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_cache_running_ptr</label>
+        <link refid="structhost__exerciser_1_1he__cache__running__ptr"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>+virt_next_ptr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="415" column="1" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="415" bodyend="427"/>
+    <listofallmembers>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_1a17565fd560027c758e150b75d38c869a" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr</scope><name>data</name></member>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_1a506e09865ae97164d08eae9f40312c52" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr</scope><name>phy_next_ptr</name></member>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_1a9934593aaf61e7a2fe5db8f2da0db0aa" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr</scope><name>rsvd</name></member>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_1a29814c2fb8119997350be8814e9b7733" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr</scope><name>virt_next_ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+.TH "hello_fpga::he_rd_config" 3 "Mon Feb 12 2024" "Version -.." "OPAE C API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+hello_fpga::he_rd_config
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include </root/samples/cxl_hello_fpga/cxl_hello_fpga\&.h>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum { \fBoffset\fP = HE_RD_CONFIG }"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "uint64_t \fBvalue\fP"
+.br
+.ti -1c
+.RI "struct {"
+.br
+.ti -1c
+.RI "uint64_t \fBread_traffic_enable\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBcontinuous_mode_Enable\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBwaitfor_completion\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBprewrite_sync_enable\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBpostwrite_sync_enable\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBdata_pattern\fP: 2"
+.br
+.ti -1c
+.RI "uint64_t \fBcl_evict_enable\fP: 1"
+.br
+.ti -1c
+.RI "uint64_t \fBopcode\fP: 4"
+.br
+.ti -1c
+.RI "uint64_t \fBline_repeat_count\fP: 8"
+.br
+.ti -1c
+.RI "uint64_t \fBreserved\fP: 44"
+.br
+.ti -1c
+.RI "}; "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 216 of file cxl_hello_fpga\&.h\&.
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "anonymous enum"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIoffset \fP\fP
+.PP
+Definition at line 217 of file cxl_hello_fpga\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "uint64_t hello_fpga::he_rd_config::value"
+
+.PP
+Definition at line 218 of file cxl_hello_fpga\&.h\&.
+.PP
+Referenced by hello_fpga::he_cmd::he_cmd()\&.
+.SS "struct { \&.\&.\&. } "
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OPAE C API from the source code\&.

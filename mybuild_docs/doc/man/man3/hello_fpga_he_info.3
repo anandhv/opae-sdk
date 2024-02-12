@@ -1,0 +1,67 @@
+.TH "hello_fpga::he_info" 3 "Mon Feb 12 2024" "Version -.." "OPAE C API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+hello_fpga::he_info
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include </root/samples/cxl_hello_fpga/cxl_hello_fpga\&.h>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum { \fBoffset\fP = HE_INFO }"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "uint64_t \fBvalue\fP"
+.br
+.ti -1c
+.RI "struct {"
+.br
+.ti -1c
+.RI "uint64_t \fBwrite_addr_table_size\fP: 4"
+.br
+.ti -1c
+.RI "uint64_t \fBread_addr_table_size\fP: 4"
+.br
+.ti -1c
+.RI "uint64_t \fBReserved\fP: 56"
+.br
+.ti -1c
+.RI "}; "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 137 of file cxl_hello_fpga\&.h\&.
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "anonymous enum"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIoffset \fP\fP
+.PP
+Definition at line 138 of file cxl_hello_fpga\&.h\&.
+.SH "Field Documentation"
+.PP 
+.SS "uint64_t hello_fpga::he_info::value"
+
+.PP
+Definition at line 139 of file cxl_hello_fpga\&.h\&.
+.PP
+Referenced by hello_fpga::he_cmd::he_cmd(), and hello_fpga::he_cache_cmd::he_run_hello_fpga_test()\&.
+.SS "struct { \&.\&.\&. } "
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OPAE C API from the source code\&.

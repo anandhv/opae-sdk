@@ -1,0 +1,936 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cxl__hello__fpga_8h" kind="file" language="C++">
+    <compoundname>cxl_hello_fpga.h</compoundname>
+    <includes refid="cxl__hello__fpga_2he__cache__test_8h" local="yes">he_cache_test.h</includes>
+    <includedby refid="cxl__hello__fpga_2cxl__he__cmd_8h" local="yes">samples/cxl_hello_fpga/cxl_he_cmd.h</includedby>
+    <includedby refid="cxl__hello__fpga_8cpp" local="yes">samples/cxl_hello_fpga/cxl_hello_fpga.cpp</includedby>
+    <includedby refid="cxl__hello__fpga__cmd_8h" local="yes">samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h</includedby>
+    <incdepgraph>
+      <node id="14">
+        <label>stdbool.h</label>
+      </node>
+      <node id="1">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga.h</label>
+        <link refid="cxl__hello__fpga_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>glob.h</label>
+      </node>
+      <node id="35">
+        <label>opae/cxx/core/handle.h</label>
+        <link refid="handle_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>cstdint</label>
+      </node>
+      <node id="12">
+        <label>stdint.h</label>
+      </node>
+      <node id="51">
+        <label>sys/mman.h</label>
+      </node>
+      <node id="48">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3">
+        <label>fcntl.h</label>
+      </node>
+      <node id="36">
+        <label>opae/cxx/core/shared_buffer.h</label>
+        <link refid="shared__buffer_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>opae/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>opae/types_enum.h</label>
+        <link refid="types__enum_8h"/>
+      </node>
+      <node id="43">
+        <label>string</label>
+      </node>
+      <node id="54">
+        <label>CLI/CLI.hpp</label>
+      </node>
+      <node id="30">
+        <label>map</label>
+      </node>
+      <node id="50">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="45">
+        <label>spdlog/sinks/basic_file_sink.h</label>
+      </node>
+      <node id="24">
+        <label>uuid/uuid.h</label>
+      </node>
+      <node id="20">
+        <label>exception</label>
+      </node>
+      <node id="13">
+        <label>stddef.h</label>
+      </node>
+      <node id="42">
+        <label>opae/cxx/core/version.h</label>
+        <link refid="cxx_2core_2version_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>opae/cxx/core/except.h</label>
+        <link refid="except_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>he_cache_test.h</label>
+        <link refid="cxl__hello__fpga_2he__cache__test_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>opae/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>spdlog/spdlog.h</label>
+      </node>
+      <node id="41">
+        <label>opae/cxx/core/sysobject.h</label>
+        <link refid="cxx_2core_2sysobject_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>opae/cxx/core.h</label>
+        <link refid="core_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>string.h</label>
+      </node>
+      <node id="55">
+        <label>future</label>
+      </node>
+      <node id="53">
+        <label>unistd.h</label>
+      </node>
+      <node id="16">
+        <label>opae/cxx/core/properties.h</label>
+        <link refid="cxx_2core_2properties_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>vector</label>
+      </node>
+      <node id="46">
+        <label>spdlog/sinks/stdout_color_sinks.h</label>
+      </node>
+      <node id="26">
+        <label>array</label>
+      </node>
+      <node id="21">
+        <label>opae/properties.h</label>
+        <link refid="properties_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>opae/cxx/core/token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>opae/cxx/core/errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>iostream</label>
+      </node>
+      <node id="33">
+        <label>opae/enum.h</label>
+        <link refid="enum_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>numa.h</label>
+      </node>
+      <node id="11">
+        <label>opae/types.h</label>
+        <link refid="types_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>opae/access.h</label>
+        <link refid="access_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>chrono</label>
+      </node>
+      <node id="34">
+        <label>opae/cxx/core/events.h</label>
+        <link refid="events_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>fpga-dfl.h</label>
+      </node>
+      <node id="40">
+        <label>thread</label>
+      </node>
+      <node id="52">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="29">
+        <label>type_traits</label>
+      </node>
+      <node id="25">
+        <label>algorithm</label>
+      </node>
+      <node id="44">
+        <label>regex.h</label>
+      </node>
+      <node id="23">
+        <label>stdio.h</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="31">
+        <label>memory</label>
+      </node>
+      <node id="39">
+        <label>initializer_list</label>
+      </node>
+      <node id="5">
+        <label>inttypes.h</label>
+      </node>
+      <node id="17">
+        <label>opae/cxx/core/pvalue.h</label>
+        <link refid="pvalue_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga.h</label>
+        <link refid="cxl__hello__fpga_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h</label>
+        <link refid="cxl__hello__fpga__cmd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga.cpp</label>
+        <link refid="cxl__hello__fpga_8cpp"/>
+      </node>
+      <node id="2">
+        <label>samples/cxl_hello_fpga/cxl_he_cmd.h</label>
+        <link refid="cxl__hello__fpga_2cxl__he__cmd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="unionhello__fpga_1_1he__dfh" prot="public">hello_fpga::he_dfh</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__dsm__base" prot="public">hello_fpga::he_dsm_base</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__ctl" prot="public">hello_fpga::he_ctl</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__info" prot="public">hello_fpga::he_info</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__wr__num__lines" prot="public">hello_fpga::he_wr_num_lines</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__wr__byte__enable" prot="public">hello_fpga::he_wr_byte_enable</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__wr__config" prot="public">hello_fpga::he_wr_config</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__wr__addr__table__ctrl" prot="public">hello_fpga::he_wr_addr_table_ctrl</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__wr__addr__table__data" prot="public">hello_fpga::he_wr_addr_table_data</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__rd__num__lines" prot="public">hello_fpga::he_rd_num_lines</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__rd__config" prot="public">hello_fpga::he_rd_config</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__rd__addr__table__ctrl" prot="public">hello_fpga::he_rd_addr_table_ctrl</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__rd__addr__table__data" prot="public">hello_fpga::he_rd_addr_table_data</innerclass>
+    <innerclass refid="unionhello__fpga_1_1he__err__status" prot="public">hello_fpga::he_err_status</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__cache__dsm__status" prot="public">hello_fpga::he_cache_dsm_status</innerclass>
+    <innerclass refid="classhello__fpga_1_1hello__fpga" prot="public">hello_fpga::hello_fpga</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__dfh_8____unnamed3____" prot="public">hello_fpga::he_dfh.__unnamed3__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__dsm__base_8____unnamed6____" prot="public">hello_fpga::he_dsm_base.__unnamed6__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__ctl_8____unnamed9____" prot="public">hello_fpga::he_ctl.__unnamed9__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__info_8____unnamed12____" prot="public">hello_fpga::he_info.__unnamed12__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__wr__num__lines_8____unnamed15____" prot="public">hello_fpga::he_wr_num_lines.__unnamed15__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__wr__byte__enable_8____unnamed18____" prot="public">hello_fpga::he_wr_byte_enable.__unnamed18__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__wr__config_8____unnamed21____" prot="public">hello_fpga::he_wr_config.__unnamed21__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__wr__addr__table__ctrl_8____unnamed24____" prot="public">hello_fpga::he_wr_addr_table_ctrl.__unnamed24__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__wr__addr__table__data_8____unnamed27____" prot="public">hello_fpga::he_wr_addr_table_data.__unnamed27__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__rd__num__lines_8____unnamed30____" prot="public">hello_fpga::he_rd_num_lines.__unnamed30__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__rd__config_8____unnamed33____" prot="public">hello_fpga::he_rd_config.__unnamed33__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__rd__addr__table__ctrl_8____unnamed36____" prot="public">hello_fpga::he_rd_addr_table_ctrl.__unnamed36__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__rd__addr__table__data_8____unnamed39____" prot="public">hello_fpga::he_rd_addr_table_data.__unnamed39__</innerclass>
+    <innerclass refid="structhello__fpga_1_1he__err__status_8____unnamed42____" prot="public">hello_fpga::he_err_status.__unnamed42__</innerclass>
+    <innernamespace refid="namespacehello__fpga">hello_fpga</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="cxl__hello__fpga_8h_1a4736703a0eb0915314304d527acdf55d" prot="public" static="no">
+        <name>MEM_TG_FEATURE_ID</name>
+        <initializer>0x25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="30" column="9" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cxl__hello__fpga_8h_1adba62009c92f202c4e9fc163301f26c3" prot="public" static="no">
+        <name>MEM_TG_FEATURE_GUIDL</name>
+        <initializer>0x81599b5c2ebd4b23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="31" column="9" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cxl__hello__fpga_8h_1af5fc626e065828ba08501e0fb894b4c7" prot="public" static="no">
+        <name>MEM_TG_FEATURE_GUIDH</name>
+        <initializer>0x0118e06b1fa349b9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="32" column="9" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cxl__hello__fpga_8h_1af85df86193e6fd14a7d2d76f666b6bb4" prot="public" static="no">
+        <name>HELLO_FPGA_CL_HEADER</name>
+        <initializer>0x36db6db6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="33" column="9" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cxl__hello__fpga_8h_1a72d02b17946176eac3d194950f7f02c8" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* HE_CACHE_AFU_ID</definition>
+        <argsstring></argsstring>
+        <name>HE_CACHE_AFU_ID</name>
+        <initializer>= &quot;0118E06B-1FA3-49B9-8159-9b5C2EBD4b23&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="34" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a118af7de7d9aa985bf25691b0ad662be" compoundref="cxl__hello__fpga__cmd_8h" startline="55" endline="55">hello_fpga::he_cache_cmd::afu_id</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cache__cmd_1adc969104b344f02d51efe21402fec3b4" compoundref="cxl__he__cache__cmd_8h" startline="66" endline="66">host_exerciser::he_cache_cmd::afu_id</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright(c)<sp/>2023,<sp/>Intel<sp/>Corporation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Redistribution<sp/><sp/>and<sp/><sp/>use<sp/><sp/>in<sp/>source<sp/><sp/>and<sp/><sp/>binary<sp/><sp/>forms,<sp/><sp/>with<sp/><sp/>or<sp/><sp/>without</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions<sp/>are<sp/>met:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Redistributions<sp/>of<sp/><sp/>source<sp/>code<sp/><sp/>must<sp/>retain<sp/>the<sp/><sp/>above<sp/>copyright<sp/>notice,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright<sp/>notice,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in<sp/>the<sp/>documentation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Neither<sp/>the<sp/>name<sp/><sp/>of<sp/>Intel<sp/>Corporation<sp/><sp/>nor<sp/>the<sp/>names<sp/>of<sp/>its<sp/>contributors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>may<sp/>be<sp/>used<sp/>to<sp/><sp/>endorse<sp/>or<sp/>promote<sp/><sp/>products<sp/>derived<sp/><sp/>from<sp/>this<sp/><sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS<sp/>&quot;AS<sp/>IS&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/><sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/><sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/><sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ARE<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/><sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>OWNER<sp/><sp/>OR<sp/>CONTRIBUTORS<sp/>BE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABLE<sp/><sp/>FOR<sp/><sp/>ANY<sp/><sp/>DIRECT,<sp/><sp/>INDIRECT,<sp/><sp/>INCIDENTAL,<sp/><sp/>SPECIAL,<sp/><sp/>EXEMPLARY,<sp/><sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CONSEQUENTIAL<sp/><sp/>DAMAGES<sp/><sp/>(INCLUDING,<sp/><sp/>BUT<sp/><sp/>NOT<sp/>LIMITED<sp/><sp/>TO,<sp/><sp/>PROCUREMENT<sp/><sp/>OF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/><sp/>LOSS<sp/>OF<sp/>USE,<sp/><sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/><sp/>OR<sp/>BUSINESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>INTERRUPTION)<sp/><sp/>HOWEVER<sp/>CAUSED<sp/><sp/>AND<sp/>ON<sp/>ANY<sp/>THEORY<sp/><sp/>OF<sp/>LIABILITY,<sp/><sp/>WHETHER<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CONTRACT,<sp/><sp/>STRICT<sp/>LIABILITY,<sp/><sp/>OR<sp/>TORT<sp/><sp/>(INCLUDING<sp/>NEGLIGENCE<sp/><sp/>OR<sp/>OTHERWISE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/><sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cxl__host__exerciser_2he__cache__test_8h" kindref="compound">he_cache_test.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="cxl__hello__fpga_8h_1a4736703a0eb0915314304d527acdf55d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEM_TG_FEATURE_ID<sp/>0x25</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="cxl__hello__fpga_8h_1adba62009c92f202c4e9fc163301f26c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEM_TG_FEATURE_GUIDL<sp/>0x81599b5c2ebd4b23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="cxl__hello__fpga_8h_1af5fc626e065828ba08501e0fb894b4c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEM_TG_FEATURE_GUIDH<sp/>0x0118e06b1fa349b9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="cxl__hello__fpga_8h_1af85df86193e6fd14a7d2d76f666b6bb4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HELLO_FPGA_CL_HEADER<sp/>0x36db6db6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="cxl__hello__fpga_8h_1a72d02b17946176eac3d194950f7f02c8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="cxl__hello__fpga_8h_1a72d02b17946176eac3d194950f7f02c8" kindref="member">HE_CACHE_AFU_ID</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0118E06B-1FA3-49B9-8159-9b5C2EBD4b23&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacehello__fpga" kindref="compound">hello_fpga</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespacehello__fpga_1a094eedd5b254c38c0de5e0523a2750de" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a094eedd5b254c38c0de5e0523a2750de" kindref="member">HE_CACHE_TEST_TIMEOUT</ref><sp/>=<sp/>30000;</highlight></codeline>
+<codeline lineno="39" refid="namespacehello__fpga_1a2d3524a49468fd2cf2f7de9045ab1c47" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a2d3524a49468fd2cf2f7de9045ab1c47" kindref="member">HE_CACHE_TEST_SLEEP_INVL</ref><sp/>=<sp/>100;</highlight></codeline>
+<codeline lineno="40" refid="namespacehello__fpga_1a76fa42340ade7d46ade85c334cdf6352" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a76fa42340ade7d46ade85c334cdf6352" kindref="member">CL</ref><sp/>=<sp/>64;</highlight></codeline>
+<codeline lineno="41" refid="namespacehello__fpga_1aa143e52c0533a63c1cc963597d540128" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1aa143e52c0533a63c1cc963597d540128" kindref="member">KB</ref><sp/>=<sp/>1024;</highlight></codeline>
+<codeline lineno="42" refid="namespacehello__fpga_1af4a0543bd451d12284a92c9d33930ea5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1af4a0543bd451d12284a92c9d33930ea5" kindref="member">MB</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1aa143e52c0533a63c1cc963597d540128" kindref="member">KB</ref><sp/>*<sp/>1024;</highlight></codeline>
+<codeline lineno="43" refid="namespacehello__fpga_1a85a3369d653bae9ec631cff6e5428301" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a85a3369d653bae9ec631cff6e5428301" kindref="member">BUFFER_SIZE_2MB</ref><sp/>=<sp/>2<sp/>*<sp/><ref refid="namespacehello__fpga_1af4a0543bd451d12284a92c9d33930ea5" kindref="member">MB</ref>;</highlight></codeline>
+<codeline lineno="44" refid="namespacehello__fpga_1a58603c424af273424ab307943286c12d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a58603c424af273424ab307943286c12d" kindref="member">BUFFER_SIZE_32KB</ref><sp/>=<sp/>32<sp/>*<sp/><ref refid="namespacehello__fpga_1aa143e52c0533a63c1cc963597d540128" kindref="member">KB</ref>;</highlight></codeline>
+<codeline lineno="45" refid="namespacehello__fpga_1aff6fdfc524dcb0a794aee05c7637fe2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1aff6fdfc524dcb0a794aee05c7637fe2f" kindref="member">FPGA_32KB_CACHE_LINES</ref><sp/>=<sp/>(32<sp/>*<sp/><ref refid="namespacehello__fpga_1aa143e52c0533a63c1cc963597d540128" kindref="member">KB</ref>)<sp/>/<sp/>64;</highlight></codeline>
+<codeline lineno="46" refid="namespacehello__fpga_1ad283866644364911ac083135181ac2be" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1ad283866644364911ac083135181ac2be" kindref="member">FPGA_2MB_CACHE_LINES</ref><sp/>=<sp/>(2<sp/>*<sp/><ref refid="namespacehello__fpga_1af4a0543bd451d12284a92c9d33930ea5" kindref="member">MB</ref>)<sp/>/<sp/>64;</highlight></codeline>
+<codeline lineno="47" refid="namespacehello__fpga_1a1e9e2648346baa60a0f6211f9a284a04" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a1e9e2648346baa60a0f6211f9a284a04" kindref="member">FPGA_512CACHE_LINES</ref><sp/>=<sp/>512;</highlight></codeline>
+<codeline lineno="48" refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" kindref="member">HELLO_FPGA_NUMCACHE_LINES</ref><sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Host<sp/>execiser<sp/>CSR<sp/>Offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="52" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268af6753b46ae664e73da3e2182f6ff687b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268af6753b46ae664e73da3e2182f6ff687b" kindref="member">HE_DFH</ref><sp/>=<sp/>0x0000,</highlight></codeline>
+<codeline lineno="53" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ae27b5b90ed08652019e1851610030c8f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ae27b5b90ed08652019e1851610030c8f" kindref="member">HE_ID_L</ref><sp/>=<sp/>0x0008,</highlight></codeline>
+<codeline lineno="54" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a2938e32df0f187d066483f06d44a3ad0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a2938e32df0f187d066483f06d44a3ad0" kindref="member">HE_ID_H</ref><sp/>=<sp/>0x0010,</highlight></codeline>
+<codeline lineno="55" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ab68bfc281534b8c9c31d147ba4da5a28" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ab68bfc281534b8c9c31d147ba4da5a28" kindref="member">HE_DFH_RSVD0</ref><sp/>=<sp/>0x0018,</highlight></codeline>
+<codeline lineno="56" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a490dd6473d7fc7f7dc759375455656b1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a490dd6473d7fc7f7dc759375455656b1" kindref="member">HE_DFH_RSVD1</ref><sp/>=<sp/>0x0020,</highlight></codeline>
+<codeline lineno="57" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a25cc1296bb9c2f940389f5ef7e032754" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a25cc1296bb9c2f940389f5ef7e032754" kindref="member">HE_SCRATCHPAD0</ref><sp/>=<sp/>0x028,</highlight></codeline>
+<codeline lineno="58" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45158615a9ef0c340a5104112d264592" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45158615a9ef0c340a5104112d264592" kindref="member">HE_DSM_BASE</ref><sp/>=<sp/>0x030,</highlight></codeline>
+<codeline lineno="59" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" kindref="member">HE_CTL</ref><sp/>=<sp/>0x038,</highlight></codeline>
+<codeline lineno="60" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6d568d78eb58019dc8124981be4b98fc" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6d568d78eb58019dc8124981be4b98fc" kindref="member">HE_INFO</ref><sp/>=<sp/>0x040,</highlight></codeline>
+<codeline lineno="61" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a43226f1dd916244f92beefdb113594b5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a43226f1dd916244f92beefdb113594b5" kindref="member">HE_WR_NUM_LINES</ref><sp/>=<sp/>0x048,</highlight></codeline>
+<codeline lineno="62" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a50cf6a34a86c1b051eef6a62bfc8d81d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a50cf6a34a86c1b051eef6a62bfc8d81d" kindref="member">HE_WR_BYTE_ENABLE</ref><sp/>=<sp/>0x050,</highlight></codeline>
+<codeline lineno="63" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a35fd15eb300d543f669eef248bdcbc35" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a35fd15eb300d543f669eef248bdcbc35" kindref="member">HE_WR_CONFIG</ref><sp/>=<sp/>0x058,</highlight></codeline>
+<codeline lineno="64" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6977cb7f90551ca82278d97618c63627" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6977cb7f90551ca82278d97618c63627" kindref="member">HE_WR_ADDR_TABLE_CTRL</ref><sp/>=<sp/>0x060,</highlight></codeline>
+<codeline lineno="65" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a300d78fc0aa76707ca7f173db674d26b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a300d78fc0aa76707ca7f173db674d26b" kindref="member">HE_WR_ADDR_TABLE_DATA</ref><sp/>=<sp/>0x068,</highlight></codeline>
+<codeline lineno="66" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a16e51272026939533f377e9f26e8918d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a16e51272026939533f377e9f26e8918d" kindref="member">HE_RD_NUM_LINES</ref><sp/>=<sp/>0x070,</highlight></codeline>
+<codeline lineno="67" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a075e3bed82d3b7a35b2f8540b1c857be" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a075e3bed82d3b7a35b2f8540b1c857be" kindref="member">HE_RD_CONFIG</ref><sp/>=<sp/>0x078,</highlight></codeline>
+<codeline lineno="68" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a5fad249605c33745721d79802ffc5a1f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a5fad249605c33745721d79802ffc5a1f" kindref="member">HE_RD_ADDR_TABLE_CTRL</ref><sp/>=<sp/>0x080,</highlight></codeline>
+<codeline lineno="69" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45449cf07a5248e920f62ebfa334823f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45449cf07a5248e920f62ebfa334823f" kindref="member">HE_RD_ADDR_TABLE_DATA</ref><sp/>=<sp/>0x088,</highlight></codeline>
+<codeline lineno="70" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a1b354f9b5b04f803df911a7dc8c36c7e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a1b354f9b5b04f803df911a7dc8c36c7e" kindref="member">HE_ERROR_STATUS</ref><sp/>=<sp/>0x090,</highlight></codeline>
+<codeline lineno="71" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ad66a8b2e906228c7aa1e38aeed483a4c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ad66a8b2e906228c7aa1e38aeed483a4c" kindref="member">HE_ERROR_EXP_DATA</ref><sp/>=<sp/>0x098,</highlight></codeline>
+<codeline lineno="72" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268add7d712208c2fe470aee52eb62f49742" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268add7d712208c2fe470aee52eb62f49742" kindref="member">HE_ERROR_ACT_DATA0</ref><sp/>=<sp/>0x0A0,</highlight></codeline>
+<codeline lineno="73" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a672c56d7ffcb4f0ae16637f8ecb82b9e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a672c56d7ffcb4f0ae16637f8ecb82b9e" kindref="member">HE_ERROR_ACT_DATA1</ref><sp/>=<sp/>0x0A8,</highlight></codeline>
+<codeline lineno="74" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a8300ed24afb9eaaa2bb4d599012be436" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a8300ed24afb9eaaa2bb4d599012be436" kindref="member">HE_ERROR_ACT_DATA2</ref><sp/>=<sp/>0x0B0,</highlight></codeline>
+<codeline lineno="75" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a0dd31ce39f1f6e920d97ad0774177d37" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a0dd31ce39f1f6e920d97ad0774177d37" kindref="member">HE_ERROR_ACT_DATA3</ref><sp/>=<sp/>0x0B8,</highlight></codeline>
+<codeline lineno="76" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a9a55b32caa92afd4c21ccf8758bf3747" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a9a55b32caa92afd4c21ccf8758bf3747" kindref="member">HE_ERROR_ACT_DATA4</ref><sp/>=<sp/>0x0C0,</highlight></codeline>
+<codeline lineno="77" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a1b3986db87f90d71bd1cabb86e4c3e8e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a1b3986db87f90d71bd1cabb86e4c3e8e" kindref="member">HE_ERROR_ACT_DATA5</ref><sp/>=<sp/>0x0C8,</highlight></codeline>
+<codeline lineno="78" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ab7ad6e373a8f4110e971841da2861228" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ab7ad6e373a8f4110e971841da2861228" kindref="member">HE_ERROR_ACT_DATA6</ref><sp/>=<sp/>0x0D0,</highlight></codeline>
+<codeline lineno="79" refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a774e96aa212da7693e12c7c8db535656" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a774e96aa212da7693e12c7c8db535656" kindref="member">HE_ERROR_ACT_DATA7</ref><sp/>=<sp/>0x0D8,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Read<sp/>Traffic<sp/>Opcode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="84" refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a2428bec282a0a11cec1bf53bdbb952b8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a2428bec282a0a11cec1bf53bdbb952b8" kindref="member">RD_LINE_I</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="85" refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a71c746dbab1ec591e24227c09410370f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a71c746dbab1ec591e24227c09410370f" kindref="member">RD_LINE_S</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="86" refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a2b89f66e6340f81a32243eb81e23f21d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7a2b89f66e6340f81a32243eb81e23f21d" kindref="member">RD_LINE_EM</ref><sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1a495eee96f16ea46b401e19aa88be4db7" kindref="member">he_rd_opcode</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Write<sp/>Traffic<sp/>Opcode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4cea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="91" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa8bd6a6206fa7e68a062a818c09bef84d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa8bd6a6206fa7e68a062a818c09bef84d" kindref="member">WR_LINE_I</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="92" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaad1e2a612d0cce5e2081eae60f185d632" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaad1e2a612d0cce5e2081eae60f185d632" kindref="member">WR_LINE_M</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="93" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa2afc1d3fc09ca49b0e20fc3243cd3483" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa2afc1d3fc09ca49b0e20fc3243cd3483" kindref="member">WR_PUSH_I</ref><sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="94" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa31f0e1468fed414d0c9a29305be42aad" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa31f0e1468fed414d0c9a29305be42aad" kindref="member">WR_BARRIER_FRNCE</ref><sp/>=<sp/>0x3,</highlight></codeline>
+<codeline lineno="95" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa0db0147f5a1058b68eec120ebe059196" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa0db0147f5a1058b68eec120ebe059196" kindref="member">WR_FLUSH_CL</ref><sp/>=<sp/>0x4,</highlight></codeline>
+<codeline lineno="96" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa785d8e52fac0f769a108837122cd686c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaa785d8e52fac0f769a108837122cd686c" kindref="member">WR_FLUSH_CL_HCOH</ref><sp/>=<sp/>0x5,</highlight></codeline>
+<codeline lineno="97" refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaabe3e933230067522eae185b925676b38" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaabe3e933230067522eae185b925676b38" kindref="member">WR_FLUSH_CL_DCOH</ref><sp/>=<sp/>0x6,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4cea" kindref="member">he_wr_opcode</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DFH<sp/>Header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="unionhello__fpga_1_1he__dfh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__dfh" kindref="compound">he_dfh</ref><sp/>{</highlight></codeline>
+<codeline lineno="102" refid="unionhello__fpga_1_1he__dfh_1a8570feafd85a7c279b33baac897663b1afde4bde7064f4a1360c58f9aa0bb9948" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__dfh_1a8570feafd85a7c279b33baac897663b1afde4bde7064f4a1360c58f9aa0bb9948" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268af6753b46ae664e73da3e2182f6ff687b" kindref="member">HE_DFH</ref><sp/>};</highlight></codeline>
+<codeline lineno="103" refid="unionhello__fpga_1_1he__dfh_1a8cb60c8222aa273300ed9abc110845a4" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__dfh_1a8cb60c8222aa273300ed9abc110845a4" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="104" refid="structhello__fpga_1_1he__dfh_8____unnamed3____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>CcipVersionNumber<sp/>:<sp/>12;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>AfuMajVersion<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>NextDfhOffset<sp/>:<sp/>24;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>EOL<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>Reserved<sp/>:<sp/>19;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>FeatureType<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DSM<sp/>BASE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="unionhello__fpga_1_1he__dsm__base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__dsm__base" kindref="compound">he_dsm_base</ref><sp/>{</highlight></codeline>
+<codeline lineno="116" refid="unionhello__fpga_1_1he__dsm__base_1ae7dde6cc73ebe51160a51a9e7e58aef0a5b31486782753d26086817b2dcb5319e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__dsm__base_1ae7dde6cc73ebe51160a51a9e7e58aef0a5b31486782753d26086817b2dcb5319e" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45158615a9ef0c340a5104112d264592" kindref="member">HE_DSM_BASE</ref><sp/>};</highlight></codeline>
+<codeline lineno="117" refid="unionhello__fpga_1_1he__dsm__base_1a8a2534c57d69bfb517b9ee0243d31ac5" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__dsm__base_1a8a2534c57d69bfb517b9ee0243d31ac5" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="118" refid="structhello__fpga_1_1he__dsm__base_8____unnamed6____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>DsmBase<sp/>:<sp/>64;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CSR<sp/>CTL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="unionhello__fpga_1_1he__ctl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__ctl" kindref="compound">he_ctl</ref><sp/>{</highlight></codeline>
+<codeline lineno="125" refid="unionhello__fpga_1_1he__ctl_1a51ef923b0aebcafc5cf030d0523d57daa4a1bcf07ff8439d08598fedb1a55a6fe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__ctl_1a51ef923b0aebcafc5cf030d0523d57daa4a1bcf07ff8439d08598fedb1a55a6fe" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" kindref="member">HE_CTL</ref><sp/>};</highlight></codeline>
+<codeline lineno="126" refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="127" refid="structhello__fpga_1_1he__ctl_8____unnamed9____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>ResetL<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>Start<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>ForcedTestCmpl<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>bias_support<sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>Reserved<sp/>:<sp/>59;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CSR<sp/>INFO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="unionhello__fpga_1_1he__info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__info" kindref="compound">he_info</ref><sp/>{</highlight></codeline>
+<codeline lineno="138" refid="unionhello__fpga_1_1he__info_1a973ca570588d0ac47585b6b2ae50566ea74776a302c4d11456dccdab2dc7f9b3a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__info_1a973ca570588d0ac47585b6b2ae50566ea74776a302c4d11456dccdab2dc7f9b3a" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6d568d78eb58019dc8124981be4b98fc" kindref="member">HE_INFO</ref><sp/>};</highlight></codeline>
+<codeline lineno="139" refid="unionhello__fpga_1_1he__info_1a7bde361148ebc38da4893d034d0b038c" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__info_1a7bde361148ebc38da4893d034d0b038c" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="140" refid="structhello__fpga_1_1he__info_8____unnamed12____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>write_addr_table_size<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>read_addr_table_size<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>Reserved<sp/>:<sp/>56;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_WR_NUM_LINES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="unionhello__fpga_1_1he__wr__num__lines" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__wr__num__lines" kindref="compound">he_wr_num_lines</ref><sp/>{</highlight></codeline>
+<codeline lineno="149" refid="unionhello__fpga_1_1he__wr__num__lines_1adb3b69321d3aea0149f6a86a265ec560a705a5b3f75a202802439e9bfe1bf87e3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__wr__num__lines_1adb3b69321d3aea0149f6a86a265ec560a705a5b3f75a202802439e9bfe1bf87e3" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a43226f1dd916244f92beefdb113594b5" kindref="member">HE_WR_NUM_LINES</ref><sp/>};</highlight></codeline>
+<codeline lineno="150" refid="unionhello__fpga_1_1he__wr__num__lines_1a668c5aa5bb33557f279f8d39be93ea6b" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__wr__num__lines_1a668c5aa5bb33557f279f8d39be93ea6b" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="151" refid="structhello__fpga_1_1he__wr__num__lines_8____unnamed15____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>write_num_lines<sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>48;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_WR_BYTE_ENABLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="unionhello__fpga_1_1he__wr__byte__enable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__wr__byte__enable" kindref="compound">he_wr_byte_enable</ref><sp/>{</highlight></codeline>
+<codeline lineno="159" refid="unionhello__fpga_1_1he__wr__byte__enable_1a828f9a8447e46caea59027028b9869a7a51c41b539124d82d972eb55aa4d466ac" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__wr__byte__enable_1a828f9a8447e46caea59027028b9869a7a51c41b539124d82d972eb55aa4d466ac" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a50cf6a34a86c1b051eef6a62bfc8d81d" kindref="member">HE_WR_BYTE_ENABLE</ref><sp/>};</highlight></codeline>
+<codeline lineno="160" refid="unionhello__fpga_1_1he__wr__byte__enable_1a270599eaf48c685c46e00220a97b360e" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__wr__byte__enable_1a270599eaf48c685c46e00220a97b360e" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="161" refid="structhello__fpga_1_1he__wr__byte__enable_8____unnamed18____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>write_byte_enable<sp/>:<sp/>64;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_WR_CONFIG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="unionhello__fpga_1_1he__wr__config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__wr__config" kindref="compound">he_wr_config</ref><sp/>{</highlight></codeline>
+<codeline lineno="168" refid="unionhello__fpga_1_1he__wr__config_1af2f399fcaed11b3bf85199128753139baf3ac48f36d587a5d69521ec9d1a44286" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__wr__config_1af2f399fcaed11b3bf85199128753139baf3ac48f36d587a5d69521ec9d1a44286" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a35fd15eb300d543f669eef248bdcbc35" kindref="member">HE_WR_CONFIG</ref><sp/>};</highlight></codeline>
+<codeline lineno="169" refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="170" refid="structhello__fpga_1_1he__wr__config_8____unnamed21____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>write_traffic_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>continuous_mode_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>waitfor_completion<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>preread_sync_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>postread_sync_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>data_pattern<sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>cl_evict_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>opcode<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>line_repeat_count<sp/>:<sp/>8;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>44;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_WR_ADDR_TABLE_CTRL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="unionhello__fpga_1_1he__wr__addr__table__ctrl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__wr__addr__table__ctrl" kindref="compound">he_wr_addr_table_ctrl</ref><sp/>{</highlight></codeline>
+<codeline lineno="186" refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a1e1eb5d58664763e3321e349badb3235a0b01a192da4c5af47e551ae12267e86a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a1e1eb5d58664763e3321e349badb3235a0b01a192da4c5af47e551ae12267e86a" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6977cb7f90551ca82278d97618c63627" kindref="member">HE_WR_ADDR_TABLE_CTRL</ref><sp/>};</highlight></codeline>
+<codeline lineno="187" refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="188" refid="structhello__fpga_1_1he__wr__addr__table__ctrl_8____unnamed24____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>enable_address_table<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>enable_address_stride<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>stride<sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>60;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_WR_ADDR_TABLE_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="unionhello__fpga_1_1he__wr__addr__table__data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__wr__addr__table__data" kindref="compound">he_wr_addr_table_data</ref><sp/>{</highlight></codeline>
+<codeline lineno="198" refid="unionhello__fpga_1_1he__wr__addr__table__data_1aac6dc10808e56c075c0d489ea263d78cab680db8fadc816483372cfc72b39c179" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__wr__addr__table__data_1aac6dc10808e56c075c0d489ea263d78cab680db8fadc816483372cfc72b39c179" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a300d78fc0aa76707ca7f173db674d26b" kindref="member">HE_WR_ADDR_TABLE_DATA</ref><sp/>};</highlight></codeline>
+<codeline lineno="199" refid="unionhello__fpga_1_1he__wr__addr__table__data_1ac8768564301b4518d589a1e1f8aac1d3" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__wr__addr__table__data_1ac8768564301b4518d589a1e1f8aac1d3" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="200" refid="structhello__fpga_1_1he__wr__addr__table__data_8____unnamed27____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>address_table_value<sp/>:<sp/>64;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_RD_NUM_LINES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="unionhello__fpga_1_1he__rd__num__lines" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__rd__num__lines" kindref="compound">he_rd_num_lines</ref><sp/>{</highlight></codeline>
+<codeline lineno="207" refid="unionhello__fpga_1_1he__rd__num__lines_1a9e10d6115694f336b26613467eb11cb0a3f9accfa2fe9bbb6a7bd83429164ce68" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__rd__num__lines_1a9e10d6115694f336b26613467eb11cb0a3f9accfa2fe9bbb6a7bd83429164ce68" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a16e51272026939533f377e9f26e8918d" kindref="member">HE_RD_NUM_LINES</ref><sp/>};</highlight></codeline>
+<codeline lineno="208" refid="unionhello__fpga_1_1he__rd__num__lines_1a873ccd8f854f9318c2c15ec46f244b37" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__rd__num__lines_1a873ccd8f854f9318c2c15ec46f244b37" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="209" refid="structhello__fpga_1_1he__rd__num__lines_8____unnamed30____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>read_num_lines<sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>48;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_RD_CONFIG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="unionhello__fpga_1_1he__rd__config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__rd__config" kindref="compound">he_rd_config</ref><sp/>{</highlight></codeline>
+<codeline lineno="217" refid="unionhello__fpga_1_1he__rd__config_1aebd048b6df45e19970a47ecafc1ec4e3a8a1ddca8b3b635b2e17ade8a1c646884" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__rd__config_1aebd048b6df45e19970a47ecafc1ec4e3a8a1ddca8b3b635b2e17ade8a1c646884" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a075e3bed82d3b7a35b2f8540b1c857be" kindref="member">HE_RD_CONFIG</ref><sp/>};</highlight></codeline>
+<codeline lineno="218" refid="unionhello__fpga_1_1he__rd__config_1a1394e0de786a830cccbd9e782d95f6b0" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__rd__config_1a1394e0de786a830cccbd9e782d95f6b0" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="219" refid="structhello__fpga_1_1he__rd__config_8____unnamed33____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>read_traffic_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>continuous_mode_Enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>waitfor_completion<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>prewrite_sync_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>postwrite_sync_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>data_pattern<sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>cl_evict_enable<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>opcode<sp/>:<sp/>4;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>line_repeat_count<sp/>:<sp/>8;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>44;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_RD_ADDR_TABLE_CTRL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="unionhello__fpga_1_1he__rd__addr__table__ctrl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__rd__addr__table__ctrl" kindref="compound">he_rd_addr_table_ctrl</ref><sp/>{</highlight></codeline>
+<codeline lineno="235" refid="unionhello__fpga_1_1he__rd__addr__table__ctrl_1a5855fbcc8aacb9b96f2225ada7e2a54daf7ecf42606a9afad01107894e4ba26b6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__rd__addr__table__ctrl_1a5855fbcc8aacb9b96f2225ada7e2a54daf7ecf42606a9afad01107894e4ba26b6" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a5fad249605c33745721d79802ffc5a1f" kindref="member">HE_RD_ADDR_TABLE_CTRL</ref><sp/>};</highlight></codeline>
+<codeline lineno="236" refid="unionhello__fpga_1_1he__rd__addr__table__ctrl_1a2ec99e5ce2be359668401c3fc202b69a" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__rd__addr__table__ctrl_1a2ec99e5ce2be359668401c3fc202b69a" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="237" refid="structhello__fpga_1_1he__rd__addr__table__ctrl_8____unnamed36____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>enable_address_table<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>enable_address_stride<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>stride<sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>reserved<sp/>:<sp/>60;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE_RD_ADDR_TABLE_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="unionhello__fpga_1_1he__rd__addr__table__data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__rd__addr__table__data" kindref="compound">he_rd_addr_table_data</ref><sp/>{</highlight></codeline>
+<codeline lineno="247" refid="unionhello__fpga_1_1he__rd__addr__table__data_1a750ac29c6e0dbf7c66d0468563121ea6a3ba3265c163d12efb7c679ad37a63979" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__rd__addr__table__data_1a750ac29c6e0dbf7c66d0468563121ea6a3ba3265c163d12efb7c679ad37a63979" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a45449cf07a5248e920f62ebfa334823f" kindref="member">HE_RD_ADDR_TABLE_DATA</ref><sp/>};</highlight></codeline>
+<codeline lineno="248" refid="unionhello__fpga_1_1he__rd__addr__table__data_1ac4c1ffeba1b0ecd1c510099ab59b6d66" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__rd__addr__table__data_1ac4c1ffeba1b0ecd1c510099ab59b6d66" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="249" refid="structhello__fpga_1_1he__rd__addr__table__data_8____unnamed39____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>address_table_value<sp/>:<sp/>64;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ERROR_STATUS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="unionhello__fpga_1_1he__err__status" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionhello__fpga_1_1he__err__status" kindref="compound">he_err_status</ref><sp/>{</highlight></codeline>
+<codeline lineno="256" refid="unionhello__fpga_1_1he__err__status_1a6c5953062ca0d42f70693e00a36a366ea1fd740ab0a6c0d7306b44699fd3badda" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="unionhello__fpga_1_1he__err__status_1a6c5953062ca0d42f70693e00a36a366ea1fd740ab0a6c0d7306b44699fd3badda" kindref="member">offset</ref><sp/>=<sp/><ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a1b354f9b5b04f803df911a7dc8c36c7e" kindref="member">HE_ERROR_STATUS</ref><sp/>};</highlight></codeline>
+<codeline lineno="257" refid="unionhello__fpga_1_1he__err__status_1a7469126707e640dab87731fb3e1e49ef" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="unionhello__fpga_1_1he__err__status_1a7469126707e640dab87731fb3e1e49ef" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="258" refid="structhello__fpga_1_1he__err__status_8____unnamed42____" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>data_error<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>rsvd1<sp/>:<sp/>15;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>err_index<sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>rsvd2<sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE<sp/>DSM<sp/>status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="structhello__fpga_1_1he__cache__dsm__status" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structhello__fpga_1_1he__cache__dsm__status" kindref="compound">he_cache_dsm_status</ref><sp/>{</highlight></codeline>
+<codeline lineno="268" refid="structhello__fpga_1_1he__cache__dsm__status_1a12d59ba57032563b32ecd46f1ddd7532" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a12d59ba57032563b32ecd46f1ddd7532" kindref="member">test_completed</ref><sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="269" refid="structhello__fpga_1_1he__cache__dsm__status_1a0cb51f879357f6340acf70faee96f84d" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a0cb51f879357f6340acf70faee96f84d" kindref="member">dsm_number</ref><sp/>:<sp/>15;</highlight></codeline>
+<codeline lineno="270" refid="structhello__fpga_1_1he__cache__dsm__status_1a09637455d734fd0902441d6d1af8009b" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a09637455d734fd0902441d6d1af8009b" kindref="member">res1</ref><sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="271" refid="structhello__fpga_1_1he__cache__dsm__status_1a515795201ea0fbab85c01d87744d59be" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a515795201ea0fbab85c01d87744d59be" kindref="member">err_vector</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="272" refid="structhello__fpga_1_1he__cache__dsm__status_1a752e6b346ec430de81702bbe985b8478" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a752e6b346ec430de81702bbe985b8478" kindref="member">num_ticks</ref><sp/>:<sp/>64;</highlight></codeline>
+<codeline lineno="273" refid="structhello__fpga_1_1he__cache__dsm__status_1a79a08c4a27508c36513d8b39bced6856" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a79a08c4a27508c36513d8b39bced6856" kindref="member">num_reads</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="274" refid="structhello__fpga_1_1he__cache__dsm__status_1ad2b3abdadc346f3b1ac456196b91f24f" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1ad2b3abdadc346f3b1ac456196b91f24f" kindref="member">num_writes</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="275" refid="structhello__fpga_1_1he__cache__dsm__status_1a2445cecca01d1790db6cf9a1c2d8bc2a" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a2445cecca01d1790db6cf9a1c2d8bc2a" kindref="member">penalty_start</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="276" refid="structhello__fpga_1_1he__cache__dsm__status_1a70a69c01df06d52ef53a23d6a328acf1" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a70a69c01df06d52ef53a23d6a328acf1" kindref="member">penalty_end</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="277" refid="structhello__fpga_1_1he__cache__dsm__status_1a6fb4bf4fb1be5e2e24d70a2b688d47d3" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a6fb4bf4fb1be5e2e24d70a2b688d47d3" kindref="member">actual_data</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="278" refid="structhello__fpga_1_1he__cache__dsm__status_1a50368a48e0bb7d35d926d3cf2a55f2d3" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1a50368a48e0bb7d35d926d3cf2a55f2d3" kindref="member">expected_data</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="279" refid="structhello__fpga_1_1he__cache__dsm__status_1ab42a06b4e337c7f362db9aecad8253b1" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structhello__fpga_1_1he__cache__dsm__status_1ab42a06b4e337c7f362db9aecad8253b1" kindref="member">res5</ref>[2];</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">//<sp/>configures<sp/>test<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217aef7e98796629dca92d3201cb81b508f3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217aef7e98796629dca92d3201cb81b508f3" kindref="member">HE_HELLO_FPGA</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217" kindref="member">he_test_mode</ref>;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="comment">//<sp/>configures<sp/>traget</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="291" refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0afbc4c63bdc39787a082bd7084f9f5b81" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0afbc4c63bdc39787a082bd7084f9f5b81" kindref="member">HE_TARGET_HOST</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="292" refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0ac6d18e8160b9f2581cc9fdcb475870c9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0ac6d18e8160b9f2581cc9fdcb475870c9" kindref="member">HE_TARGET_FPGA</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0" kindref="member">he_target</ref>;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="comment">//<sp/>he<sp/>cxl<sp/>cache<sp/>latency</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="297" refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aafc6c0da4e6902a7a73abc608158ac202" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aafc6c0da4e6902a7a73abc608158ac202" kindref="member">HE_CXL_LATENCY_NONE</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="298" refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa6bf718e9f3fc2cfb8a851d932a7f6da3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa6bf718e9f3fc2cfb8a851d932a7f6da3" kindref="member">HE_CXL_RD_LATENCY</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="299" refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa037aa7a24f889f47b059594d6f6b788c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa037aa7a24f889f47b059594d6f6b788c" kindref="member">HE_CXL_WR_LATENCY</ref><sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="300" refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa416911d3ff9da86fc4009cbbe82bd182" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1aa416911d3ff9da86fc4009cbbe82bd182" kindref="member">HE_CXL_RD_WR_LATENCY</ref><sp/>=<sp/>0x3,</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1a89f06448832f7c8a9d7c52b5eb07fd1a" kindref="member">he_cxl_latency</ref>;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="namespacehello__fpga_1af8421bbe5c82420605f63ac2d6017d80" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1af8421bbe5c82420605f63ac2d6017d80" kindref="member">he_test_modes</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;hellofpga&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217aef7e98796629dca92d3201cb81b508f3" kindref="member">HE_HELLO_FPGA</ref>},</highlight></codeline>
+<codeline lineno="305"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Bias<sp/>Support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="309" refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4ab7ca80a1cc6d9eaa7ed8359db08ed123" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4ab7ca80a1cc6d9eaa7ed8359db08ed123" kindref="member">HOSTMEM_BIAS</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="310" refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4a62c8b80a178fee3144848aff87e5a25f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4a62c8b80a178fee3144848aff87e5a25f" kindref="member">HOST_BIAS_NA</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="311" refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4a87c9dc06e3679bc618083c43688b0522" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4a87c9dc06e3679bc618083c43688b0522" kindref="member">FPGAMEM_HOST_BIAS</ref><sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="312" refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4aed5eae6beba82daba2fe4940e4c0ed1e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4aed5eae6beba82daba2fe4940e4c0ed1e" kindref="member">FPGAMEM_DEVICE_BIAS</ref><sp/>=<sp/>0x3,</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4" kindref="member">he_bisa_support</ref>;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="namespacehello__fpga_1a3854ee58186c9347b9e6f40fab1d4111" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1a3854ee58186c9347b9e6f40fab1d4111" kindref="member">he_targets</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;host&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0afbc4c63bdc39787a082bd7084f9f5b81" kindref="member">HE_TARGET_HOST</ref>},</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;fpga&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1a95c9ed592efd05df524e4b1b478ad7e0ac6d18e8160b9f2581cc9fdcb475870c9" kindref="member">HE_TARGET_FPGA</ref>},</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Bias<sp/>support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="namespacehello__fpga_1a726d4af37b742e10979998c20618380c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1a726d4af37b742e10979998c20618380c" kindref="member">he_bias</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;host&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4ab7ca80a1cc6d9eaa7ed8359db08ed123" kindref="member">HOSTMEM_BIAS</ref>},</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;device&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1a980575d6740c6f12e55b354fd99f7bf4aed5eae6beba82daba2fe4940e4c0ed1e" kindref="member">FPGAMEM_DEVICE_BIAS</ref>},</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight><highlight class="comment">//<sp/>he<sp/>cxl<sp/>cache<sp/>device<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="328" refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a4f699d8bcc75a31c41a69903df955399" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a4f699d8bcc75a31c41a69903df955399" kindref="member">HE_CXL_DEVICE0</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="329" refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a74f960244c94f326d52f7be7dbd8a4e2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a74f960244c94f326d52f7be7dbd8a4e2" kindref="member">HE_CXL_DEVICE1</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459" kindref="member">he_cxl_dev</ref>;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="namespacehello__fpga_1ad702dd8dfc4e378848e43406c99078b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1ad702dd8dfc4e378848e43406c99078b2" kindref="member">he_cxl_device</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;/dev/dfl-cxl-cache.0&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a4f699d8bcc75a31c41a69903df955399" kindref="member">HE_CXL_DEVICE0</ref>},</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;/dev/dfl-cxl-cache.1&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1aaabb830b4399e6529dce6bbfacbf7459a74f960244c94f326d52f7be7dbd8a4e2" kindref="member">HE_CXL_DEVICE1</ref>},</highlight></codeline>
+<codeline lineno="335"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="comment">//<sp/>configures<sp/>test<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="339" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa50c999fbe439c89fe17c112b9e4d13e2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa50c999fbe439c89fe17c112b9e4d13e2" kindref="member">HE_ADDRTABLE_SIZE4096</ref><sp/>=<sp/>0xC,</highlight></codeline>
+<codeline lineno="340" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caad3aa698ac0e25f45774993e2bf446e74" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caad3aa698ac0e25f45774993e2bf446e74" kindref="member">HE_ADDRTABLE_SIZE2048</ref><sp/>=<sp/>0xB,</highlight></codeline>
+<codeline lineno="341" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa4aa0e80f38a63b076d7072c3f5c99bfd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa4aa0e80f38a63b076d7072c3f5c99bfd" kindref="member">HE_ADDRTABLE_SIZE1024</ref><sp/>=<sp/>0xA,</highlight></codeline>
+<codeline lineno="342" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa780b4babf88739c8632501029900e499" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa780b4babf88739c8632501029900e499" kindref="member">HE_ADDRTABLE_SIZE512</ref><sp/>=<sp/>0x9,</highlight></codeline>
+<codeline lineno="343" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab0d20a44dca1a57976e1f3d1d50d4a76" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab0d20a44dca1a57976e1f3d1d50d4a76" kindref="member">HE_ADDRTABLE_SIZE256</ref><sp/>=<sp/>0x8,</highlight></codeline>
+<codeline lineno="344" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab9d2410d80a7c1c13c1067d0bdf5093c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab9d2410d80a7c1c13c1067d0bdf5093c" kindref="member">HE_ADDRTABLE_SIZE128</ref><sp/>=<sp/>0x7,</highlight></codeline>
+<codeline lineno="345" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1ab4663f9803f91f762ec5cc1a6b0a2f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1ab4663f9803f91f762ec5cc1a6b0a2f" kindref="member">HE_ADDRTABLE_SIZE64</ref><sp/>=<sp/>0x6,</highlight></codeline>
+<codeline lineno="346" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caafc6a7e1735f14b02cc8747e09e32bd80" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caafc6a7e1735f14b02cc8747e09e32bd80" kindref="member">HE_ADDRTABLE_SIZE32</ref><sp/>=<sp/>0x5,</highlight></codeline>
+<codeline lineno="347" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1d330dab34b269e8185645ff6171e95c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1d330dab34b269e8185645ff6171e95c" kindref="member">HE_ADDRTABLE_SIZE16</ref><sp/>=<sp/>0x4,</highlight></codeline>
+<codeline lineno="348" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa3c9e53c54240d3630bc365f8adca623e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa3c9e53c54240d3630bc365f8adca623e" kindref="member">HE_ADDRTABLE_SIZE8</ref><sp/>=<sp/>0x3,</highlight></codeline>
+<codeline lineno="349" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa946ccf91321ac315848ce4b3a5c2b682" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa946ccf91321ac315848ce4b3a5c2b682" kindref="member">HE_ADDRTABLE_SIZE4</ref><sp/>=<sp/>0x2,</highlight></codeline>
+<codeline lineno="350" refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa15fa639d4abfb6fc5265f8a8dd1c0258" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa15fa639d4abfb6fc5265f8a8dd1c0258" kindref="member">HE_ADDRTABLE_SIZE2</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="351"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634ca" kindref="member">he_addrtable_size</ref>;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment">//<sp/>he<sp/>test<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="355" refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cdaf99d84e090b709d7e93fccd5d44c1eff" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cdaf99d84e090b709d7e93fccd5d44c1eff" kindref="member">HE_ENABLE_TRAFFIC_STAGE</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="356" refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cda3622ca86aaf29b3ae877df5b9639b565" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cda3622ca86aaf29b3ae877df5b9639b565" kindref="member">HE_SIP_SEQ_STAGE</ref><sp/>=<sp/>0x1,</highlight></codeline>
+<codeline lineno="357"><highlight class="normal">}<sp/><ref refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cd" kindref="member">he_traffic_enable</ref>;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="namespacehello__fpga_1a64c2430934a9728d30d630039b79b2bc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1a64c2430934a9728d30d630039b79b2bc" kindref="member">traffic_enable</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;enable&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cdaf99d84e090b709d7e93fccd5d44c1eff" kindref="member">HE_ENABLE_TRAFFIC_STAGE</ref>},</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="stringliteral">&quot;skip&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacehello__fpga_1aa43afc40a8fc58fce6b9a246fead89cda3622ca86aaf29b3ae877df5b9639b565" kindref="member">HE_SIP_SEQ_STAGE</ref>},</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="namespacehello__fpga_1a077c65c743b0848871dcfb005df7263c" refkind="member"><highlight class="normal">std::map&lt;uint32_t,<sp/>uint32_t&gt;<sp/><ref refid="namespacehello__fpga_1a077c65c743b0848871dcfb005df7263c" kindref="member">addrtable_size</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa50c999fbe439c89fe17c112b9e4d13e2" kindref="member">HE_ADDRTABLE_SIZE4096</ref>,<sp/>4096},<sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caad3aa698ac0e25f45774993e2bf446e74" kindref="member">HE_ADDRTABLE_SIZE2048</ref>,<sp/>2048},</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa4aa0e80f38a63b076d7072c3f5c99bfd" kindref="member">HE_ADDRTABLE_SIZE1024</ref>,<sp/>1024},<sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa780b4babf88739c8632501029900e499" kindref="member">HE_ADDRTABLE_SIZE512</ref>,<sp/>512},</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab0d20a44dca1a57976e1f3d1d50d4a76" kindref="member">HE_ADDRTABLE_SIZE256</ref>,<sp/>256},<sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caab9d2410d80a7c1c13c1067d0bdf5093c" kindref="member">HE_ADDRTABLE_SIZE128</ref>,<sp/>128},</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1ab4663f9803f91f762ec5cc1a6b0a2f" kindref="member">HE_ADDRTABLE_SIZE64</ref>,<sp/>64},<sp/><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caafc6a7e1735f14b02cc8747e09e32bd80" kindref="member">HE_ADDRTABLE_SIZE32</ref>,<sp/>32},</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa1d330dab34b269e8185645ff6171e95c" kindref="member">HE_ADDRTABLE_SIZE16</ref>,<sp/>16},<sp/><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa3c9e53c54240d3630bc365f8adca623e" kindref="member">HE_ADDRTABLE_SIZE8</ref>,<sp/>8},</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa946ccf91321ac315848ce4b3a5c2b682" kindref="member">HE_ADDRTABLE_SIZE4</ref>,<sp/>4},<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<ref refid="namespacehello__fpga_1ad00d66cbaca8c661a0202a260f8634caa15fa639d4abfb6fc5265f8a8dd1c0258" kindref="member">HE_ADDRTABLE_SIZE2</ref>,<sp/>2},</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="namespacehello__fpga_1adef8d944c6fcc0d7e3ae45b39d4d5627" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classopae_1_1afu__test_1_1afu" kindref="compound">test_afu</ref><sp/>=<sp/><ref refid="classopae_1_1afu__test_1_1afu" kindref="compound">opae::afu_test::afu</ref>;</highlight></codeline>
+<codeline lineno="375" refid="namespacehello__fpga_1aaf2b708aef68575d6f707cd88444d81a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classopae_1_1afu__test_1_1command" kindref="compound">test_command</ref><sp/>=<sp/><ref refid="classopae_1_1afu__test_1_1command" kindref="compound">opae::afu_test::command</ref>;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="classhello__fpga_1_1hello__fpga" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="namespacehello__fpga" kindref="compound">hello_fpga</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classopae_1_1afu__test_1_1afu" kindref="compound">test_afu</ref><sp/>{</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="379" refid="classhello__fpga_1_1hello__fpga_1aac83257015eea9f5140afd3853919757" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classhello__fpga_1_1hello__fpga_1aac83257015eea9f5140afd3853919757" kindref="member">hello_fpga</ref>()<sp/>:<sp/><ref refid="classopae_1_1afu__test_1_1afu" kindref="compound">test_afu</ref>(</highlight><highlight class="stringliteral">&quot;hello_fpga&quot;</highlight><highlight class="normal">,<sp/>nullptr,<sp/></highlight><highlight class="stringliteral">&quot;info&quot;</highlight><highlight class="normal">),<sp/>count_(1)<sp/>{}</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="classhello__fpga_1_1hello__fpga_1a5f1304cc811122acb9bfdb053a57cd3e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1hello__fpga_1a5f1304cc811122acb9bfdb053a57cd3e" kindref="member">run</ref>(CLI::App<sp/>*<ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>,<sp/><ref refid="classopae_1_1afu__test_1_1command_1a11a258a1fa5a99a5be9bb34a87c48f41" kindref="member">test_command::ptr_t</ref><sp/>test)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res<sp/>=<sp/>exit_codes::not_run;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/>logger_-&gt;set_pattern(</highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/>%v&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Info<sp/>prints<sp/>details<sp/>of<sp/>an<sp/>individual<sp/>run.<sp/>Turn<sp/>it<sp/>on<sp/>if<sp/>doing<sp/>only<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>test<sp/>and<sp/>the<sp/>user<sp/>hasn&apos;t<sp/>changed<sp/>level<sp/>from<sp/>the<sp/>default.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((log_level_.compare(</highlight><highlight class="stringliteral">&quot;warning&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0))</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>logger_-&gt;set_level(spdlog::level::info);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/>logger_-&gt;info(</highlight><highlight class="stringliteral">&quot;starting<sp/>test<sp/>run,<sp/>count<sp/>of<sp/>{0:d}&quot;</highlight><highlight class="normal">,<sp/>count_);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(count<sp/>&lt;<sp/>count_)<sp/>{</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger_-&gt;debug(</highlight><highlight class="stringliteral">&quot;starting<sp/>iteration:<sp/>{0:d}&quot;</highlight><highlight class="normal">,<sp/>count<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>=<sp/><ref refid="classopae_1_1afu__test_1_1afu_1a2b3d816eac276d4ec1aaa6e9a632b32d" kindref="member">test_afu::run</ref>(<ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>,<sp/>test);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger_-&gt;debug(</highlight><highlight class="stringliteral">&quot;end<sp/>iteration:<sp/>{0:d}&quot;</highlight><highlight class="normal">,<sp/>count);</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(res)<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(std::exception<sp/>&amp;ex)<sp/>{</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>logger_-&gt;error(ex.what());</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>=<sp/>exit_codes::exception;</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pass<sp/>=<sp/>res<sp/>==<sp/>exit_codes::success<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;PASS&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;FAIL&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/>logger_-&gt;info(</highlight><highlight class="stringliteral">&quot;Test<sp/>{}({}):<sp/>{}&quot;</highlight><highlight class="normal">,<sp/>test-&gt;name(),<sp/>count,<sp/>pass);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/>spdlog::drop_all();</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="413" refid="classhello__fpga_1_1hello__fpga_1a3232b8a4c8d40b2411f35a91927dff36" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="classhello__fpga_1_1hello__fpga_1a3232b8a4c8d40b2411f35a91927dff36" kindref="member">count_</ref>;</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="classhello__fpga_1_1hello__fpga_1abf44c0034cd8a19d5a2a4fe15ccab0ca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1hello__fpga_1abf44c0034cd8a19d5a2a4fe15ccab0ca" kindref="member">option_passed</ref>(std::string<sp/>option_str)<sp/>{</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(app_.count(option_str)<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="419"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="420"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>hello_fpga</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h"/>
+  </compounddef>
+</doxygen>

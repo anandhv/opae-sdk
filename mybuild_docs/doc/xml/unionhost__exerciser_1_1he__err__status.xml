@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__err__status" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_err_status</compoundname>
+    <includes refid="cxl__host__exerciser_8h" local="no">/root/samples/cxl_host_exerciser/cxl_host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__err__status_1af4db216f72b43e6c1b9eda2829438a71" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@85</name>
+        <enumvalue id="unionhost__exerciser_1_1he__err__status_1af4db216f72b43e6c1b9eda2829438a71a028d3076c757b34d401807870b9c6153" prot="public">
+          <name>offset</name>
+          <initializer>= HE_ERROR_STATUS</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="273" column="3" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="273" bodyend="273"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__err__status_1a540ba9ec4957d1d78ca7099466d41490" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_err_status::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="274" column="12" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1a7677d9010bc02b8a520b12d1a1ff4625" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="181" endline="223">host_exerciser::he_cmd::host_exerciser_errors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__err__status_1a0a0c855d280abe72f1a6d309a75c67d1" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_err_status::@86</type>
+        <definition>struct host_exerciser::he_err_status::@86 host_exerciser::he_err_status::@87</definition>
+        <argsstring></argsstring>
+        <name>@87</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="280" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_err_status</label>
+        <link refid="unionhost__exerciser_1_1he__err__status"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="272" column="1" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="272" bodyend="281"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__err__status_1af4db216f72b43e6c1b9eda2829438a71a028d3076c757b34d401807870b9c6153" prot="public" virt="non-virtual"><scope>host_exerciser::he_err_status</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__err__status_1a540ba9ec4957d1d78ca7099466d41490" prot="public" virt="non-virtual"><scope>host_exerciser::he_err_status</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

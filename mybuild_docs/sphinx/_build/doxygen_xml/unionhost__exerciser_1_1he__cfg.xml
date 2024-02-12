@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__cfg" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_cfg</compoundname>
+    <includes refid="host__exerciser_8h" local="no">/root/samples/host_exerciser/host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__cfg_1a7eb30b3f52b86466b51be33dee209c04" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@159</name>
+        <enumvalue id="unionhost__exerciser_1_1he__cfg_1a7eb30b3f52b86466b51be33dee209c04a1e7f62f7cb24c3eaec09027463d3559c" prot="public">
+          <name>offset</name>
+          <initializer>= HE_CFG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="191" column="3" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="191" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__cfg_1a4b7d9a2ed28517c9160238fefcb47913" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_cfg::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="194" column="12" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a39b41493c2a243ad8e9eed18b6d61d1a" compoundref="host__exerciser__cmd_8h" startline="56" endline="64">host_exerciser::host_exerciser_cmd::host_exerciser_cmd</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" compoundref="host__exerciser__cmd_8h" startline="505" endline="599">host_exerciser::host_exerciser_cmd::run_single_test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__cfg_1a73144a4f2d2a2ef4aa96ec325c6c3fc3" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_cfg::@160</type>
+        <definition>struct host_exerciser::he_cfg::@160 host_exerciser::he_cfg::@161</definition>
+        <argsstring></argsstring>
+        <name>@161</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="209" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_cfg</label>
+        <link refid="unionhost__exerciser_1_1he__cfg"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/host_exerciser/host_exerciser.h" line="190" column="1" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="190" bodyend="210"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__cfg_1a7eb30b3f52b86466b51be33dee209c04a1e7f62f7cb24c3eaec09027463d3559c" prot="public" virt="non-virtual"><scope>host_exerciser::he_cfg</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__cfg_1a4b7d9a2ed28517c9160238fefcb47913" prot="public" virt="non-virtual"><scope>host_exerciser::he_cfg</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhello__fpga_1_1he__err__status" kind="union" language="C++" prot="public">
+    <compoundname>hello_fpga::he_err_status</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhello__fpga_1_1he__err__status_1a6c5953062ca0d42f70693e00a36a366e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@40</name>
+        <enumvalue id="unionhello__fpga_1_1he__err__status_1a6c5953062ca0d42f70693e00a36a366ea1fd740ab0a6c0d7306b44699fd3badda" prot="public">
+          <name>offset</name>
+          <initializer>= HE_ERROR_STATUS</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="256" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="256" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__err__status_1a7469126707e640dab87731fb3e1e49ef" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_err_status::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="257" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="257" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a54c1b0d9dc5646c1a319367e630a25fc" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="179" endline="220">hello_fpga::he_cmd::host_exerciser_errors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__err__status_1ab93b457ebebcd329e3fdcac612455b91" prot="public" static="no" mutable="no">
+        <type>struct hello_fpga::he_err_status::@41</type>
+        <definition>struct hello_fpga::he_err_status::@41 hello_fpga::he_err_status::@42</definition>
+        <argsstring></argsstring>
+        <name>@42</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="263" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_err_status</label>
+        <link refid="unionhello__fpga_1_1he__err__status"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="255" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="255" bodyend="264"/>
+    <listofallmembers>
+      <member refid="unionhello__fpga_1_1he__err__status_1a6c5953062ca0d42f70693e00a36a366ea1fd740ab0a6c0d7306b44699fd3badda" prot="public" virt="non-virtual"><scope>hello_fpga::he_err_status</scope><name>offset</name></member>
+      <member refid="unionhello__fpga_1_1he__err__status_1a7469126707e640dab87731fb3e1e49ef" prot="public" virt="non-virtual"><scope>hello_fpga::he_err_status</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

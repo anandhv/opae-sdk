@@ -1,0 +1,411 @@
+\doxysection{hello\+\_\+fpga\+::he\+\_\+cmd Class Reference}
+\label{classhello__fpga_1_1he__cmd}\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+
+
+{\ttfamily \#include $<$/root/samples/cxl\+\_\+hello\+\_\+fpga/cxl\+\_\+he\+\_\+cmd.\+h$>$}
+
+Inheritance diagram for hello\+\_\+fpga\+::he\+\_\+cmd\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classhello__fpga_1_1he__cmd}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhello__fpga_1_1he__cmd_a23fac00973521ab5b97e58fcae412f58}{he\+\_\+cmd}} ()
+\item 
+virtual \mbox{\hyperlink{classhello__fpga_1_1he__cmd_aa133b45cf3cddd919013d55c9d73ff10}{$\sim$he\+\_\+cmd}} ()
+\item 
+double \mbox{\hyperlink{classhello__fpga_1_1he__cmd_afc4926dfa90a78e20878f2f627849827}{he\+\_\+num\+\_\+xfers\+\_\+to\+\_\+bw}} (uint64\+\_\+t num\+\_\+lines, uint64\+\_\+t num\+\_\+ticks)
+\item 
+void \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a11c3126a447698640679c46a45f0d343}{he\+\_\+perf\+\_\+counters}} (\mbox{\hyperlink{namespacehello__fpga_a89f06448832f7c8a9d7c52b5eb07fd1a}{he\+\_\+cxl\+\_\+latency}} cxl\+\_\+latency=\mbox{\hyperlink{namespacehello__fpga_a89f06448832f7c8a9d7c52b5eb07fd1aafc6c0da4e6902a7a73abc608158ac202}{HE\+\_\+\+CXL\+\_\+\+LATENCY\+\_\+\+NONE}})
+\item 
+void \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a49fda4762374b85af41fdd91c6fa651a}{print\+\_\+csr}} ()
+\item 
+void \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a54c1b0d9dc5646c1a319367e630a25fc}{host\+\_\+exerciser\+\_\+errors}} ()
+\item 
+int \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a87d6c6b32eae74d47cef260088761ff4}{parse\+\_\+input\+\_\+options}} ()
+\item 
+bool \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a5e97cb9a6874ba32f098fabb9e2b1591}{he\+\_\+wait\+\_\+test\+\_\+completion}} (const char $\ast$str=\char`\"{}Test started ......\char`\"{})
+\item 
+bool \mbox{\hyperlink{classhello__fpga_1_1he__cmd_acc0a06c33db2bd47854f9d45c6d43c76}{he\+\_\+set\+\_\+bias\+\_\+mode}} ()
+\item 
+void \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a55cd440b9ddd8b541f16d20e130e68bd}{he\+\_\+start\+\_\+test}} ()
+\item 
+bool \mbox{\hyperlink{classhello__fpga_1_1he__cmd_ac9a567daedf575f8ede0812f77550b8b}{verify\+\_\+numa\+\_\+node}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhello__fpga_1_1hello__fpga}{hello\+\_\+fpga}} $\ast$ \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a735377ae6f77cbbb867834c0398c8d0b}{host\+\_\+exe\+\_\+}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a335b120cf214c35166d15b21c681f9a3}{he\+\_\+clock\+\_\+mhz\+\_\+}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a08db61628ed8787e5539e3f27c896e43}{numa\+\_\+node\+\_\+}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a20f6916523376916501f4b37e1deaa56}{he\+\_\+target\+\_\+}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a8d4dadbbb563c0cda8ec7680c7922db5}{he\+\_\+bias\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__ctl}{he\+\_\+ctl}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_ae7d8f424f06d1fa4aa679267b2f21e0e}{he\+\_\+ctl\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__info}{he\+\_\+info}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_acdc802fa54dbc03a24a09281878cccb6}{he\+\_\+info\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__rd__config}{he\+\_\+rd\+\_\+config}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a97227953166050305688dd61db4eef7b}{he\+\_\+rd\+\_\+cfg\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__wr__config}{he\+\_\+wr\+\_\+config}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_aa825347e134103b2c84d91519a88c0c7}{he\+\_\+wr\+\_\+cfg\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__rd__addr__table__ctrl}{he\+\_\+rd\+\_\+addr\+\_\+table\+\_\+ctrl}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a95f10feb5169f26991090996c3d45fc4}{rd\+\_\+table\+\_\+ctl\+\_\+}}
+\item 
+\mbox{\hyperlink{unionhello__fpga_1_1he__wr__addr__table__ctrl}{he\+\_\+wr\+\_\+addr\+\_\+table\+\_\+ctrl}} \mbox{\hyperlink{classhello__fpga_1_1he__cmd_a9fcaf5a0d378a0362597644dd297d3c1}{wr\+\_\+table\+\_\+ctl\+\_\+}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 40 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classhello__fpga_1_1he__cmd_a23fac00973521ab5b97e58fcae412f58}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_cmd@{he\_cmd}}
+\index{he\_cmd@{he\_cmd}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_cmd()}{he\_cmd()}}
+{\footnotesize\ttfamily hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+cmd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 42 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References he\+\_\+ctl\+\_\+, he\+\_\+info\+\_\+, he\+\_\+rd\+\_\+cfg\+\_\+, he\+\_\+wr\+\_\+cfg\+\_\+, rd\+\_\+table\+\_\+ctl\+\_\+, hello\+\_\+fpga\+::he\+\_\+ctl\+::value, hello\+\_\+fpga\+::he\+\_\+info\+::value, hello\+\_\+fpga\+::he\+\_\+wr\+\_\+config\+::value, hello\+\_\+fpga\+::he\+\_\+wr\+\_\+addr\+\_\+table\+\_\+ctrl\+::value, hello\+\_\+fpga\+::he\+\_\+rd\+\_\+config\+::value, hello\+\_\+fpga\+::he\+\_\+rd\+\_\+addr\+\_\+table\+\_\+ctrl\+::value, and wr\+\_\+table\+\_\+ctl\+\_\+.
+
+\mbox{\label{classhello__fpga_1_1he__cmd_aa133b45cf3cddd919013d55c9d73ff10}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!````~he\_cmd@{$\sim$he\_cmd}}
+\index{````~he\_cmd@{$\sim$he\_cmd}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{$\sim$he\_cmd()}{~he\_cmd()}}
+{\footnotesize\ttfamily virtual hello\+\_\+fpga\+::he\+\_\+cmd\+::$\sim$he\+\_\+cmd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 56 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classhello__fpga_1_1he__cmd_afc4926dfa90a78e20878f2f627849827}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_num\_xfers\_to\_bw@{he\_num\_xfers\_to\_bw}}
+\index{he\_num\_xfers\_to\_bw@{he\_num\_xfers\_to\_bw}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_num\_xfers\_to\_bw()}{he\_num\_xfers\_to\_bw()}}
+{\footnotesize\ttfamily double hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+num\+\_\+xfers\+\_\+to\+\_\+bw (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{num\+\_\+lines,  }\item[{uint64\+\_\+t}]{num\+\_\+ticks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 59 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References he\+\_\+clock\+\_\+mhz\+\_\+.
+
+
+
+Referenced by he\+\_\+perf\+\_\+counters().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a11c3126a447698640679c46a45f0d343}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_perf\_counters@{he\_perf\_counters}}
+\index{he\_perf\_counters@{he\_perf\_counters}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_perf\_counters()}{he\_perf\_counters()}}
+{\footnotesize\ttfamily void hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+perf\+\_\+counters (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacehello__fpga_a89f06448832f7c8a9d7c52b5eb07fd1a}{he\+\_\+cxl\+\_\+latency}}}]{cxl\+\_\+latency = {\ttfamily \mbox{\hyperlink{namespacehello__fpga_a89f06448832f7c8a9d7c52b5eb07fd1aafc6c0da4e6902a7a73abc608158ac202}{HE\+\_\+\+CXL\+\_\+\+LATENCY\+\_\+\+NONE}}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 63 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::actual\+\_\+data, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::dsm\+\_\+number, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::err\+\_\+vector, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::expected\+\_\+data, opae\+::afu\+\_\+test\+::afu\+::get\+\_\+dsm(), hello\+\_\+fpga\+::\+HE\+\_\+\+CXL\+\_\+\+RD\+\_\+\+LATENCY, he\+\_\+num\+\_\+xfers\+\_\+to\+\_\+bw(), host\+\_\+exe\+\_\+, opae\+::afu\+\_\+test\+::afu\+::logger\+\_\+, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::num\+\_\+reads, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::num\+\_\+ticks, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::num\+\_\+writes, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::penalty\+\_\+end, hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::penalty\+\_\+start, and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+dsm\+\_\+status\+::test\+\_\+completed.
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a49fda4762374b85af41fdd91c6fa651a}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!print\_csr@{print\_csr}}
+\index{print\_csr@{print\_csr}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{print\_csr()}{print\_csr()}}
+{\footnotesize\ttfamily void hello\+\_\+fpga\+::he\+\_\+cmd\+::print\+\_\+csr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 106 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References hello\+\_\+fpga\+::\+HE\+\_\+\+CTL, hello\+\_\+fpga\+::\+HE\+\_\+\+DFH, hello\+\_\+fpga\+::\+HE\+\_\+\+DSM\+\_\+\+BASE, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA0, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA1, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA2, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA3, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA4, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA5, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA6, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA7, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+EXP\+\_\+\+DATA, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+STATUS, hello\+\_\+fpga\+::\+HE\+\_\+\+ID\+\_\+H, hello\+\_\+fpga\+::\+HE\+\_\+\+ID\+\_\+L, hello\+\_\+fpga\+::\+HE\+\_\+\+INFO, hello\+\_\+fpga\+::\+HE\+\_\+\+RD\+\_\+\+ADDR\+\_\+\+TABLE\+\_\+\+CTRL, hello\+\_\+fpga\+::\+HE\+\_\+\+RD\+\_\+\+ADDR\+\_\+\+TABLE\+\_\+\+DATA, hello\+\_\+fpga\+::\+HE\+\_\+\+RD\+\_\+\+CONFIG, hello\+\_\+fpga\+::\+HE\+\_\+\+RD\+\_\+\+NUM\+\_\+\+LINES, hello\+\_\+fpga\+::\+HE\+\_\+\+SCRATCHPAD0, hello\+\_\+fpga\+::\+HE\+\_\+\+WR\+\_\+\+ADDR\+\_\+\+TABLE\+\_\+\+CTRL, hello\+\_\+fpga\+::\+HE\+\_\+\+WR\+\_\+\+ADDR\+\_\+\+TABLE\+\_\+\+DATA, hello\+\_\+fpga\+::\+HE\+\_\+\+WR\+\_\+\+BYTE\+\_\+\+ENABLE, hello\+\_\+fpga\+::\+HE\+\_\+\+WR\+\_\+\+CONFIG, hello\+\_\+fpga\+::\+HE\+\_\+\+WR\+\_\+\+NUM\+\_\+\+LINES, host\+\_\+exe\+\_\+, opae\+::afu\+\_\+test\+::afu\+::logger\+\_\+, and opae\+::afu\+\_\+test\+::afu\+::read64().
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::run().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a54c1b0d9dc5646c1a319367e630a25fc}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!host\_exerciser\_errors@{host\_exerciser\_errors}}
+\index{host\_exerciser\_errors@{host\_exerciser\_errors}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{host\_exerciser\_errors()}{host\_exerciser\_errors()}}
+{\footnotesize\ttfamily void hello\+\_\+fpga\+::he\+\_\+cmd\+::host\+\_\+exerciser\+\_\+errors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 179 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA0, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA1, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA2, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA3, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA4, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA5, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA6, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+ACT\+\_\+\+DATA7, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+EXP\+\_\+\+DATA, hello\+\_\+fpga\+::\+HE\+\_\+\+ERROR\+\_\+\+STATUS, host\+\_\+exe\+\_\+, opae\+::afu\+\_\+test\+::afu\+::read64(), and hello\+\_\+fpga\+::he\+\_\+err\+\_\+status\+::value.
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a87d6c6b32eae74d47cef260088761ff4}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!parse\_input\_options@{parse\_input\_options}}
+\index{parse\_input\_options@{parse\_input\_options}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{parse\_input\_options()}{parse\_input\_options()}}
+{\footnotesize\ttfamily int hello\+\_\+fpga\+::he\+\_\+cmd\+::parse\+\_\+input\+\_\+options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 222 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References host\+\_\+exe\+\_\+.
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a5e97cb9a6874ba32f098fabb9e2b1591}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_wait\_test\_completion@{he\_wait\_test\_completion}}
+\index{he\_wait\_test\_completion@{he\_wait\_test\_completion}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_wait\_test\_completion()}{he\_wait\_test\_completion()}}
+{\footnotesize\ttfamily bool hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+wait\+\_\+test\+\_\+completion (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str = {\ttfamily \char`\"{}Test~started~......\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 228 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References opae\+::afu\+\_\+test\+::afu\+::get\+\_\+dsm(), hello\+\_\+fpga\+::\+HE\+\_\+\+CACHE\+\_\+\+TEST\+\_\+\+SLEEP\+\_\+\+INVL, hello\+\_\+fpga\+::\+HE\+\_\+\+CACHE\+\_\+\+TEST\+\_\+\+TIMEOUT, host\+\_\+exe\+\_\+, and usleep().
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_acc0a06c33db2bd47854f9d45c6d43c76}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_set\_bias\_mode@{he\_set\_bias\_mode}}
+\index{he\_set\_bias\_mode@{he\_set\_bias\_mode}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_set\_bias\_mode()}{he\_set\_bias\_mode()}}
+{\footnotesize\ttfamily bool hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+set\+\_\+bias\+\_\+mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 244 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References hello\+\_\+fpga\+::\+FPGAMEM\+\_\+\+DEVICE\+\_\+\+BIAS, hello\+\_\+fpga\+::\+FPGAMEM\+\_\+\+HOST\+\_\+\+BIAS, he\+\_\+bias\+\_\+, he\+\_\+ctl\+\_\+, he\+\_\+target\+\_\+, hello\+\_\+fpga\+::\+HE\+\_\+\+TARGET\+\_\+\+HOST, and hello\+\_\+fpga\+::\+HOSTMEM\+\_\+\+BIAS.
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a55cd440b9ddd8b541f16d20e130e68bd}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_start\_test@{he\_start\_test}}
+\index{he\_start\_test@{he\_start\_test}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_start\_test()}{he\_start\_test()}}
+{\footnotesize\ttfamily void hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+start\+\_\+test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 267 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References hello\+\_\+fpga\+::\+HE\+\_\+\+CTL, he\+\_\+ctl\+\_\+, host\+\_\+exe\+\_\+, hello\+\_\+fpga\+::he\+\_\+ctl\+::value, and opae\+::afu\+\_\+test\+::afu\+::write64().
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_ac9a567daedf575f8ede0812f77550b8b}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!verify\_numa\_node@{verify\_numa\_node}}
+\index{verify\_numa\_node@{verify\_numa\_node}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{verify\_numa\_node()}{verify\_numa\_node()}}
+{\footnotesize\ttfamily bool hello\+\_\+fpga\+::he\+\_\+cmd\+::verify\+\_\+numa\+\_\+node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 275 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+References he\+\_\+target\+\_\+, hello\+\_\+fpga\+::\+HE\+\_\+\+TARGET\+\_\+\+HOST, and numa\+\_\+node\+\_\+.
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::run().
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\label{classhello__fpga_1_1he__cmd_a735377ae6f77cbbb867834c0398c8d0b}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!host\_exe\_@{host\_exe\_}}
+\index{host\_exe\_@{host\_exe\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{host\_exe\_}{host\_exe\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classhello__fpga_1_1hello__fpga}{hello\+\_\+fpga}}$\ast$ hello\+\_\+fpga\+::he\+\_\+cmd\+::host\+\_\+exe\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 300 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+perf\+\_\+counters(), hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test(), he\+\_\+start\+\_\+test(), he\+\_\+wait\+\_\+test\+\_\+completion(), hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::hello\+\_\+fpga\+\_\+data\+\_\+intg\+\_\+check(), host\+\_\+exerciser\+\_\+errors(), parse\+\_\+input\+\_\+options(), print\+\_\+csr(), and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::run().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a335b120cf214c35166d15b21c681f9a3}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_clock\_mhz\_@{he\_clock\_mhz\_}}
+\index{he\_clock\_mhz\_@{he\_clock\_mhz\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_clock\_mhz\_}{he\_clock\_mhz\_}}
+{\footnotesize\ttfamily uint32\+\_\+t hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+clock\+\_\+mhz\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 301 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+num\+\_\+xfers\+\_\+to\+\_\+bw().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a08db61628ed8787e5539e3f27c896e43}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!numa\_node\_@{numa\_node\_}}
+\index{numa\_node\_@{numa\_node\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{numa\_node\_}{numa\_node\_}}
+{\footnotesize\ttfamily uint32\+\_\+t hello\+\_\+fpga\+::he\+\_\+cmd\+::numa\+\_\+node\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 302 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test(), hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::run(), and verify\+\_\+numa\+\_\+node().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a20f6916523376916501f4b37e1deaa56}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_target\_@{he\_target\_}}
+\index{he\_target\_@{he\_target\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_target\_}{he\_target\_}}
+{\footnotesize\ttfamily uint32\+\_\+t hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+target\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 303 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+set\+\_\+bias\+\_\+mode(), and verify\+\_\+numa\+\_\+node().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a8d4dadbbb563c0cda8ec7680c7922db5}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_bias\_@{he\_bias\_}}
+\index{he\_bias\_@{he\_bias\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_bias\_}{he\_bias\_}}
+{\footnotesize\ttfamily uint32\+\_\+t hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+bias\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 304 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+set\+\_\+bias\+\_\+mode().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_ae7d8f424f06d1fa4aa679267b2f21e0e}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_ctl\_@{he\_ctl\_}}
+\index{he\_ctl\_@{he\_ctl\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_ctl\_}{he\_ctl\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__ctl}{he\+\_\+ctl}} hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+ctl\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 306 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd(), he\+\_\+set\+\_\+bias\+\_\+mode(), he\+\_\+start\+\_\+test(), and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::run().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_acdc802fa54dbc03a24a09281878cccb6}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_info\_@{he\_info\_}}
+\index{he\_info\_@{he\_info\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_info\_}{he\_info\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__info}{he\+\_\+info}} hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+info\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 307 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd(), and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a97227953166050305688dd61db4eef7b}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_rd\_cfg\_@{he\_rd\_cfg\_}}
+\index{he\_rd\_cfg\_@{he\_rd\_cfg\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_rd\_cfg\_}{he\_rd\_cfg\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__rd__config}{he\+\_\+rd\+\_\+config}} hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+rd\+\_\+cfg\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 308 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_aa825347e134103b2c84d91519a88c0c7}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!he\_wr\_cfg\_@{he\_wr\_cfg\_}}
+\index{he\_wr\_cfg\_@{he\_wr\_cfg\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{he\_wr\_cfg\_}{he\_wr\_cfg\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__wr__config}{he\+\_\+wr\+\_\+config}} hello\+\_\+fpga\+::he\+\_\+cmd\+::he\+\_\+wr\+\_\+cfg\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 309 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd(), and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a95f10feb5169f26991090996c3d45fc4}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!rd\_table\_ctl\_@{rd\_table\_ctl\_}}
+\index{rd\_table\_ctl\_@{rd\_table\_ctl\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{rd\_table\_ctl\_}{rd\_table\_ctl\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__rd__addr__table__ctrl}{he\+\_\+rd\+\_\+addr\+\_\+table\+\_\+ctrl}} hello\+\_\+fpga\+::he\+\_\+cmd\+::rd\+\_\+table\+\_\+ctl\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 310 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd().
+
+\mbox{\label{classhello__fpga_1_1he__cmd_a9fcaf5a0d378a0362597644dd297d3c1}} 
+\index{hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}!wr\_table\_ctl\_@{wr\_table\_ctl\_}}
+\index{wr\_table\_ctl\_@{wr\_table\_ctl\_}!hello\_fpga::he\_cmd@{hello\_fpga::he\_cmd}}
+\doxysubsubsection{\texorpdfstring{wr\_table\_ctl\_}{wr\_table\_ctl\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{unionhello__fpga_1_1he__wr__addr__table__ctrl}{he\+\_\+wr\+\_\+addr\+\_\+table\+\_\+ctrl}} hello\+\_\+fpga\+::he\+\_\+cmd\+::wr\+\_\+table\+\_\+ctl\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 311 of file cxl\+\_\+he\+\_\+cmd.\+h.
+
+
+
+Referenced by he\+\_\+cmd(), and hello\+\_\+fpga\+::he\+\_\+cache\+\_\+cmd\+::he\+\_\+run\+\_\+hello\+\_\+fpga\+\_\+test().
+

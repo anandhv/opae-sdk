@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhello__fpga_1_1he__ctl" kind="union" language="C++" prot="public">
+    <compoundname>hello_fpga::he_ctl</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhello__fpga_1_1he__ctl_1a51ef923b0aebcafc5cf030d0523d57da" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@7</name>
+        <enumvalue id="unionhello__fpga_1_1he__ctl_1a51ef923b0aebcafc5cf030d0523d57daa4a1bcf07ff8439d08598fedb1a55a6fe" prot="public">
+          <name>offset</name>
+          <initializer>= HE_CTL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="125" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_ctl::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="126" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a23fac00973521ab5b97e58fcae412f58" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="42" endline="54">hello_fpga::he_cmd::he_cmd</referencedby>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a55cd440b9ddd8b541f16d20e130e68bd" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="267" endline="273">hello_fpga::he_cmd::he_start_test</referencedby>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" compoundref="cxl__hello__fpga__cmd_8h" startline="238" endline="265">hello_fpga::he_cache_cmd::run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__ctl_1a754fc7407884b5f825f7c5f0b86898ac" prot="public" static="no" mutable="no">
+        <type>struct hello_fpga::he_ctl::@8</type>
+        <definition>struct hello_fpga::he_ctl::@8 hello_fpga::he_ctl::@9</definition>
+        <argsstring></argsstring>
+        <name>@9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="133" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_ctl</label>
+        <link refid="unionhello__fpga_1_1he__ctl"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="124" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="124" bodyend="134"/>
+    <listofallmembers>
+      <member refid="unionhello__fpga_1_1he__ctl_1a51ef923b0aebcafc5cf030d0523d57daa4a1bcf07ff8439d08598fedb1a55a6fe" prot="public" virt="non-virtual"><scope>hello_fpga::he_ctl</scope><name>offset</name></member>
+      <member refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" prot="public" virt="non-virtual"><scope>hello_fpga::he_ctl</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

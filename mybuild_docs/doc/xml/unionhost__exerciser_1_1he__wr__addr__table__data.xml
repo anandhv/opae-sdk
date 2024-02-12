@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__wr__addr__table__data" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_wr_addr_table_data</compoundname>
+    <includes refid="cxl__host__exerciser_8h" local="no">/root/samples/cxl_host_exerciser/cxl_host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__wr__addr__table__data_1a3b05af79d8baf334ce89d93eb4599730" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@70</name>
+        <enumvalue id="unionhost__exerciser_1_1he__wr__addr__table__data_1a3b05af79d8baf334ce89d93eb4599730aa865dbe8b0ce86cc948eb89a9c5a529f" prot="public">
+          <name>offset</name>
+          <initializer>= HE_WR_ADDR_TABLE_DATA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="212" column="3" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="212" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__wr__addr__table__data_1a25f8d79057b757727f8a52ea17d644a1" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_wr_addr_table_data::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="213" column="12" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__wr__addr__table__data_1aa5089ecd8e0a8cd4a4abcd14d5848f11" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_wr_addr_table_data::@71</type>
+        <definition>struct host_exerciser::he_wr_addr_table_data::@71 host_exerciser::he_wr_addr_table_data::@72</definition>
+        <argsstring></argsstring>
+        <name>@72</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="216" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_wr_addr_table_data</label>
+        <link refid="unionhost__exerciser_1_1he__wr__addr__table__data"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="211" column="1" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="211" bodyend="217"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__wr__addr__table__data_1a3b05af79d8baf334ce89d93eb4599730aa865dbe8b0ce86cc948eb89a9c5a529f" prot="public" virt="non-virtual"><scope>host_exerciser::he_wr_addr_table_data</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__wr__addr__table__data_1a25f8d79057b757727f8a52ea17d644a1" prot="public" virt="non-virtual"><scope>host_exerciser::he_wr_addr_table_data</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

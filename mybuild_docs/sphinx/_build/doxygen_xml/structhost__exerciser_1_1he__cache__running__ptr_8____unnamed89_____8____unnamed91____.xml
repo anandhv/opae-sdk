@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91____" kind="struct" language="C++" prot="public">
+    <compoundname>host_exerciser::he_cache_running_ptr.__unnamed89__.__unnamed91__</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91_____1ac06abc5c2c717ee732a09b3de4a1b1af" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>rsvd_0_62</name>
+        <bitfield> 62</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="423" column="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91_____1a440e168b57b9a0d553325e25dc82b337" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>biasmode</name>
+        <bitfield>2</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="424" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_cache_running_ptr.__unnamed89__.__unnamed91__</label>
+        <link refid="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91____"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="422" column="9" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="422" bodyend="425"/>
+    <listofallmembers>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91_____1a440e168b57b9a0d553325e25dc82b337" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr.__unnamed89__.__unnamed91__</scope><name>biasmode</name></member>
+      <member refid="structhost__exerciser_1_1he__cache__running__ptr_8____unnamed89_____8____unnamed91_____1ac06abc5c2c717ee732a09b3de4a1b1af" prot="public" virt="non-virtual"><scope>host_exerciser::he_cache_running_ptr.__unnamed89__.__unnamed91__</scope><name>rsvd_0_62</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

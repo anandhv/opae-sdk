@@ -1,0 +1,737 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cxl__hello__fpga__cmd_8h" kind="file" language="C++">
+    <compoundname>cxl_hello_fpga_cmd.h</compoundname>
+    <includes refid="cxl__hello__fpga_2cxl__he__cmd_8h" local="yes">cxl_he_cmd.h</includes>
+    <includes refid="cxl__hello__fpga_8h" local="yes">cxl_hello_fpga.h</includes>
+    <includes refid="cxl__hello__fpga_2he__cache__test_8h" local="yes">he_cache_test.h</includes>
+    <includedby refid="cxl__hello__fpga_8cpp" local="yes">samples/cxl_hello_fpga/cxl_hello_fpga.cpp</includedby>
+    <incdepgraph>
+      <node id="18">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>cxl_hello_fpga.h</label>
+        <link refid="cxl__hello__fpga_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>glob.h</label>
+      </node>
+      <node id="38">
+        <label>opae/cxx/core/handle.h</label>
+        <link refid="handle_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>cstdint</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="54">
+        <label>sys/mman.h</label>
+      </node>
+      <node id="51">
+        <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>fcntl.h</label>
+      </node>
+      <node id="39">
+        <label>opae/cxx/core/shared_buffer.h</label>
+        <link refid="shared__buffer_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>opae/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h</label>
+        <link refid="cxl__hello__fpga__cmd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>opae/types_enum.h</label>
+        <link refid="types__enum_8h"/>
+      </node>
+      <node id="46">
+        <label>string</label>
+      </node>
+      <node id="56">
+        <label>CLI/CLI.hpp</label>
+      </node>
+      <node id="5">
+        <label>map</label>
+      </node>
+      <node id="53">
+        <label>sys/ioctl.h</label>
+      </node>
+      <node id="48">
+        <label>spdlog/sinks/basic_file_sink.h</label>
+      </node>
+      <node id="28">
+        <label>uuid/uuid.h</label>
+      </node>
+      <node id="24">
+        <label>exception</label>
+      </node>
+      <node id="17">
+        <label>stddef.h</label>
+      </node>
+      <node id="45">
+        <label>opae/cxx/core/version.h</label>
+        <link refid="cxx_2core_2version_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>opae/cxx/core/except.h</label>
+        <link refid="except_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>he_cache_test.h</label>
+        <link refid="cxl__hello__fpga_2he__cache__test_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>opae/buffer.h</label>
+        <link refid="buffer_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>spdlog/spdlog.h</label>
+      </node>
+      <node id="44">
+        <label>opae/cxx/core/sysobject.h</label>
+        <link refid="cxx_2core_2sysobject_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>opae/cxx/core.h</label>
+        <link refid="core_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>string.h</label>
+      </node>
+      <node id="57">
+        <label>future</label>
+      </node>
+      <node id="4">
+        <label>unistd.h</label>
+      </node>
+      <node id="20">
+        <label>opae/cxx/core/properties.h</label>
+        <link refid="cxx_2core_2properties_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>vector</label>
+      </node>
+      <node id="49">
+        <label>spdlog/sinks/stdout_color_sinks.h</label>
+      </node>
+      <node id="30">
+        <label>array</label>
+      </node>
+      <node id="25">
+        <label>opae/properties.h</label>
+        <link refid="properties_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>opae/cxx/core/token.h</label>
+        <link refid="token_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>opae/cxx/core/errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>iostream</label>
+      </node>
+      <node id="36">
+        <label>opae/enum.h</label>
+        <link refid="enum_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>numa.h</label>
+      </node>
+      <node id="15">
+        <label>opae/types.h</label>
+        <link refid="types_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cxl_he_cmd.h</label>
+        <link refid="cxl__hello__fpga_2cxl__he__cmd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>opae/access.h</label>
+        <link refid="access_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>chrono</label>
+      </node>
+      <node id="37">
+        <label>opae/cxx/core/events.h</label>
+        <link refid="events_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>fpga-dfl.h</label>
+      </node>
+      <node id="43">
+        <label>thread</label>
+      </node>
+      <node id="55">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="33">
+        <label>type_traits</label>
+      </node>
+      <node id="29">
+        <label>algorithm</label>
+      </node>
+      <node id="47">
+        <label>regex.h</label>
+      </node>
+      <node id="27">
+        <label>stdio.h</label>
+      </node>
+      <node id="31">
+        <label>cstring</label>
+      </node>
+      <node id="34">
+        <label>memory</label>
+      </node>
+      <node id="42">
+        <label>initializer_list</label>
+      </node>
+      <node id="10">
+        <label>inttypes.h</label>
+      </node>
+      <node id="21">
+        <label>opae/cxx/core/pvalue.h</label>
+        <link refid="pvalue_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h</label>
+        <link refid="cxl__hello__fpga__cmd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>samples/cxl_hello_fpga/cxl_hello_fpga.cpp</label>
+        <link refid="cxl__hello__fpga_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhello__fpga_1_1he__cache__cmd" prot="public">hello_fpga::he_cache_cmd</innerclass>
+    <innernamespace refid="namespacehello__fpga">hello_fpga</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cxl__hello__fpga__cmd_8h_1a4f532053bdd1e2f076153f1063783b6e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>volatile bool g_he_exit</definition>
+        <argsstring></argsstring>
+        <name>g_he_exit</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="33" column="15" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="cxl__hello__fpga_8cpp_1acc3f2f6f7a74a429062c2fdcfd98e86c" compoundref="cxl__hello__fpga__cmd_8h" startline="36" endline="39">he_sig_handler</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cxl__hello__fpga__cmd_8h_1acc3f2f6f7a74a429062c2fdcfd98e86c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void he_sig_handler</definition>
+        <argsstring>(int)</argsstring>
+        <name>he_sig_handler</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="36" column="6" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright(c)<sp/>2023,<sp/>Intel<sp/>Corporation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Redistribution<sp/><sp/>and<sp/><sp/>use<sp/><sp/>in<sp/>source<sp/><sp/>and<sp/><sp/>binary<sp/><sp/>forms,<sp/><sp/>with<sp/><sp/>or<sp/><sp/>without</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions<sp/>are<sp/>met:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Redistributions<sp/>of<sp/><sp/>source<sp/>code<sp/><sp/>must<sp/>retain<sp/>the<sp/><sp/>above<sp/>copyright<sp/>notice,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright<sp/>notice,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in<sp/>the<sp/>documentation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Neither<sp/>the<sp/>name<sp/><sp/>of<sp/>Intel<sp/>Corporation<sp/><sp/>nor<sp/>the<sp/>names<sp/>of<sp/>its<sp/>contributors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>may<sp/>be<sp/>used<sp/>to<sp/><sp/>endorse<sp/>or<sp/>promote<sp/><sp/>products<sp/>derived<sp/><sp/>from<sp/>this<sp/><sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS<sp/>&quot;AS<sp/>IS&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/><sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/><sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/><sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ARE<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/><sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>OWNER<sp/><sp/>OR<sp/>CONTRIBUTORS<sp/>BE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABLE<sp/><sp/>FOR<sp/><sp/>ANY<sp/><sp/>DIRECT,<sp/><sp/>INDIRECT,<sp/><sp/>INCIDENTAL,<sp/><sp/>SPECIAL,<sp/><sp/>EXEMPLARY,<sp/><sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CONSEQUENTIAL<sp/><sp/>DAMAGES<sp/><sp/>(INCLUDING,<sp/><sp/>BUT<sp/><sp/>NOT<sp/>LIMITED<sp/><sp/>TO,<sp/><sp/>PROCUREMENT<sp/><sp/>OF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/><sp/>LOSS<sp/>OF<sp/>USE,<sp/><sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/><sp/>OR<sp/>BUSINESS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>INTERRUPTION)<sp/><sp/>HOWEVER<sp/>CAUSED<sp/><sp/>AND<sp/>ON<sp/>ANY<sp/>THEORY<sp/><sp/>OF<sp/>LIABILITY,<sp/><sp/>WHETHER<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CONTRACT,<sp/><sp/>STRICT<sp/>LIABILITY,<sp/><sp/>OR<sp/>TORT<sp/><sp/>(INCLUDING<sp/>NEGLIGENCE<sp/><sp/>OR<sp/>OTHERWISE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/><sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cxl__host__exerciser_2cxl__he__cmd_8h" kindref="compound">cxl_he_cmd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cxl__hello__fpga_8h" kindref="compound">cxl_hello_fpga.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cxl__host__exerciser_2he__cache__test_8h" kindref="compound">he_cache_test.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>HE<sp/>exit<sp/>global<sp/>flag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="cxl__hello__fpga__cmd_8h_1a4f532053bdd1e2f076153f1063783b6e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga__cmd_8h_1a4f532053bdd1e2f076153f1063783b6e" kindref="member">g_he_exit</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>host<sp/>exerciser<sp/>signal<sp/>handler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="cxl__hello__fpga_8cpp_1acc3f2f6f7a74a429062c2fdcfd98e86c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga__cmd_8h_1acc3f2f6f7a74a429062c2fdcfd98e86c" kindref="member">he_sig_handler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="cxl__hello__fpga__cmd_8h_1a4f532053bdd1e2f076153f1063783b6e" kindref="member">g_he_exit</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;HE<sp/>signal<sp/>handler<sp/>exit<sp/>app&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacehello__fpga" kindref="compound">hello_fpga</ref><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classhello__fpga_1_1he__cache__cmd" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classhello__fpga_1_1he__cache__cmd" kindref="compound">he_cache_cmd</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cmd" kindref="compound">he_cmd</ref><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="classhello__fpga_1_1he__cache__cmd_1ab18e4759d7cdc4125bff51fca0282537" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1ab18e4759d7cdc4125bff51fca0282537" kindref="member">he_cache_cmd</ref>()<sp/>:<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" kindref="member">he_test_</ref>(0)<sp/>{}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classhello__fpga_1_1he__cache__cmd_1a5909e0747faec96ec917740234cf71d7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a5909e0747faec96ec917740234cf71d7" kindref="member">~he_cache_cmd</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classhello__fpga_1_1he__cache__cmd_1aad81ab55a6e0a6bb048d3640987653c4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classhello__fpga_1_1he__cache__cmd_1aad81ab55a6e0a6bb048d3640987653c4" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;hellofpga&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classhello__fpga_1_1he__cache__cmd_1aecb9fd54f63f304b291f9ef8a4deee70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classhello__fpga_1_1he__cache__cmd_1aecb9fd54f63f304b291f9ef8a4deee70" kindref="member">description</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;run<sp/>simple<sp/>cxl<sp/>hello<sp/>fpga<sp/>test&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classhello__fpga_1_1he__cache__cmd_1a118af7de7d9aa985bf25691b0ad662be" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classhello__fpga_1_1he__cache__cmd_1a118af7de7d9aa985bf25691b0ad662be" kindref="member">afu_id</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga_8h_1a72d02b17946176eac3d194950f7f02c8" kindref="member">HE_CACHE_AFU_ID</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classhello__fpga_1_1he__cache__cmd_1acbe8aa4c612e8d700034b582ffb8a159" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1acbe8aa4c612e8d700034b582ffb8a159" kindref="member">featureid</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga_8h_1a4736703a0eb0915314304d527acdf55d" kindref="member">MEM_TG_FEATURE_ID</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classhello__fpga_1_1he__cache__cmd_1afb61bc1f99f78fef10c8297b91063e7a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1afb61bc1f99f78fef10c8297b91063e7a" kindref="member">guidl</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga_8h_1adba62009c92f202c4e9fc163301f26c3" kindref="member">MEM_TG_FEATURE_GUIDL</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classhello__fpga_1_1he__cache__cmd_1a9e8ef7ff3871296cc62b81031224f788" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a9e8ef7ff3871296cc62b81031224f788" kindref="member">guidh</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="cxl__hello__fpga_8h_1af5fc626e065828ba08501e0fb894b4c7" kindref="member">MEM_TG_FEATURE_GUIDH</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classhello__fpga_1_1he__cache__cmd_1a2491b467bc484fb44d8223ec80eeea22" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a2491b467bc484fb44d8223ec80eeea22" kindref="member">add_options</ref>(CLI::App<sp/>*<ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>test<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>-&gt;add_option(</highlight><highlight class="stringliteral">&quot;host<sp/>exerciser<sp/>cache<sp/>test&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;transform(CLI::CheckedTransformer(<ref refid="namespacehello__fpga_1af8421bbe5c82420605f63ac2d6017d80" kindref="member">he_test_modes</ref>))</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;default_val(</highlight><highlight class="stringliteral">&quot;hellofpga&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" kindref="member">hello_fpga_data_intg_check</ref>(uint8_t<sp/>*buf_address)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>*data_buff_addr_<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>hw_CL<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>cl_idx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>idx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>header_data_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>hw_phy_addr_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint64_t<sp/>*act_wr_buff_phy_addr<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>act_wr_buff_phy_addr<sp/>=<sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1aee3e59b857bbf49319d80be0614c08a8" kindref="member">get_write_buff_phy_addr</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(cl_idx<sp/>=<sp/>0;<sp/>cl_idx<sp/>&lt;<sp/>(<ref refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" kindref="member">HELLO_FPGA_NUMCACHE_LINES</ref>);<sp/>cl_idx++)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>data_buff_addr_<sp/>=<sp/>(buf_address<sp/>+<sp/>(<ref refid="namespacehello__fpga_1a76fa42340ade7d46ade85c334cdf6352" kindref="member">CL</ref><sp/>*<sp/>cl_idx));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>hw_CL<sp/>=<sp/>(((uint16_t)data_buff_addr_[0])<sp/>|</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint16_t)(data_buff_addr_[1])<sp/>&lt;&lt;<sp/>8));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hw_CL<sp/>!=<sp/>cl_idx)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/>Cache<sp/>Line<sp/>counter<sp/>mismatch<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>header_data_<sp/>=<sp/>(data_buff_addr_[2]<sp/>|<sp/>(data_buff_addr_[3]<sp/>&lt;&lt;<sp/>8)<sp/>|</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(data_buff_addr_[4]<sp/>&lt;&lt;<sp/>16)<sp/>|<sp/>((data_buff_addr_[5]<sp/>&amp;<sp/>0x3F)<sp/>&lt;&lt;<sp/>24));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="cxl__hello__fpga_8h_1af85df86193e6fd14a7d2d76f666b6bb4" kindref="member">HELLO_FPGA_CL_HEADER</ref><sp/>!=<sp/>header_data_)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/>Cache<sp/>Line<sp/>Header<sp/>value<sp/>mismatch<sp/>-<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>header_data_</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(0<sp/>!=<sp/>((data_buff_addr_[5]<sp/>&gt;&gt;<sp/>6)<sp/>&amp;<sp/>0x3))<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/>Stride<sp/>value<sp/>mismatch<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(idx<sp/>=<sp/>6;<sp/>idx<sp/>&lt;<sp/>56;<sp/>idx++)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(0<sp/>!=<sp/>data_buff_addr_[idx])<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/>A<sp/>non-ZERO<sp/>value<sp/>is<sp/>observed<sp/>at<sp/>byte<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>idx<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>hw_phy_addr_<sp/>=<sp/>((uint64_t)(data_buff_addr_[56])<sp/>|</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[57])<sp/>&lt;&lt;<sp/>8)<sp/>|</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[58])<sp/>&lt;&lt;<sp/>16)<sp/>|</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[59])<sp/>&lt;&lt;<sp/>24)<sp/>|</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[60])<sp/>&lt;&lt;<sp/>32)<sp/>|</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[61])<sp/>&lt;&lt;<sp/>40)<sp/>|</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[62])<sp/>&lt;&lt;<sp/>48)<sp/>|</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((uint64_t)(data_buff_addr_[63])<sp/>&lt;&lt;<sp/>56));</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*act_wr_buff_phy_addr<sp/>!=<sp/>hw_phy_addr_)<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n<sp/>Cache<sp/>Line<sp/>Physical<sp/>Address<sp/>mismatch<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*act_wr_buff_phy_addr<sp/>=<sp/>*act_wr_buff_phy_addr<sp/>+<sp/><ref refid="namespacehello__fpga_1a76fa42340ade7d46ade85c334cdf6352" kindref="member">CL</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="142" refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" kindref="member">he_run_hello_fpga_test</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>FPGA<sp/>Start&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>*data_buff_addr<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/>STEPS</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/>1)<sp/>Allocate<sp/>DSM,<sp/>Read<sp/>buffer,<sp/>Write<sp/>buffer</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/>2)<sp/>Write<sp/>number<sp/>of<sp/>lines<sp/>more<sp/>then<sp/>32<sp/>kb<sp/><sp/>2mb/64</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/>3)<sp/>Set<sp/>WR<sp/>ItoMWr<sp/>(CXL)<sp/>config</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/>4)<sp/>Run<sp/>test<sp/>(<sp/>Buffer<sp/>is<sp/>not<sp/>present<sp/>in<sp/>FPGA<sp/>-<sp/>FPGA<sp/>write<sp/>Cache<sp/>miss<sp/>)</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>HE_INFO</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>Set<sp/>Read<sp/>number<sp/>Lines</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1acdc802fa54dbc03a24a09281878cccb6" kindref="member">he_info_</ref>.<ref refid="unionhello__fpga_1_1he__info_1a7bde361148ebc38da4893d034d0b038c" kindref="member">value</ref><sp/>=<sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a148377c272b94f4e884683bcbcdaf289" kindref="member">read64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6d568d78eb58019dc8124981be4b98fc" kindref="member">HE_INFO</ref>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" kindref="member">write64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a43226f1dd916244f92beefdb113594b5" kindref="member">HE_WR_NUM_LINES</ref>,<sp/><ref refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" kindref="member">HELLO_FPGA_NUMCACHE_LINES</ref>);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Read/write<sp/>number<sp/>Lines:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" kindref="member">HELLO_FPGA_NUMCACHE_LINES</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Read<sp/>address<sp/>table<sp/>size:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="classhello__fpga_1_1he__cmd_1acdc802fa54dbc03a24a09281878cccb6" kindref="member">he_info_</ref>.read_addr_table_size<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Write<sp/>address<sp/>table<sp/>size:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="classhello__fpga_1_1he__cmd_1acdc802fa54dbc03a24a09281878cccb6" kindref="member">he_info_</ref>.write_addr_table_size</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>set<sp/>W_CONFIG</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" kindref="member">he_wr_cfg_</ref>.<ref refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" kindref="member">value</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" kindref="member">he_wr_cfg_</ref>.write_traffic_enable<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" kindref="member">he_wr_cfg_</ref>.opcode<sp/>=<sp/><ref refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaad1e2a612d0cce5e2081eae60f185d632" kindref="member">WR_LINE_M</ref>;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" kindref="member">write64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a35fd15eb300d543f669eef248bdcbc35" kindref="member">HE_WR_CONFIG</ref>,<sp/><ref refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" kindref="member">he_wr_cfg_</ref>.<ref refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" kindref="member">value</ref>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Set<sp/>WR_ADDR_TABLE_CTRL</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a9fcaf5a0d378a0362597644dd297d3c1" kindref="member">wr_table_ctl_</ref>.<ref refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" kindref="member">value</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a9fcaf5a0d378a0362597644dd297d3c1" kindref="member">wr_table_ctl_</ref>.enable_address_stride<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" kindref="member">write64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6977cb7f90551ca82278d97618c63627" kindref="member">HE_WR_ADDR_TABLE_CTRL</ref>,<sp/><ref refid="classhello__fpga_1_1he__cmd_1a9fcaf5a0d378a0362597644dd297d3c1" kindref="member">wr_table_ctl_</ref>.<ref refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" kindref="member">value</ref>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Allocate<sp/>DSM<sp/>buffer</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a39e0e1342cd3c8d2e630be07ca787453" kindref="member">allocate_dsm</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;allocate<sp/>dsm<sp/>failed&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Allocate<sp/>Read,<sp/>Write<sp/>buffer</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1ae9f15c76d68e94b445c2c1c21f727d1a" kindref="member">allocate_cache_read_write</ref>(<ref refid="namespacehello__fpga_1a85a3369d653bae9ec631cff6e5428301" kindref="member">BUFFER_SIZE_2MB</ref>,<sp/><ref refid="classhello__fpga_1_1he__cmd_1a08db61628ed8787e5539e3f27c896e43" kindref="member">numa_node_</ref>))<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;allocate<sp/>cache<sp/>read<sp/>failed&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Obtain<sp/>Write<sp/>address</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>data_buff_addr<sp/>=<sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1ac03cc5d56c562425a9bcbbe1c2edf7c0" kindref="member">get_read_write</ref>();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(data_buff_addr,<sp/>0xFF,<sp/><ref refid="namespacehello__fpga_1a85a3369d653bae9ec631cff6e5428301" kindref="member">BUFFER_SIZE_2MB</ref>);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Start<sp/>test</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a55cd440b9ddd8b541f16d20e130e68bd" kindref="member">he_start_test</ref>();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;AFU<sp/>Configuration<sp/>:<sp/>Successful&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>wait<sp/>for<sp/>completion</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classhello__fpga_1_1he__cmd_1a5e97cb9a6874ba32f098fabb9e2b1591" kindref="member">he_wait_test_completion</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" kindref="member">he_perf_counters</ref>();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a54c1b0d9dc5646c1a319367e630a25fc" kindref="member">host_exerciser_errors</ref>();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" kindref="member">hello_fpga_data_intg_check</ref>(data_buff_addr))<sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;DATA<sp/>Integrity<sp/>Check<sp/>:<sp/>Failed&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;DATA<sp/>Integrity<sp/>Check<sp/>:<sp/>Successful&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" kindref="member">free_cache_read_write</ref>();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" kindref="member">free_dsm</ref>();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>FPGA<sp/>Executed<sp/>Successfully&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" kindref="member">run</ref>(<ref refid="classopae_1_1afu__test_1_1afu" kindref="compound">test_afu</ref><sp/>*afu,<sp/>CLI::App<sp/>*<ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)<ref refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" kindref="member">app</ref>;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref><sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="namespacehello__fpga" kindref="compound">hello_fpga</ref><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(afu);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="classhello__fpga_1_1he__cmd_1ac9a567daedf575f8ede0812f77550b8b" kindref="member">verify_numa_node</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a08db61628ed8787e5539e3f27c896e43" kindref="member">numa_node_</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;numa<sp/>nodes<sp/>are<sp/>available<sp/>set<sp/>numa<sp/>node<sp/>to<sp/>0&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>reset<sp/>HE<sp/>cache</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" kindref="member">he_ctl_</ref>.<ref refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" kindref="member">value</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" kindref="member">he_ctl_</ref>.ResetL<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" kindref="member">write64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" kindref="member">HE_CTL</ref>,<sp/><ref refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" kindref="member">he_ctl_</ref>.<ref refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" kindref="member">value</ref>);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" kindref="member">he_ctl_</ref>.ResetL<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" kindref="member">host_exe_</ref>-&gt;<ref refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" kindref="member">write64</ref>(<ref refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" kindref="member">HE_CTL</ref>,<sp/><ref refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" kindref="member">he_ctl_</ref>.<ref refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" kindref="member">value</ref>);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classhello__fpga_1_1he__cmd_1a49fda4762374b85af41fdd91c6fa651a" kindref="member">print_csr</ref>();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" kindref="member">he_test_</ref><sp/>==<sp/><ref refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217aef7e98796629dca92d3201cb81b508f3" kindref="member">HE_HELLO_FPGA</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" kindref="member">he_run_hello_fpga_test</ref>();</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="268" refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" kindref="member">he_test_</ref>;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>namespace<sp/>hello_fpga</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h"/>
+  </compounddef>
+</doxygen>

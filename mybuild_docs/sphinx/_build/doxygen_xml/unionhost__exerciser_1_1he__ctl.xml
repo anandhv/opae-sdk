@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhost__exerciser_1_1he__ctl" kind="union" language="C++" prot="public">
+    <compoundname>host_exerciser::he_ctl</compoundname>
+    <includes refid="cxl__host__exerciser_8h" local="no">/root/samples/cxl_host_exerciser/cxl_host_exerciser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__ctl_1af84a7f51f8622c2fcf8e2c3036c01f17" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@52</name>
+        <enumvalue id="unionhost__exerciser_1_1he__ctl_1a493e6f78f1f324824feab48020a979d9a2557908f62c0398edfb735c9f1a3d74a" prot="public">
+          <name>offset</name>
+          <initializer>= HE_CTL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="134" column="3" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="enum" id="unionhost__exerciser_1_1he__ctl_1a493e6f78f1f324824feab48020a979d9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@156</name>
+        <enumvalue id="unionhost__exerciser_1_1he__ctl_1a493e6f78f1f324824feab48020a979d9a2557908f62c0398edfb735c9f1a3d74a" prot="public">
+          <name>offset</name>
+          <initializer>= HE_CTL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="176" column="3" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="176" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__ctl_1a066fc894df88d1a22eef795038163e7d" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t host_exerciser::he_ctl::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="135" column="12" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1ae16a7859284a742398f3ec3340897faf" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="46" endline="56">host_exerciser::he_cmd::he_cmd</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a39b41493c2a243ad8e9eed18b6d61d1a" compoundref="host__exerciser__cmd_8h" startline="56" endline="64">host_exerciser::host_exerciser_cmd::host_exerciser_cmd</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cache__cmd_1a060899ac85f7634bc4a83ec3b771234b" compoundref="cxl__he__cache__cmd_8h" startline="946" endline="960">host_exerciser::he_cache_cmd::he_forcetestcmpl</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a672161648b4f66883bc47ef0d6fe0b57" compoundref="host__exerciser__cmd_8h" startline="229" endline="243">host_exerciser::host_exerciser_cmd::he_forcetestcmpl</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cmd_1a50b4d404037fa51c94d1dc342ccddefb" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="274" endline="289">host_exerciser::he_cmd::he_start_test</referencedby>
+        <referencedby refid="classhost__exerciser_1_1he__cache__cmd_1ae74784f608f368c80a40502de25e13a0" compoundref="cxl__he__cache__cmd_8h" startline="1267" endline="1343">host_exerciser::he_cache_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" compoundref="host__exerciser__cmd_8h" startline="505" endline="599">host_exerciser::host_exerciser_cmd::run_single_test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__ctl_1ae671cae7645ecac78e9848ede1ed8aeb" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_ctl::@53</type>
+        <definition>struct host_exerciser::he_ctl::@53 host_exerciser::he_ctl::@54</definition>
+        <argsstring></argsstring>
+        <name>@54</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="144" column="3"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__ctl_1a8c8243134da9edef12a3dbc9b4a1c1a7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_exerciser::he_ctl::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="179" column="12" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhost__exerciser_1_1he__ctl_1ace54b3d05198df5ea076d1fdd58e1033" prot="public" static="no" mutable="no">
+        <type>struct host_exerciser::he_ctl::@157</type>
+        <definition>struct host_exerciser::he_ctl::@157 host_exerciser::he_ctl::@158</definition>
+        <argsstring></argsstring>
+        <name>@158</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/host_exerciser/host_exerciser.h" line="185" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>host_exerciser::he_ctl</label>
+        <link refid="unionhost__exerciser_1_1he__ctl"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_host_exerciser/cxl_host_exerciser.h" line="133" column="1" bodyfile="samples/cxl_host_exerciser/cxl_host_exerciser.h" bodystart="133" bodyend="145"/>
+    <listofallmembers>
+      <member refid="unionhost__exerciser_1_1he__ctl_1a493e6f78f1f324824feab48020a979d9a2557908f62c0398edfb735c9f1a3d74a" prot="public" virt="non-virtual"><scope>host_exerciser::he_ctl</scope><name>offset</name></member>
+      <member refid="unionhost__exerciser_1_1he__ctl_1a066fc894df88d1a22eef795038163e7d" prot="public" virt="non-virtual"><scope>host_exerciser::he_ctl</scope><name>value</name></member>
+      <member refid="unionhost__exerciser_1_1he__ctl_1a8c8243134da9edef12a3dbc9b4a1c1a7" prot="public" virt="non-virtual"><scope>host_exerciser::he_ctl</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

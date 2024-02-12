@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhello__fpga_1_1he__cache__dsm__status" kind="struct" language="C++" prot="public">
+    <compoundname>hello_fpga::he_cache_dsm_status</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a12d59ba57032563b32ecd46f1ddd7532" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::test_completed</definition>
+        <argsstring></argsstring>
+        <name>test_completed</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="268" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="268" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a0cb51f879357f6340acf70faee96f84d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::dsm_number</definition>
+        <argsstring></argsstring>
+        <name>dsm_number</name>
+        <bitfield> 15</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="269" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="269" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a09637455d734fd0902441d6d1af8009b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::res1</definition>
+        <argsstring></argsstring>
+        <name>res1</name>
+        <bitfield> 16</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="270" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a515795201ea0fbab85c01d87744d59be" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::err_vector</definition>
+        <argsstring></argsstring>
+        <name>err_vector</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="271" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="271" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a752e6b346ec430de81702bbe985b8478" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_cache_dsm_status::num_ticks</definition>
+        <argsstring></argsstring>
+        <name>num_ticks</name>
+        <bitfield> 64</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="272" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="272" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a79a08c4a27508c36513d8b39bced6856" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::num_reads</definition>
+        <argsstring></argsstring>
+        <name>num_reads</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="273" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="273" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1ad2b3abdadc346f3b1ac456196b91f24f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::num_writes</definition>
+        <argsstring></argsstring>
+        <name>num_writes</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="274" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a2445cecca01d1790db6cf9a1c2d8bc2a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::penalty_start</definition>
+        <argsstring></argsstring>
+        <name>penalty_start</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="275" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a70a69c01df06d52ef53a23d6a328acf1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::penalty_end</definition>
+        <argsstring></argsstring>
+        <name>penalty_end</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="276" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="276" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a6fb4bf4fb1be5e2e24d70a2b688d47d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::actual_data</definition>
+        <argsstring></argsstring>
+        <name>actual_data</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="277" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="277" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1a50368a48e0bb7d35d926d3cf2a55f2d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::expected_data</definition>
+        <argsstring></argsstring>
+        <name>expected_data</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="278" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="278" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structhello__fpga_1_1he__cache__dsm__status_1ab42a06b4e337c7f362db9aecad8253b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_dsm_status::res5[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>res5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="279" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_cache_dsm_status</label>
+        <link refid="structhello__fpga_1_1he__cache__dsm__status"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="267" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="267" bodyend="280"/>
+    <listofallmembers>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a6fb4bf4fb1be5e2e24d70a2b688d47d3" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>actual_data</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a0cb51f879357f6340acf70faee96f84d" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>dsm_number</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a515795201ea0fbab85c01d87744d59be" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>err_vector</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a50368a48e0bb7d35d926d3cf2a55f2d3" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>expected_data</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a79a08c4a27508c36513d8b39bced6856" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>num_reads</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a752e6b346ec430de81702bbe985b8478" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>num_ticks</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1ad2b3abdadc346f3b1ac456196b91f24f" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>num_writes</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a70a69c01df06d52ef53a23d6a328acf1" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>penalty_end</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a2445cecca01d1790db6cf9a1c2d8bc2a" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>penalty_start</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a09637455d734fd0902441d6d1af8009b" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>res1</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1ab42a06b4e337c7f362db9aecad8253b1" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>res5</name></member>
+      <member refid="structhello__fpga_1_1he__cache__dsm__status_1a12d59ba57032563b32ecd46f1ddd7532" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_dsm_status</scope><name>test_completed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

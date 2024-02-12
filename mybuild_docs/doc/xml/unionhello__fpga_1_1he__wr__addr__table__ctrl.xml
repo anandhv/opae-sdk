@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhello__fpga_1_1he__wr__addr__table__ctrl" kind="union" language="C++" prot="public">
+    <compoundname>hello_fpga::he_wr_addr_table_ctrl</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a1e1eb5d58664763e3321e349badb3235" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@22</name>
+        <enumvalue id="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a1e1eb5d58664763e3321e349badb3235a0b01a192da4c5af47e551ae12267e86a" prot="public">
+          <name>offset</name>
+          <initializer>= HE_WR_ADDR_TABLE_CTRL</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="186" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="186" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_wr_addr_table_ctrl::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="187" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="187" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a23fac00973521ab5b97e58fcae412f58" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="42" endline="54">hello_fpga::he_cmd::he_cmd</referencedby>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" compoundref="cxl__hello__fpga__cmd_8h" startline="142" endline="236">hello_fpga::he_cache_cmd::he_run_hello_fpga_test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a098d76d9144beeece36abd070a6feae9" prot="public" static="no" mutable="no">
+        <type>struct hello_fpga::he_wr_addr_table_ctrl::@23</type>
+        <definition>struct hello_fpga::he_wr_addr_table_ctrl::@23 hello_fpga::he_wr_addr_table_ctrl::@24</definition>
+        <argsstring></argsstring>
+        <name>@24</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="193" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_wr_addr_table_ctrl</label>
+        <link refid="unionhello__fpga_1_1he__wr__addr__table__ctrl"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="185" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="185" bodyend="194"/>
+    <listofallmembers>
+      <member refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1a1e1eb5d58664763e3321e349badb3235a0b01a192da4c5af47e551ae12267e86a" prot="public" virt="non-virtual"><scope>hello_fpga::he_wr_addr_table_ctrl</scope><name>offset</name></member>
+      <member refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" prot="public" virt="non-virtual"><scope>hello_fpga::he_wr_addr_table_ctrl</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

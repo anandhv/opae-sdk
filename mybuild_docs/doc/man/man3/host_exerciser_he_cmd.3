@@ -1,0 +1,348 @@
+.TH "host_exerciser::he_cmd" 3 "Mon Feb 12 2024" "Version -.." "OPAE C API" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+host_exerciser::he_cmd
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include </root/samples/cxl_host_exerciser/cxl_he_cmd\&.h>\fP
+.PP
+Inherits \fBopae::afu_test::command\fP\&.
+.PP
+Inherited by \fBhost_exerciser::he_cache_cmd\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBhe_cmd\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~he_cmd\fP ()"
+.br
+.ti -1c
+.RI "double \fBhe_num_xfers_to_bw\fP (uint64_t num_lines, uint64_t num_ticks)"
+.br
+.ti -1c
+.RI "void \fBhe_perf_counters\fP (\fBhe_cxl_latency\fP cxl_latency=\fBHE_CXL_LATENCY_NONE\fP)"
+.br
+.ti -1c
+.RI "void \fBprint_csr\fP ()"
+.br
+.ti -1c
+.RI "void \fBhost_exerciser_errors\fP ()"
+.br
+.ti -1c
+.RI "int \fBparse_input_options\fP ()"
+.br
+.ti -1c
+.RI "bool \fBhe_wait_test_completion\fP ()"
+.br
+.ti -1c
+.RI "bool \fBhe_set_bias_mode\fP ()"
+.br
+.ti -1c
+.RI "void \fBhe_start_test\fP (const char *str='Test started \&.\&.\&.\&.\&.\&.', uint8_t test_type=\fBRD_WR_TEST\fP)"
+.br
+.ti -1c
+.RI "bool \fBverify_numa_node\fP ()"
+.br
+.ti -1c
+.RI "bool \fBhe_get_perf\fP (double *\fBperf_data\fP, double *latency, \fBhe_cxl_latency\fP cxl_latency=\fBHE_CXL_LATENCY_NONE\fP)"
+.br
+.ti -1c
+.RI "uint64_t \fBget_ticks\fP ()"
+.br
+.ti -1c
+.RI "uint64_t \fBget_penalty_start_ticks\fP ()"
+.br
+.ti -1c
+.RI "int \fBget_mtime\fP (const char *file_name, struct timespec *mtime)"
+.br
+.ti -1c
+.RI "int \fBfile_open\fP (const char *file_name, int mode)"
+.br
+.ti -1c
+.RI "uint64_t \fB__mem_virt2phys\fP (const void *virtaddr)"
+.br
+.ti -1c
+.RI "bool \fBcreate_linked_list\fP (uint64_t *virt_ptr_a, uint64_t phy_ptr_a, uint64_t data, uint64_t max_size, \fBhe_bias_support\fP bias_a=\fBHOSTMEM_BIAS\fP, uint64_t *virt_ptr_b=NULL, uint64_t phy_ptr_b=0, \fBhe_bias_support\fP bias_b=\fBFPGAMEM_HOST_BIAS\fP)"
+.br
+.ti -1c
+.RI "bool \fBverify_linked_list\fP (uint64_t *virt_ptr, uint64_t phy_ptr, uint64_t data, uint64_t max_size)"
+.br
+.ti -1c
+.RI "bool \fBprint_linked_list\fP (uint64_t *virt_ptr, uint64_t phy_ptr, uint64_t data, uint64_t max_size)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBhost_exerciser\fP * \fBhost_exe_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_clock_mhz_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBnuma_node_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_target_\fP"
+.br
+.ti -1c
+.RI "uint32_t \fBhe_bias_\fP"
+.br
+.ti -1c
+.RI "\fBhe_ctl\fP \fBhe_ctl_\fP"
+.br
+.ti -1c
+.RI "\fBhe_info\fP \fBhe_info_\fP"
+.br
+.ti -1c
+.RI "\fBhe_rd_config\fP \fBhe_rd_cfg_\fP"
+.br
+.ti -1c
+.RI "\fBhe_wr_config\fP \fBhe_wr_cfg_\fP"
+.br
+.ti -1c
+.RI "\fBhe_rd_addr_table_ctrl\fP \fBrd_table_ctl_\fP"
+.br
+.ti -1c
+.RI "\fBhe_wr_addr_table_ctrl\fP \fBwr_table_ctl_\fP"
+.br
+.ti -1c
+.RI "\fBhe_rd_num_lines\fP \fBhe_rd_num_lines_\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Definition at line 44 of file cxl_he_cmd\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "host_exerciser::he_cmd::he_cmd ()\fC [inline]\fP"
+
+.PP
+Definition at line 46 of file cxl_he_cmd\&.h\&.
+.PP
+References he_ctl_, he_info_, he_rd_cfg_, he_rd_num_lines_, he_wr_cfg_, rd_table_ctl_, host_exerciser::he_ctl::value, host_exerciser::he_info::value, host_exerciser::he_wr_config::value, host_exerciser::he_wr_addr_table_ctrl::value, host_exerciser::he_rd_num_lines::value, host_exerciser::he_rd_config::value, host_exerciser::he_rd_addr_table_ctrl::value, and wr_table_ctl_\&.
+.SS "virtual host_exerciser::he_cmd::~he_cmd ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 58 of file cxl_he_cmd\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "double host_exerciser::he_cmd::he_num_xfers_to_bw (uint64_t num_lines, uint64_t num_ticks)\fC [inline]\fP"
+
+.PP
+Definition at line 61 of file cxl_he_cmd\&.h\&.
+.PP
+References he_clock_mhz_\&.
+.PP
+Referenced by he_get_perf(), and he_perf_counters()\&.
+.SS "void host_exerciser::he_cmd::he_perf_counters (\fBhe_cxl_latency\fP cxl_latency = \fC\fBHE_CXL_LATENCY_NONE\fP\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 65 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::he_cache_dsm_status::actual_data, host_exerciser::he_cache_dsm_status::dsm_number, host_exerciser::he_cache_dsm_status::err_vector, host_exerciser::he_cache_dsm_status::expected_data, opae::afu_test::afu::get_dsm(), host_exerciser::HE_CXL_RD_LATENCY, he_num_xfers_to_bw(), host_exe_, opae::afu_test::afu::logger_, host_exerciser::he_cache_dsm_status::num_reads, host_exerciser::he_cache_dsm_status::num_ticks, host_exerciser::he_cache_dsm_status::num_writes, host_exerciser::he_cache_dsm_status::penalty_end, host_exerciser::he_cache_dsm_status::penalty_start, and host_exerciser::he_cache_dsm_status::test_completed\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), and host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "void host_exerciser::he_cmd::print_csr ()\fC [inline]\fP"
+
+.PP
+Definition at line 107 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::HE_CTL, host_exerciser::HE_DFH, host_exerciser::HE_DSM_BASE, host_exerciser::HE_ERROR_ACT_DATA0, host_exerciser::HE_ERROR_ACT_DATA1, host_exerciser::HE_ERROR_ACT_DATA2, host_exerciser::HE_ERROR_ACT_DATA3, host_exerciser::HE_ERROR_ACT_DATA4, host_exerciser::HE_ERROR_ACT_DATA5, host_exerciser::HE_ERROR_ACT_DATA6, host_exerciser::HE_ERROR_ACT_DATA7, host_exerciser::HE_ERROR_EXP_DATA, host_exerciser::HE_ERROR_STATUS, host_exerciser::HE_ID_H, host_exerciser::HE_ID_L, host_exerciser::HE_INFO, host_exerciser::HE_RD_ADDR_TABLE_CTRL, host_exerciser::HE_RD_ADDR_TABLE_DATA, host_exerciser::HE_RD_CONFIG, host_exerciser::HE_RD_NUM_LINES, host_exerciser::HE_SCRATCHPAD0, host_exerciser::HE_WR_ADDR_TABLE_CTRL, host_exerciser::HE_WR_ADDR_TABLE_DATA, host_exerciser::HE_WR_BYTE_ENABLE, host_exerciser::HE_WR_CONFIG, host_exerciser::HE_WR_NUM_LINES, host_exe_, opae::afu_test::afu::logger_, and opae::afu_test::afu::read64()\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::run()\&.
+.SS "void host_exerciser::he_cmd::host_exerciser_errors ()\fC [inline]\fP"
+
+.PP
+Definition at line 181 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::HE_ERROR_ACT_DATA0, host_exerciser::HE_ERROR_ACT_DATA1, host_exerciser::HE_ERROR_ACT_DATA2, host_exerciser::HE_ERROR_ACT_DATA3, host_exerciser::HE_ERROR_ACT_DATA4, host_exerciser::HE_ERROR_ACT_DATA5, host_exerciser::HE_ERROR_ACT_DATA6, host_exerciser::HE_ERROR_ACT_DATA7, host_exerciser::HE_ERROR_EXP_DATA, host_exerciser::HE_ERROR_STATUS, host_exe_, opae::afu_test::afu::read64(), and host_exerciser::he_err_status::value\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), and host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "int host_exerciser::he_cmd::parse_input_options ()\fC [inline]\fP"
+
+.PP
+Definition at line 225 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exe_\&.
+.SS "bool host_exerciser::he_cmd::he_wait_test_completion ()\fC [inline]\fP"
+
+.PP
+Definition at line 233 of file cxl_he_cmd\&.h\&.
+.PP
+References opae::afu_test::afu::get_dsm(), host_exerciser::HE_CACHE_TEST_SLEEP_INVL, host_exerciser::HE_CACHE_TEST_TIMEOUT, host_exe_, and usleep()\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_forcetestcmpl(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), and host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "bool host_exerciser::he_cmd::he_set_bias_mode ()\fC [inline]\fP"
+
+.PP
+Definition at line 248 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::FPGAMEM_DEVICE_BIAS, host_exerciser::FPGAMEM_HOST_BIAS, he_bias_, HE_CACHE_DMA_MMAP_R, he_ctl_, he_target_, host_exerciser::HE_TARGET_HOST, host_exe_, host_exerciser::HOSTMEM_BIAS, and opae::afu_test::afu::set_mmap_access()\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::run()\&.
+.SS "void host_exerciser::he_cmd::he_start_test (const char * str = \fC'Test started \&.\&.\&.\&.\&.\&.'\fP, uint8_t test_type = \fC\fBRD_WR_TEST\fP\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 274 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::HE_CTL, he_ctl_, host_exe_, opae::afu_test::afu::logger_, opae::afu_test::afu::read64(), host_exerciser::he_ctl::value, and opae::afu_test::afu::write64()\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), and host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "bool host_exerciser::he_cmd::verify_numa_node ()\fC [inline]\fP"
+
+.PP
+Definition at line 291 of file cxl_he_cmd\&.h\&.
+.PP
+References he_target_, host_exerciser::HE_TARGET_HOST, and numa_node_\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::run()\&.
+.SS "bool host_exerciser::he_cmd::he_get_perf (double * perf_data, double * latency, \fBhe_cxl_latency\fP cxl_latency = \fC\fBHE_CXL_LATENCY_NONE\fP\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 317 of file cxl_he_cmd\&.h\&.
+.PP
+References opae::afu_test::afu::get_dsm(), host_exerciser::HE_CXL_RD_LATENCY, he_num_xfers_to_bw(), host_exe_, host_exerciser::he_cache_dsm_status::num_reads, host_exerciser::he_cache_dsm_status::num_ticks, and host_exerciser::he_cache_dsm_status::num_writes\&.
+.SS "uint64_t host_exerciser::he_cmd::get_ticks ()\fC [inline]\fP"
+
+.PP
+Definition at line 342 of file cxl_he_cmd\&.h\&.
+.PP
+References opae::afu_test::afu::get_dsm(), host_exe_, and host_exerciser::he_cache_dsm_status::num_ticks\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), and host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test()\&.
+.SS "uint64_t host_exerciser::he_cmd::get_penalty_start_ticks ()\fC [inline]\fP"
+
+.PP
+Definition at line 355 of file cxl_he_cmd\&.h\&.
+.PP
+References opae::afu_test::afu::get_dsm(), host_exe_, and host_exerciser::he_cache_dsm_status::penalty_start\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), and host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test()\&.
+.SS "int host_exerciser::he_cmd::get_mtime (const char * file_name, struct timespec * mtime)\fC [inline]\fP"
+
+.PP
+Definition at line 368 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by __mem_virt2phys()\&.
+.SS "int host_exerciser::he_cmd::file_open (const char * file_name, int mode)\fC [inline]\fP"
+
+.PP
+Definition at line 387 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by __mem_virt2phys()\&.
+.SS "uint64_t host_exerciser::he_cmd::__mem_virt2phys (const void * virtaddr)\fC [inline]\fP"
+
+.PP
+Definition at line 418 of file cxl_he_cmd\&.h\&.
+.PP
+References file_open(), get_mtime(), and PFN_MASK_SIZE\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "bool host_exerciser::he_cmd::create_linked_list (uint64_t * virt_ptr_a, uint64_t phy_ptr_a, uint64_t data, uint64_t max_size, \fBhe_bias_support\fP bias_a = \fC\fBHOSTMEM_BIAS\fP\fP, uint64_t * virt_ptr_b = \fCNULL\fP, uint64_t phy_ptr_b = \fC0\fP, \fBhe_bias_support\fP bias_b = \fC\fBFPGAMEM_HOST_BIAS\fP\fP)\fC [inline]\fP"
+
+.PP
+Definition at line 471 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::he_cache_running_ptr::data, host_exe_, opae::afu_test::afu::logger_, host_exerciser::he_cache_running_ptr::phy_next_ptr, and host_exerciser::he_cache_running_ptr::virt_next_ptr\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "bool host_exerciser::he_cmd::verify_linked_list (uint64_t * virt_ptr, uint64_t phy_ptr, uint64_t data, uint64_t max_size)\fC [inline]\fP"
+
+.PP
+Definition at line 560 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::he_cache_running_ptr::data, host_exe_, opae::afu_test::afu::logger_, and host_exerciser::he_cache_running_ptr::virt_next_ptr\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+.SS "bool host_exerciser::he_cmd::print_linked_list (uint64_t * virt_ptr, uint64_t phy_ptr, uint64_t data, uint64_t max_size)\fC [inline]\fP"
+
+.PP
+Definition at line 591 of file cxl_he_cmd\&.h\&.
+.PP
+References host_exerciser::he_cache_running_ptr::data, host_exe_, opae::afu_test::afu::logger_, and host_exerciser::he_cache_running_ptr::virt_next_ptr\&.
+.SH "Field Documentation"
+.PP 
+.SS "\fBhost_exerciser\fP* host_exerciser::he_cmd::host_exe_\fC [protected]\fP"
+
+.PP
+Definition at line 618 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by create_linked_list(), get_penalty_start_ticks(), get_ticks(), host_exerciser::he_cache_cmd::he_continuousmode(), host_exerciser::he_cache_cmd::he_forcetestcmpl(), he_get_perf(), he_perf_counters(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), host_exerciser::he_cache_cmd::he_run_running_pointer_test(), he_set_bias_mode(), he_start_test(), he_wait_test_completion(), host_exerciser_errors(), parse_input_options(), print_csr(), print_linked_list(), host_exerciser::he_cache_cmd::run(), and verify_linked_list()\&.
+.SS "uint32_t host_exerciser::he_cmd::he_clock_mhz_\fC [protected]\fP"
+
+.PP
+Definition at line 619 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_num_xfers_to_bw()\&.
+.SS "uint32_t host_exerciser::he_cmd::numa_node_\fC [protected]\fP"
+
+.PP
+Definition at line 620 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), host_exerciser::he_cache_cmd::he_run_running_pointer_test(), host_exerciser::he_cache_cmd::run(), and verify_numa_node()\&.
+.SS "uint32_t host_exerciser::he_cmd::he_target_\fC [protected]\fP"
+
+.PP
+Definition at line 621 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::add_options(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_running_pointer_test(), he_set_bias_mode(), host_exerciser::he_cache_cmd::verify_input_options(), and verify_numa_node()\&.
+.SS "uint32_t host_exerciser::he_cmd::he_bias_\fC [protected]\fP"
+
+.PP
+Definition at line 622 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by host_exerciser::he_cache_cmd::add_options(), and he_set_bias_mode()\&.
+.SS "\fBhe_ctl\fP host_exerciser::he_cmd::he_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 624 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_forcetestcmpl(), host_exerciser::he_cache_cmd::he_run_running_pointer_test(), he_set_bias_mode(), he_start_test(), and host_exerciser::he_cache_cmd::run()\&.
+.SS "\fBhe_info\fP host_exerciser::he_cmd::he_info_\fC [protected]\fP"
+
+.PP
+Definition at line 625 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test(), and host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test()\&.
+.SS "\fBhe_rd_config\fP host_exerciser::he_cmd::he_rd_cfg_\fC [protected]\fP"
+
+.PP
+Definition at line 626 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), and host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test()\&.
+.SS "\fBhe_wr_config\fP host_exerciser::he_cmd::he_wr_cfg_\fC [protected]\fP"
+
+.PP
+Definition at line 627 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), and host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test()\&.
+.SS "\fBhe_rd_addr_table_ctrl\fP host_exerciser::he_cmd::rd_table_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 628 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_rd_cache_miss_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), and host_exerciser::he_cache_cmd::he_run_host_rd_cache_hit_test()\&.
+.SS "\fBhe_wr_addr_table_ctrl\fP host_exerciser::he_cmd::wr_table_ctl_\fC [protected]\fP"
+
+.PP
+Definition at line 629 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_hit_test(), host_exerciser::he_cache_cmd::he_run_fpga_wr_cache_miss_test(), and host_exerciser::he_cache_cmd::he_run_host_wr_cache_hit_test()\&.
+.SS "\fBhe_rd_num_lines\fP host_exerciser::he_cmd::he_rd_num_lines_\fC [protected]\fP"
+
+.PP
+Definition at line 630 of file cxl_he_cmd\&.h\&.
+.PP
+Referenced by he_cmd(), host_exerciser::he_cache_cmd::he_run_ping_pong_test(), and host_exerciser::he_cache_cmd::he_run_running_pointer_test()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OPAE C API from the source code\&.

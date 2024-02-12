@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhello__fpga_1_1he__rd__num__lines" kind="union" language="C++" prot="public">
+    <compoundname>hello_fpga::he_rd_num_lines</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhello__fpga_1_1he__rd__num__lines_1a9e10d6115694f336b26613467eb11cb0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@28</name>
+        <enumvalue id="unionhello__fpga_1_1he__rd__num__lines_1a9e10d6115694f336b26613467eb11cb0a3f9accfa2fe9bbb6a7bd83429164ce68" prot="public">
+          <name>offset</name>
+          <initializer>= HE_RD_NUM_LINES</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="207" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__rd__num__lines_1a873ccd8f854f9318c2c15ec46f244b37" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_rd_num_lines::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="208" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__rd__num__lines_1abc0d45bf9464a0acf6c186708afbc21e" prot="public" static="no" mutable="no">
+        <type>struct hello_fpga::he_rd_num_lines::@29</type>
+        <definition>struct hello_fpga::he_rd_num_lines::@29 hello_fpga::he_rd_num_lines::@30</definition>
+        <argsstring></argsstring>
+        <name>@30</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="212" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_rd_num_lines</label>
+        <link refid="unionhello__fpga_1_1he__rd__num__lines"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="206" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="206" bodyend="213"/>
+    <listofallmembers>
+      <member refid="unionhello__fpga_1_1he__rd__num__lines_1a9e10d6115694f336b26613467eb11cb0a3f9accfa2fe9bbb6a7bd83429164ce68" prot="public" virt="non-virtual"><scope>hello_fpga::he_rd_num_lines</scope><name>offset</name></member>
+      <member refid="unionhello__fpga_1_1he__rd__num__lines_1a873ccd8f854f9318c2c15ec46f244b37" prot="public" virt="non-virtual"><scope>hello_fpga::he_rd_num_lines</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionhello__fpga_1_1he__wr__config" kind="union" language="C++" prot="public">
+    <compoundname>hello_fpga::he_wr_config</compoundname>
+    <includes refid="cxl__hello__fpga_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unionhello__fpga_1_1he__wr__config_1af2f399fcaed11b3bf85199128753139b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@19</name>
+        <enumvalue id="unionhello__fpga_1_1he__wr__config_1af2f399fcaed11b3bf85199128753139baf3ac48f36d587a5d69521ec9d1a44286" prot="public">
+          <name>offset</name>
+          <initializer>= HE_WR_CONFIG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="168" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t hello_fpga::he_wr_config::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="169" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="169" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cmd_1a23fac00973521ab5b97e58fcae412f58" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="42" endline="54">hello_fpga::he_cmd::he_cmd</referencedby>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" compoundref="cxl__hello__fpga__cmd_8h" startline="142" endline="236">hello_fpga::he_cache_cmd::he_run_hello_fpga_test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unionhello__fpga_1_1he__wr__config_1af996c4657c4cea81aaa1d1db05293142" prot="public" static="no" mutable="no">
+        <type>struct hello_fpga::he_wr_config::@20</type>
+        <definition>struct hello_fpga::he_wr_config::@20 hello_fpga::he_wr_config::@21</definition>
+        <argsstring></argsstring>
+        <name>@21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="181" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hello_fpga::he_wr_config</label>
+        <link refid="unionhello__fpga_1_1he__wr__config"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga.h" line="167" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga.h" bodystart="167" bodyend="182"/>
+    <listofallmembers>
+      <member refid="unionhello__fpga_1_1he__wr__config_1af2f399fcaed11b3bf85199128753139baf3ac48f36d587a5d69521ec9d1a44286" prot="public" virt="non-virtual"><scope>hello_fpga::he_wr_config</scope><name>offset</name></member>
+      <member refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" prot="public" virt="non-virtual"><scope>hello_fpga::he_wr_config</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

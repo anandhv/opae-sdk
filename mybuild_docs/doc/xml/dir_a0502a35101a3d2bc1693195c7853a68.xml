@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_a0502a35101a3d2bc1693195c7853a68" kind="dir">
+    <compoundname>samples/cxl_hello_fpga</compoundname>
+    <innerfile refid="cxl__hello__fpga_2cxl__he__cmd_8h">cxl_he_cmd.h</innerfile>
+    <innerfile refid="cxl__hello__fpga_8cpp">cxl_hello_fpga.cpp</innerfile>
+    <innerfile refid="cxl__hello__fpga_8h">cxl_hello_fpga.h</innerfile>
+    <innerfile refid="cxl__hello__fpga__cmd_8h">cxl_hello_fpga_cmd.h</innerfile>
+    <innerfile refid="cxl__hello__fpga_2he__cache__test_8h">he_cache_test.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="samples/cxl_hello_fpga/"/>
+  </compounddef>
+</doxygen>

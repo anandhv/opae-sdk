@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unioncxl__mem__tg_1_1tg__mem__size" kind="union" language="C++" prot="public">
+    <compoundname>cxl_mem_tg::tg_mem_size</compoundname>
+    <includes refid="cxl__mem__tg_8h" local="no">/root/samples/cxl_mem_tg/cxl_mem_tg.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="unioncxl__mem__tg_1_1tg__mem__size_1abc47b24df11170679c83d01cfddbf45d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@111</name>
+        <enumvalue id="unioncxl__mem__tg_1_1tg__mem__size_1abc47b24df11170679c83d01cfddbf45da6b9fd05c5b54d998bb36675c3364891c" prot="public">
+          <name>offset</name>
+          <initializer>= MEM_SIZE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="191" column="5" bodyfile="samples/cxl_mem_tg/cxl_mem_tg.h" bodystart="191" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unioncxl__mem__tg_1_1tg__mem__size_1aaef04384dc8681b7622d39352b729c49" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t cxl_mem_tg::tg_mem_size::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="192" column="14" bodyfile="samples/cxl_mem_tg/cxl_mem_tg.h" bodystart="192" bodyend="-1"/>
+        <referencedby refid="classcxl__mem__tg_1_1cxl__tg__test_1a04ba5e50b22fa602d7dbf270c9f7297e" compoundref="cxl__tg__test_8h" startline="301" endline="437">cxl_mem_tg::cxl_tg_test::config_input_options</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="unioncxl__mem__tg_1_1tg__mem__size_1a6624a345382bb15a97a71e9223ea082a" prot="public" static="no" mutable="no">
+        <type>struct cxl_mem_tg::tg_mem_size::@112</type>
+        <definition>struct cxl_mem_tg::tg_mem_size::@112 cxl_mem_tg::tg_mem_size::@113</definition>
+        <argsstring></argsstring>
+        <name>@113</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="196" column="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>cxl_mem_tg::tg_mem_size</label>
+        <link refid="unioncxl__mem__tg_1_1tg__mem__size"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_mem_tg/cxl_mem_tg.h" line="190" column="1" bodyfile="samples/cxl_mem_tg/cxl_mem_tg.h" bodystart="190" bodyend="197"/>
+    <listofallmembers>
+      <member refid="unioncxl__mem__tg_1_1tg__mem__size_1abc47b24df11170679c83d01cfddbf45da6b9fd05c5b54d998bb36675c3364891c" prot="public" virt="non-virtual"><scope>cxl_mem_tg::tg_mem_size</scope><name>offset</name></member>
+      <member refid="unioncxl__mem__tg_1_1tg__mem__size_1aaef04384dc8681b7622d39352b729c49" prot="public" virt="non-virtual"><scope>cxl_mem_tg::tg_mem_size</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

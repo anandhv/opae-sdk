@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhello__fpga_1_1he__cache__cmd" kind="class" language="C++" prot="public">
+    <compoundname>hello_fpga::he_cache_cmd</compoundname>
+    <basecompoundref refid="classhello__fpga_1_1he__cmd" prot="public" virt="non-virtual">hello_fpga::he_cmd</basecompoundref>
+    <includes refid="cxl__hello__fpga__cmd_8h" local="no">/root/samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" prot="protected" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t hello_fpga::he_cache_cmd::he_test_</definition>
+        <argsstring></argsstring>
+        <name>he_test_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="268" column="12" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="268" bodyend="-1"/>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" compoundref="cxl__hello__fpga__cmd_8h" startline="238" endline="265">run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1ab18e4759d7cdc4125bff51fca0282537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>hello_fpga::he_cache_cmd::he_cache_cmd</definition>
+        <argsstring>()</argsstring>
+        <name>he_cache_cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="45" column="3" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a5909e0747faec96ec917740234cf71d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual hello_fpga::he_cache_cmd::~he_cache_cmd</definition>
+        <argsstring>()</argsstring>
+        <name>~he_cache_cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="47" column="11" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1aad81ab55a6e0a6bb048d3640987653c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char* hello_fpga::he_cache_cmd::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1a2892a3d443d007a55cbfe9ec93835052">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="49" column="22" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1aecb9fd54f63f304b291f9ef8a4deee70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char* hello_fpga::he_cache_cmd::description</definition>
+        <argsstring>() const override</argsstring>
+        <name>description</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1a064a25924cdd32c14f4a68694f924d5e">description</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="51" column="22" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a118af7de7d9aa985bf25691b0ad662be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char* hello_fpga::he_cache_cmd::afu_id</definition>
+        <argsstring>() const override</argsstring>
+        <name>afu_id</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1a51d5c7afb132598121e20be5b0eab5fb">afu_id</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="55" column="22" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="55" bodyend="55"/>
+        <references refid="cxl__hello__fpga_8h_1a72d02b17946176eac3d194950f7f02c8" compoundref="cxl__hello__fpga_8h" startline="34">HE_CACHE_AFU_ID</references>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1acbe8aa4c612e8d700034b582ffb8a159" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint64_t</type>
+        <definition>virtual uint64_t hello_fpga::he_cache_cmd::featureid</definition>
+        <argsstring>() const override</argsstring>
+        <name>featureid</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1ad9698a8b5ee31447582c286a115724a7">featureid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="57" column="20" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="57" bodyend="57"/>
+        <references refid="cxl__hello__fpga_8h_1a4736703a0eb0915314304d527acdf55d" compoundref="cxl__hello__fpga_8h" startline="30">MEM_TG_FEATURE_ID</references>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1afb61bc1f99f78fef10c8297b91063e7a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint64_t</type>
+        <definition>virtual uint64_t hello_fpga::he_cache_cmd::guidl</definition>
+        <argsstring>() const override</argsstring>
+        <name>guidl</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1ac239529df959302ece72a162262c6c32">guidl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="59" column="20" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="59" bodyend="59"/>
+        <references refid="cxl__hello__fpga_8h_1adba62009c92f202c4e9fc163301f26c3" compoundref="cxl__hello__fpga_8h" startline="31">MEM_TG_FEATURE_GUIDL</references>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a9e8ef7ff3871296cc62b81031224f788" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint64_t</type>
+        <definition>virtual uint64_t hello_fpga::he_cache_cmd::guidh</definition>
+        <argsstring>() const override</argsstring>
+        <name>guidh</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1a7b9e6753ab014e81bb4dd7d1ddbaad85">guidh</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="61" column="20" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="61" bodyend="61"/>
+        <references refid="cxl__hello__fpga_8h_1af5fc626e065828ba08501e0fb894b4c7" compoundref="cxl__hello__fpga_8h" startline="32">MEM_TG_FEATURE_GUIDH</references>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a2491b467bc484fb44d8223ec80eeea22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void hello_fpga::he_cache_cmd::add_options</definition>
+        <argsstring>(CLI::App *app) override</argsstring>
+        <name>add_options</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1aa91365cda1ee7a6049d8a5403b2e15e6">add_options</reimplements>
+        <param>
+          <type>CLI::App *</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="63" column="16" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="63" bodyend="68"/>
+        <references refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" compoundref="hssi_8cpp" startline="34">app</references>
+        <references refid="namespacehello__fpga_1af8421bbe5c82420605f63ac2d6017d80" compoundref="cxl__hello__fpga_8h" startline="303">hello_fpga::he_test_modes</references>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool hello_fpga::he_cache_cmd::hello_fpga_data_intg_check</definition>
+        <argsstring>(uint8_t *buf_address)</argsstring>
+        <name>hello_fpga_data_intg_check</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buf_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="70" column="8" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="70" bodyend="140"/>
+        <references refid="namespacehello__fpga_1a76fa42340ade7d46ade85c334cdf6352" compoundref="cxl__hello__fpga_8h" startline="40">hello_fpga::CL</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="792" endline="823">opae::afu_test::afu::free_cache_read_write</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="571" endline="596">opae::afu_test::afu::free_dsm</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1aee3e59b857bbf49319d80be0614c08a8" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="836" endline="838">opae::afu_test::afu::get_write_buff_phy_addr</references>
+        <references refid="cxl__hello__fpga_8h_1af85df86193e6fd14a7d2d76f666b6bb4" compoundref="cxl__hello__fpga_8h" startline="33">HELLO_FPGA_CL_HEADER</references>
+        <references refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" compoundref="cxl__hello__fpga_8h" startline="48">hello_fpga::HELLO_FPGA_NUMCACHE_LINES</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="300">hello_fpga::he_cmd::host_exe_</references>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" compoundref="cxl__hello__fpga__cmd_8h" startline="142" endline="236">he_run_hello_fpga_test</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int hello_fpga::he_cache_cmd::he_run_hello_fpga_test</definition>
+        <argsstring>()</argsstring>
+        <name>he_run_hello_fpga_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="142" column="7" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="142" bodyend="236"/>
+        <references refid="classopae_1_1afu__test_1_1afu_1ae9f15c76d68e94b445c2c1c21f727d1a" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="741" endline="790">opae::afu_test::afu::allocate_cache_read_write</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a39e0e1342cd3c8d2e630be07ca787453" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="528" endline="569">opae::afu_test::afu::allocate_dsm</references>
+        <references refid="namespacehello__fpga_1a85a3369d653bae9ec631cff6e5428301" compoundref="cxl__hello__fpga_8h" startline="43">hello_fpga::BUFFER_SIZE_2MB</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1adadb65558a3a54ba88e96b872d43b30d" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="792" endline="823">opae::afu_test::afu::free_cache_read_write</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a94ab4cd7eb2f5abf7f9c076c9cd3b2e4" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="571" endline="596">opae::afu_test::afu::free_dsm</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1ac03cc5d56c562425a9bcbbe1c2edf7c0" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="831" endline="831">opae::afu_test::afu::get_read_write</references>
+        <references refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6d568d78eb58019dc8124981be4b98fc" compoundref="cxl__hello__fpga_8h" startline="60">hello_fpga::HE_INFO</references>
+        <references refid="classhello__fpga_1_1he__cmd_1acdc802fa54dbc03a24a09281878cccb6" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="307">hello_fpga::he_cmd::he_info_</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="63" endline="104">hello_fpga::he_cmd::he_perf_counters</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a55cd440b9ddd8b541f16d20e130e68bd" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="267" endline="273">hello_fpga::he_cmd::he_start_test</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a5e97cb9a6874ba32f098fabb9e2b1591" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="228" endline="242">hello_fpga::he_cmd::he_wait_test_completion</references>
+        <references refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a6977cb7f90551ca82278d97618c63627" compoundref="cxl__hello__fpga_8h" startline="64">hello_fpga::HE_WR_ADDR_TABLE_CTRL</references>
+        <references refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="309">hello_fpga::he_cmd::he_wr_cfg_</references>
+        <references refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a35fd15eb300d543f669eef248bdcbc35" compoundref="cxl__hello__fpga_8h" startline="63">hello_fpga::HE_WR_CONFIG</references>
+        <references refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268a43226f1dd916244f92beefdb113594b5" compoundref="cxl__hello__fpga_8h" startline="61">hello_fpga::HE_WR_NUM_LINES</references>
+        <references refid="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" compoundref="cxl__hello__fpga__cmd_8h" startline="70" endline="140">hello_fpga_data_intg_check</references>
+        <references refid="namespacehello__fpga_1a85764c193b527d68458813f561a8416f" compoundref="cxl__hello__fpga_8h" startline="48">hello_fpga::HELLO_FPGA_NUMCACHE_LINES</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="300">hello_fpga::he_cmd::host_exe_</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a54c1b0d9dc5646c1a319367e630a25fc" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="179" endline="220">hello_fpga::he_cmd::host_exerciser_errors</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a08db61628ed8787e5539e3f27c896e43" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="302">hello_fpga::he_cmd::numa_node_</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a148377c272b94f4e884683bcbcdaf289" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="506" endline="509">opae::afu_test::afu::read64</references>
+        <references refid="unionhello__fpga_1_1he__info_1a7bde361148ebc38da4893d034d0b038c" compoundref="cxl__hello__fpga_8h" startline="139">hello_fpga::he_info::value</references>
+        <references refid="unionhello__fpga_1_1he__wr__config_1a05afe647ea1eeda098d3fb112024f847" compoundref="cxl__hello__fpga_8h" startline="169">hello_fpga::he_wr_config::value</references>
+        <references refid="unionhello__fpga_1_1he__wr__addr__table__ctrl_1afe7cf774e2ee1c2a20137678223947d4" compoundref="cxl__hello__fpga_8h" startline="187">hello_fpga::he_wr_addr_table_ctrl::value</references>
+        <references refid="namespacehello__fpga_1ac79ae3f28375e85022028ccb913b4ceaad1e2a612d0cce5e2081eae60f185d632" compoundref="cxl__hello__fpga_8h" startline="92">hello_fpga::WR_LINE_M</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a9fcaf5a0d378a0362597644dd297d3c1" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="311">hello_fpga::he_cmd::wr_table_ctl_</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="511" endline="514">opae::afu_test::afu::write64</references>
+        <referencedby refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" compoundref="cxl__hello__fpga__cmd_8h" startline="238" endline="265">run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int hello_fpga::he_cache_cmd::run</definition>
+        <argsstring>(test_afu *afu, CLI::App *app)</argsstring>
+        <name>run</name>
+        <reimplements refid="classopae_1_1afu__test_1_1command_1a18fe26fd1da4bec29da4fbfbeb172bbd">run</reimplements>
+        <param>
+          <type><ref refid="namespacehello__fpga_1adef8d944c6fcc0d7e3ae45b39d4d5627" kindref="member">test_afu</ref> *</type>
+          <declname>afu</declname>
+        </param>
+        <param>
+          <type>CLI::App *</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="238" column="15" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="238" bodyend="265"/>
+        <references refid="hssi_8cpp_1a7ccd62f1083f322e0d1dfaa9c23ecb88" compoundref="hssi_8cpp" startline="34">app</references>
+        <references refid="namespacehello__fpga_1a865ddfcffb6a7d04ee226106e18f9268ac440b146995cae944abab4ae447a9ede" compoundref="cxl__hello__fpga_8h" startline="59">hello_fpga::HE_CTL</references>
+        <references refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="306">hello_fpga::he_cmd::he_ctl_</references>
+        <references refid="namespacehello__fpga_1a99b54a6c59fb3f11737e224c99bcf217aef7e98796629dca92d3201cb81b508f3" compoundref="cxl__hello__fpga_8h" startline="285">hello_fpga::HE_HELLO_FPGA</references>
+        <references refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" compoundref="cxl__hello__fpga__cmd_8h" startline="142" endline="236">he_run_hello_fpga_test</references>
+        <references refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" compoundref="cxl__hello__fpga__cmd_8h" startline="268">he_test_</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="300">hello_fpga::he_cmd::host_exe_</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a08db61628ed8787e5539e3f27c896e43" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="302">hello_fpga::he_cmd::numa_node_</references>
+        <references refid="classhello__fpga_1_1he__cmd_1a49fda4762374b85af41fdd91c6fa651a" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="106" endline="177">hello_fpga::he_cmd::print_csr</references>
+        <references refid="unionhello__fpga_1_1he__ctl_1a21dbf2f937d3f43ef6c047dffd614443" compoundref="cxl__hello__fpga_8h" startline="126">hello_fpga::he_ctl::value</references>
+        <references refid="classhello__fpga_1_1he__cmd_1ac9a567daedf575f8ede0812f77550b8b" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="275" endline="297">hello_fpga::he_cmd::verify_numa_node</references>
+        <references refid="classopae_1_1afu__test_1_1afu_1a81608240a2e29efbe8a6e60aee74ed60" compoundref="cxl__hello__fpga_2he__cache__test_8h" startline="511" endline="514">opae::afu_test::afu::write64</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>hello_fpga::he_cmd</label>
+        <link refid="classhello__fpga_1_1he__cmd"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>test_command</label>
+        <link refid="classopae_1_1afu__test_1_1command"/>
+      </node>
+      <node id="1">
+        <label>hello_fpga::he_cache_cmd</label>
+        <link refid="classhello__fpga_1_1he__cache__cmd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>hello_fpga::he_info</label>
+        <link refid="unionhello__fpga_1_1he__info"/>
+      </node>
+      <node id="2">
+        <label>hello_fpga::he_cmd</label>
+        <link refid="classhello__fpga_1_1he__cmd"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#he_ctl_</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>#host_exe_</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>#he_wr_cfg_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>#wr_table_ctl_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>#he_rd_cfg_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>#he_info_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>#rd_table_ctl_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>hello_fpga::hello_fpga</label>
+        <link refid="classhello__fpga_1_1hello__fpga"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>hello_fpga::he_wr_config</label>
+        <link refid="unionhello__fpga_1_1he__wr__config"/>
+      </node>
+      <node id="3">
+        <label>test_command</label>
+        <link refid="classopae_1_1afu__test_1_1command"/>
+      </node>
+      <node id="8">
+        <label>hello_fpga::he_wr_addr_table_ctrl</label>
+        <link refid="unionhello__fpga_1_1he__wr__addr__table__ctrl"/>
+      </node>
+      <node id="11">
+        <label>hello_fpga::he_rd_addr_table_ctrl</label>
+        <link refid="unionhello__fpga_1_1he__rd__addr__table__ctrl"/>
+      </node>
+      <node id="4">
+        <label>hello_fpga::he_ctl</label>
+        <link refid="unionhello__fpga_1_1he__ctl"/>
+      </node>
+      <node id="1">
+        <label>hello_fpga::he_cache_cmd</label>
+        <link refid="classhello__fpga_1_1he__cache__cmd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>test_afu</label>
+        <link refid="classopae_1_1afu__test_1_1afu"/>
+      </node>
+      <node id="9">
+        <label>hello_fpga::he_rd_config</label>
+        <link refid="unionhello__fpga_1_1he__rd__config"/>
+      </node>
+    </collaborationgraph>
+    <location file="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" line="43" column="1" bodyfile="samples/cxl_hello_fpga/cxl_hello_fpga_cmd.h" bodystart="43" bodyend="269"/>
+    <listofallmembers>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a2491b467bc484fb44d8223ec80eeea22" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>add_options</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a118af7de7d9aa985bf25691b0ad662be" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>afu_id</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a07de34c2af7ef6ae3c0e528888365b0c" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>command</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a07de34c2af7ef6ae3c0e528888365b0c" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>command</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1aecb9fd54f63f304b291f9ef8a4deee70" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>description</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1acbe8aa4c612e8d700034b582ffb8a159" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>featureid</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a9e8ef7ff3871296cc62b81031224f788" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>guidh</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1afb61bc1f99f78fef10c8297b91063e7a" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>guidl</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a8d4dadbbb563c0cda8ec7680c7922db5" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_bias_</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1ab18e4759d7cdc4125bff51fca0282537" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_cache_cmd</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a335b120cf214c35166d15b21c681f9a3" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_clock_mhz_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a23fac00973521ab5b97e58fcae412f58" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_cmd</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1ae7d8f424f06d1fa4aa679267b2f21e0e" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_ctl_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1acdc802fa54dbc03a24a09281878cccb6" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_info_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1afc4926dfa90a78e20878f2f627849827" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_num_xfers_to_bw</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a11c3126a447698640679c46a45f0d343" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_perf_counters</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a97227953166050305688dd61db4eef7b" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_rd_cfg_</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a9825983f14b9fb50518f68ce93d50627" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_run_hello_fpga_test</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1acc0a06c33db2bd47854f9d45c6d43c76" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_set_bias_mode</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a55cd440b9ddd8b541f16d20e130e68bd" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_start_test</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a20f6916523376916501f4b37e1deaa56" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_target_</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a5c8047f63c070316dea9be460af7dff9" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_test_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a5e97cb9a6874ba32f098fabb9e2b1591" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_wait_test_completion</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1aa825347e134103b2c84d91519a88c0c7" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>he_wr_cfg_</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a32188f3225c2fb7d33f1fb38f9b29fe9" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>hello_fpga_data_intg_check</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a735377ae6f77cbbb867834c0398c8d0b" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>host_exe_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a54c1b0d9dc5646c1a319367e630a25fc" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>host_exerciser_errors</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1aad81ab55a6e0a6bb048d3640987653c4" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>name</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a08db61628ed8787e5539e3f27c896e43" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>numa_node_</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a87d6c6b32eae74d47cef260088761ff4" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>parse_input_options</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a49fda4762374b85af41fdd91c6fa651a" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>print_csr</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a11a258a1fa5a99a5be9bb34a87c48f41" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>ptr_t</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a11a258a1fa5a99a5be9bb34a87c48f41" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>ptr_t</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a95f10feb5169f26991090996c3d45fc4" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>rd_table_ctl_</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a51c6bd4437ce8010ebc40ea28ff4c0e7" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>run</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a36d9eff18f795e0bbf60d3e213b1a81f" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>running</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a36d9eff18f795e0bbf60d3e213b1a81f" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>running</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a5a5ab8b39c28ef29841ca734c2d18fa8" prot="private" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>running_</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1ab5200927c95fe844db13588f9288bf87" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>stop</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1ab5200927c95fe844db13588f9288bf87" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>stop</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1ac9a567daedf575f8ede0812f77550b8b" prot="public" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>verify_numa_node</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1a9fcaf5a0d378a0362597644dd297d3c1" prot="protected" virt="non-virtual"><scope>hello_fpga::he_cache_cmd</scope><name>wr_table_ctl_</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a04e764764cc62327e60d94840590ee73" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>~command</name></member>
+      <member refid="classopae_1_1afu__test_1_1command_1a04e764764cc62327e60d94840590ee73" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>~command</name></member>
+      <member refid="classhello__fpga_1_1he__cache__cmd_1a5909e0747faec96ec917740234cf71d7" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>~he_cache_cmd</name></member>
+      <member refid="classhello__fpga_1_1he__cmd_1aa133b45cf3cddd919013d55c9d73ff10" prot="public" virt="virtual"><scope>hello_fpga::he_cache_cmd</scope><name>~he_cmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
