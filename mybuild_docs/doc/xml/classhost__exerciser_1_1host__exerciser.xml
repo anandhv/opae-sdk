@@ -119,7 +119,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="553" column="8" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="553" bodyend="-1"/>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classhost__exerciser_1_1host__exerciser_1aa2779adbaf8d70ce736df41c1e1bca3a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -179,7 +179,7 @@
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="557" column="12" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="557" bodyend="-1"/>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a69151663bf338cf126429e7cdd555432" compoundref="host__exerciser__cmd_8h" startline="126" endline="129">host_exerciser::host_exerciser_cmd::he_num_xfers_to_bw</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classhost__exerciser_1_1host__exerciser_1a32d8380022ae3db7e076991e64096144" prot="public" static="no" mutable="no">
         <type>std::map&lt; uint32_t, uint32_t &gt;</type>
@@ -635,7 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="samples/host_exerciser/host_exerciser.h" line="576" column="16" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="576" bodyend="579"/>
+        <location file="samples/host_exerciser/host_exerciser.h" line="576" column="16" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="576" bodyend="581"/>
       </memberdef>
       <memberdef kind="function" id="classhost__exerciser_1_1host__exerciser_1ac6f0c9cbf8e34553601bad5e8480eb6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -652,7 +652,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="samples/host_exerciser/host_exerciser.h" line="581" column="8" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="581" bodyend="586"/>
+        <location file="samples/host_exerciser/host_exerciser.h" line="583" column="8" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="583" bodyend="588"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

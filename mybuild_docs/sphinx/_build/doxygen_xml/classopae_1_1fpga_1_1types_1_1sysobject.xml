@@ -472,7 +472,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="include/opae/cxx/core/sysobject.h" line="67" column="27"/>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a0377b036a7caa446fc87b2d221279d61" compoundref="host__exerciser__cmd_8h" startline="846" endline="892">host_exerciser::host_exerciser_cmd::fpga_emif_status</referencedby>
       </memberdef>
       <memberdef kind="function" id="classopae_1_1fpga_1_1types_1_1sysobject_1a91b4775d5e1d6520ce6fba54db990bb7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classopae_1_1fpga_1_1types_1_1sysobject_1a1a64124cb599b2944cd2cda0081e2653" kindref="member">sysobject::ptr_t</ref></type>

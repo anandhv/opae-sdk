@@ -62,6 +62,8 @@ int \mbox{\hyperlink{classhost__exerciser_1_1host__exerciser__cmd_aa97f70a05e831
 int \mbox{\hyperlink{classhost__exerciser_1_1host__exerciser__cmd_ae6e828551852c834e830f9bfeb13bbd5}{run\+\_\+all\+\_\+tests}} ()
 \item 
 virtual int \mbox{\hyperlink{classhost__exerciser_1_1host__exerciser__cmd_a83697b1ec3679aee9edec5b94bde79fa}{run}} (\mbox{\hyperlink{namespacehost__exerciser_a3396b0a2f5f048347375ed7968bf936f}{test\+\_\+afu}} $\ast$afu, CLI\+::\+App $\ast$\mbox{\hyperlink{hssi_8cpp_a7ccd62f1083f322e0d1dfaa9c23ecb88}{app}})
+\item 
+void \mbox{\hyperlink{classhost__exerciser_1_1host__exerciser__cmd_a0377b036a7caa446fc87b2d221279d61}{fpga\+\_\+emif\+\_\+status}} (\mbox{\hyperlink{namespacehost__exerciser_a3396b0a2f5f048347375ed7968bf936f}{test\+\_\+afu}} $\ast$afu)
 \end{DoxyCompactItemize}
 \doxysubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
@@ -538,7 +540,25 @@ Definition at line 732 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
-References app, cacheline\+\_\+aligned\+\_\+addr(), host\+\_\+exerciser\+::\+CL, destination\+\_\+, dsm\+\_\+, FPGA\+\_\+\+OBJECT\+\_\+\+GLOB, opae\+::fpga\+::types\+::sysobject\+::get(), host\+\_\+exerciser\+::host\+\_\+exerciser\+::he\+\_\+clock\+\_\+mhz\+\_\+, host\+\_\+exerciser\+::\+HE\+\_\+\+CTL, host\+\_\+exerciser\+::\+HE\+\_\+\+DSM\+\_\+\+BASEH, host\+\_\+exerciser\+::\+HE\+\_\+\+DSM\+\_\+\+BASEL, host\+\_\+exerciser\+::\+HE\+\_\+\+DST\+\_\+\+ADDR, host\+\_\+exerciser\+::\+HE\+\_\+\+INFO0, he\+\_\+init\+\_\+src\+\_\+buffer(), he\+\_\+lpbk\+\_\+api\+\_\+ver\+\_\+, he\+\_\+lpbk\+\_\+atomics\+\_\+supported\+\_\+, he\+\_\+lpbk\+\_\+ctl\+\_\+, he\+\_\+lpbk\+\_\+max\+\_\+reqlen\+\_\+, host\+\_\+exerciser\+::\+HE\+\_\+\+NUM\+\_\+\+LINES, host\+\_\+exerciser\+::\+HE\+\_\+\+SRC\+\_\+\+ADDR, host\+\_\+exerciser\+::host\+\_\+exerciser\+::he\+\_\+test\+\_\+all\+\_\+, host\+\_\+exe\+\_\+, host\+\_\+exerciser\+::\+HOSTEXE\+\_\+\+CLS\+\_\+16, host\+\_\+exerciser\+::\+HOSTEXE\+\_\+\+CLS\+\_\+8, opae\+::afu\+\_\+test\+::afu\+::logger\+\_\+, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+BUFFER\+\_\+\+ALLOCATION\+\_\+\+SIZE, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+BUFFER\+\_\+\+SIZE, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+DSM\+\_\+\+SIZE, host\+\_\+exerciser\+::\+MAX\+\_\+\+NUM\+\_\+\+MEM\+\_\+\+CHANNELS, parse\+\_\+input\+\_\+options(), opae\+::afu\+\_\+test\+::afu\+::read64(), run\+\_\+all\+\_\+tests(), run\+\_\+single\+\_\+test(), source\+\_\+, token\+\_\+, token\+\_\+device\+\_\+, usleep(), and host\+\_\+exerciser\+::he\+\_\+ctl\+::value.
+References app, cacheline\+\_\+aligned\+\_\+addr(), host\+\_\+exerciser\+::\+CL, destination\+\_\+, dsm\+\_\+, fpga\+\_\+emif\+\_\+status(), host\+\_\+exerciser\+::host\+\_\+exerciser\+::he\+\_\+clock\+\_\+mhz\+\_\+, host\+\_\+exerciser\+::\+HE\+\_\+\+CTL, host\+\_\+exerciser\+::\+HE\+\_\+\+DSM\+\_\+\+BASEH, host\+\_\+exerciser\+::\+HE\+\_\+\+DSM\+\_\+\+BASEL, host\+\_\+exerciser\+::\+HE\+\_\+\+DST\+\_\+\+ADDR, host\+\_\+exerciser\+::\+HE\+\_\+\+INFO0, he\+\_\+init\+\_\+src\+\_\+buffer(), he\+\_\+lpbk\+\_\+api\+\_\+ver\+\_\+, he\+\_\+lpbk\+\_\+atomics\+\_\+supported\+\_\+, he\+\_\+lpbk\+\_\+ctl\+\_\+, he\+\_\+lpbk\+\_\+max\+\_\+reqlen\+\_\+, host\+\_\+exerciser\+::\+HE\+\_\+\+NUM\+\_\+\+LINES, host\+\_\+exerciser\+::\+HE\+\_\+\+SRC\+\_\+\+ADDR, host\+\_\+exerciser\+::host\+\_\+exerciser\+::he\+\_\+test\+\_\+all\+\_\+, host\+\_\+exe\+\_\+, host\+\_\+exerciser\+::\+HOSTEXE\+\_\+\+CLS\+\_\+16, host\+\_\+exerciser\+::\+HOSTEXE\+\_\+\+CLS\+\_\+8, opae\+::afu\+\_\+test\+::afu\+::logger\+\_\+, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+BUFFER\+\_\+\+ALLOCATION\+\_\+\+SIZE, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+BUFFER\+\_\+\+SIZE, host\+\_\+exerciser\+::\+LPBK1\+\_\+\+DSM\+\_\+\+SIZE, parse\+\_\+input\+\_\+options(), opae\+::afu\+\_\+test\+::afu\+::read64(), run\+\_\+all\+\_\+tests(), run\+\_\+single\+\_\+test(), source\+\_\+, token\+\_\+, usleep(), and host\+\_\+exerciser\+::he\+\_\+ctl\+::value.
+
+\mbox{\label{classhost__exerciser_1_1host__exerciser__cmd_a0377b036a7caa446fc87b2d221279d61}} 
+\index{host\_exerciser::host\_exerciser\_cmd@{host\_exerciser::host\_exerciser\_cmd}!fpga\_emif\_status@{fpga\_emif\_status}}
+\index{fpga\_emif\_status@{fpga\_emif\_status}!host\_exerciser::host\_exerciser\_cmd@{host\_exerciser::host\_exerciser\_cmd}}
+\doxysubsubsection{\texorpdfstring{fpga\_emif\_status()}{fpga\_emif\_status()}}
+{\footnotesize\ttfamily void host\+\_\+exerciser\+::host\+\_\+exerciser\+\_\+cmd\+::fpga\+\_\+emif\+\_\+status (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacehost__exerciser_a3396b0a2f5f048347375ed7968bf936f}{test\+\_\+afu}} $\ast$}]{afu }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 846 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+
+
+
+References FPGA\+\_\+\+OBJECT\+\_\+\+GLOB, opae\+::fpga\+::types\+::sysobject\+::get(), host\+\_\+exerciser\+::\+MAX\+\_\+\+NUM\+\_\+\+MEM\+\_\+\+CHANNELS, and token\+\_\+device\+\_\+.
+
+
+
+Referenced by run().
 
 
 
@@ -551,7 +571,7 @@ References app, cacheline\+\_\+aligned\+\_\+addr(), host\+\_\+exerciser\+::\+CL,
 
 
 
-Definition at line 885 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 895 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -565,7 +585,7 @@ Referenced by host\+\_\+exerciser\+\_\+cmd(), get\+\_\+cfg\+\_\+reqlen(), he\+\_
 
 
 
-Definition at line 886 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 896 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -579,7 +599,7 @@ Referenced by host\+\_\+exerciser\+\_\+cmd(), he\+\_\+forcetestcmpl(), run(), an
 
 
 
-Definition at line 887 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 897 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -593,7 +613,7 @@ Referenced by he\+\_\+continuousmode(), he\+\_\+forcetestcmpl(), he\+\_\+init\+\
 
 
 
-Definition at line 888 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 898 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -607,7 +627,7 @@ Referenced by he\+\_\+compare\+\_\+buffer(), he\+\_\+interrupt(), run(), run\+\_
 
 
 
-Definition at line 889 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 899 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -621,7 +641,7 @@ Referenced by he\+\_\+compare\+\_\+buffer(), he\+\_\+interrupt(), run(), run\+\_
 
 
 
-Definition at line 890 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 900 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -635,7 +655,7 @@ Referenced by he\+\_\+perf\+\_\+counters(), he\+\_\+wait\+\_\+test\+\_\+completi
 
 
 
-Definition at line 891 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 901 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -649,7 +669,7 @@ Referenced by run\+\_\+single\+\_\+test().
 
 
 
-Definition at line 892 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 902 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -663,11 +683,11 @@ Referenced by parse\+\_\+input\+\_\+options(), and run().
 
 
 
-Definition at line 893 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 903 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
-Referenced by run().
+Referenced by fpga\+\_\+emif\+\_\+status().
 
 \mbox{\label{classhost__exerciser_1_1host__exerciser__cmd_a414be1769450fa74ee0e622159f7ebfb}} 
 \index{host\_exerciser::host\_exerciser\_cmd@{host\_exerciser::host\_exerciser\_cmd}!he\_lpbk\_max\_reqlen\_@{he\_lpbk\_max\_reqlen\_}}
@@ -677,7 +697,7 @@ Referenced by run().
 
 
 
-Definition at line 894 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 904 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -691,7 +711,7 @@ Referenced by host\+\_\+exerciser\+\_\+cmd(), parse\+\_\+input\+\_\+options(), r
 
 
 
-Definition at line 895 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 905 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -705,7 +725,7 @@ Referenced by host\+\_\+exerciser\+\_\+cmd(), parse\+\_\+input\+\_\+options(), a
 
 
 
-Definition at line 896 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 906 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 
@@ -719,7 +739,7 @@ Referenced by host\+\_\+exerciser\+\_\+cmd(), parse\+\_\+input\+\_\+options(), r
 
 
 
-Definition at line 897 of file host\+\_\+exerciser\+\_\+cmd.\+h.
+Definition at line 907 of file host\+\_\+exerciser\+\_\+cmd.\+h.
 
 
 

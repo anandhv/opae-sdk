@@ -568,7 +568,7 @@
         <referencedby refid="classhello__fpga_1_1he__cmd_1a49fda4762374b85af41fdd91c6fa651a" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="106" endline="177">hello_fpga::he_cmd::print_csr</referencedby>
         <referencedby refid="classhost__exerciser_1_1he__cmd_1ae405e118f67c274dcd176d16467df79c" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="107" endline="179">host_exerciser::he_cmd::print_csr</referencedby>
         <referencedby refid="classhost__exerciser_1_1he__cmd_1afb601c17545cab7a12088755eeeaebc3" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="591" endline="615">host_exerciser::he_cmd::print_linked_list</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classmem__tg_1_1tg__test_1aa4a52fa4a7e268e6911172f12611816d" compoundref="tg__test_8h" startline="181" endline="207">mem_tg::tg_test::run_mem_test</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" compoundref="host__exerciser__cmd_8h" startline="505" endline="599">host_exerciser::host_exerciser_cmd::run_single_test</referencedby>
         <referencedby refid="classhost__exerciser_1_1he__cmd_1aa070ef9b8a30e71a30f712d4029c1959" compoundref="cxl__host__exerciser_2cxl__he__cmd_8h" startline="560" endline="589">host_exerciser::he_cmd::verify_linked_list</referencedby>
@@ -801,7 +801,7 @@
         <referencedby refid="classhssi__100g__cmd_1adedc4e33cb2ef457b66822f80ec5373c" compoundref="hssi__100g__cmd_8h" startline="585" endline="630">hssi_100g_cmd::print_registers</referencedby>
         <referencedby refid="classhssi__10g__cmd_1accc68e7c9f9a76c7a3fad9c62a3fe8be" compoundref="hssi__10g__cmd_8h" startline="326" endline="395">hssi_10g_cmd::print_registers</referencedby>
         <referencedby refid="classhssi__200g__400g__cmd_1a69cf64d96002221fa5916edc02336b3f" compoundref="hssi__200g__400g__cmd_8h" startline="274" endline="370">hssi_200g_400g_cmd::print_registers</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classhssi__100g__cmd_1acf6da90316e7dd11f43f60df7a720926" compoundref="hssi__100g__cmd_8h" startline="368" endline="578">hssi_100g_cmd::run</referencedby>
         <referencedby refid="classhssi__200g__400g__cmd_1ac363df78df0704d447931248f8e889ed" compoundref="hssi__200g__400g__cmd_8h" startline="111" endline="263">hssi_200g_400g_cmd::run</referencedby>
         <referencedby refid="classmem__tg_1_1tg__test_1a25caf2aba2c64d4c528724e836dd5ff1" compoundref="tg__test_8h" startline="218" endline="309">mem_tg::tg_test::run</referencedby>

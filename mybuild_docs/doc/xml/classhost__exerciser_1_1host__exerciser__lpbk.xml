@@ -167,6 +167,7 @@
       <member refid="classhost__exerciser_1_1host__exerciser__cmd_1a92d3684fd6d98c706ff5708f3d22b18c" prot="public" virt="non-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>dsm_num_writes</name></member>
       <member refid="classopae_1_1afu__test_1_1command_1ad9698a8b5ee31447582c286a115724a7" prot="public" virt="pure-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>featureid</name></member>
       <member refid="classopae_1_1afu__test_1_1command_1ad9698a8b5ee31447582c286a115724a7" prot="public" virt="pure-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>featureid</name></member>
+      <member refid="classhost__exerciser_1_1host__exerciser__cmd_1a0377b036a7caa446fc87b2d221279d61" prot="public" virt="non-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>fpga_emif_status</name></member>
       <member refid="classhost__exerciser_1_1host__exerciser__cmd_1a2653d2dbc6852f4a87f2b4584df6f736" prot="public" virt="non-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>get_cfg_reqlen</name></member>
       <member refid="classopae_1_1afu__test_1_1command_1a7b9e6753ab014e81bb4dd7d1ddbaad85" prot="public" virt="pure-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>guidh</name></member>
       <member refid="classopae_1_1afu__test_1_1command_1a7b9e6753ab014e81bb4dd7d1ddbaad85" prot="public" virt="pure-virtual"><scope>host_exerciser::host_exerciser_lpbk</scope><name>guidh</name></member>

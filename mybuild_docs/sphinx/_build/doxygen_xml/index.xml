@@ -1192,6 +1192,7 @@
     <member refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" kind="function"><name>run_single_test</name></member>
     <member refid="classhost__exerciser_1_1host__exerciser__cmd_1ae6e828551852c834e830f9bfeb13bbd5" kind="function"><name>run_all_tests</name></member>
     <member refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" kind="function"><name>run</name></member>
+    <member refid="classhost__exerciser_1_1host__exerciser__cmd_1a0377b036a7caa446fc87b2d221279d61" kind="function"><name>fpga_emif_status</name></member>
   </compound>
   <compound refid="classhost__exerciser_1_1host__exerciser__lpbk" kind="class"><name>host_exerciser::host_exerciser_lpbk</name>
     <member refid="classhost__exerciser_1_1host__exerciser__lpbk_1ae4b34910b78e02ba644c5035014d3611" kind="function"><name>host_exerciser_lpbk</name></member>

@@ -201,7 +201,7 @@
         <referencedby refid="classdummy__afu_1_1ddr__test_1a5207a71d34529d7bfac6871282566edb" compoundref="ddr_8h" startline="60" endline="103">dummy_afu::ddr_test::run</referencedby>
         <referencedby refid="classdummy__afu_1_1lpbk__test_1a22a64a8f79ef8e002d3ff75534d2f8e0" compoundref="lpbk_8h" startline="50" endline="65">dummy_afu::lpbk_test::run</referencedby>
         <referencedby refid="classdummy__afu_1_1mmio__test_1a11bd14e2eaedd19a9b759f30dcc845a7" compoundref="samples_2dummy__afu_2mmio_8h" startline="131" endline="152">dummy_afu::mmio_test::run</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classcxl__mem__tg_1_1cxl__tg__test_1a2916882019055c81a3e392d5ba420e82" compoundref="cxl__tg__test_8h" startline="453" endline="478">cxl_mem_tg::cxl_tg_test::run</referencedby>
         <referencedby refid="classhssi__100g__cmd_1acf6da90316e7dd11f43f60df7a720926" compoundref="hssi__100g__cmd_8h" startline="368" endline="578">hssi_100g_cmd::run</referencedby>
         <referencedby refid="classhssi__10g__cmd_1a5b43c5b65f93917f74fb158c1261aeee" compoundref="hssi__10g__cmd_8h" startline="152" endline="319">hssi_10g_cmd::run</referencedby>

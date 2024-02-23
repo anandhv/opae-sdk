@@ -1318,7 +1318,7 @@
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a3f45f83a1b1baf50f08787d25b866d33" compoundref="host__exerciser__cmd_8h" startline="275" endline="295">host_exerciser::host_exerciser_cmd::he_dump_buffer</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a9bf1efb0f48fe335643cf4e7d77dadd7" compoundref="host__exerciser__cmd_8h" startline="245" endline="273">host_exerciser::host_exerciser_cmd::he_init_src_buffer</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a9b75ff69ffc1f2078b5e9fb5c3f74830" compoundref="host__exerciser__cmd_8h" startline="148" endline="189">host_exerciser::host_exerciser_cmd::he_perf_counters</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
       </memberdef>
       <memberdef kind="variable" id="namespacehost__exerciser_1a4f74c9687586e00027a417a41a34d05b" prot="public" static="yes" mutable="no">
         <type>const uint64_t</type>
@@ -1664,7 +1664,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="44" column="21" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="44" bodyend="-1"/>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" compoundref="host__exerciser__cmd_8h" startline="505" endline="599">host_exerciser::host_exerciser_cmd::run_single_test</referencedby>
       </memberdef>
       <memberdef kind="variable" id="namespacehost__exerciser_1ab4b46ce5277ad6a137e9d753cc54f7c8" prot="public" static="yes" mutable="no">
@@ -1681,7 +1681,7 @@
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="45" column="21" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="45" bodyend="-1"/>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a9b75ff69ffc1f2078b5e9fb5c3f74830" compoundref="host__exerciser__cmd_8h" startline="148" endline="189">host_exerciser::host_exerciser_cmd::he_perf_counters</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1ae6e828551852c834e830f9bfeb13bbd5" compoundref="host__exerciser__cmd_8h" startline="602" endline="730">host_exerciser::host_exerciser_cmd::run_all_tests</referencedby>
       </memberdef>
       <memberdef kind="variable" id="namespacehost__exerciser_1a4a48249a14d845c7ad6c2913209cbfe5" prot="public" static="yes" mutable="no">
@@ -1697,7 +1697,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="46" column="21" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="46" bodyend="-1"/>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
       </memberdef>
       <memberdef kind="variable" id="namespacehost__exerciser_1a3e0e0dbe0e774ef2b7e511fe90df8e42" prot="public" static="yes" mutable="no">
         <type>const size_t</type>
@@ -1712,7 +1712,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="samples/host_exerciser/host_exerciser.h" line="47" column="21" bodyfile="samples/host_exerciser/host_exerciser.h" bodystart="47" bodyend="-1"/>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a0377b036a7caa446fc87b2d221279d61" compoundref="host__exerciser__cmd_8h" startline="846" endline="892">host_exerciser::host_exerciser_cmd::fpga_emif_status</referencedby>
       </memberdef>
       <memberdef kind="variable" id="namespacehost__exerciser_1a9dc7a132365a9a2e883166de316d3579" prot="public" static="no" mutable="no">
         <type>const std::map&lt; std::string, uint32_t &gt;</type>

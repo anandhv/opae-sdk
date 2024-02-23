@@ -319,7 +319,7 @@
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a23e2128ba0753d1b767983a6cf8f11d8" compoundref="host__exerciser__cmd_8h" startline="206" endline="227">host_exerciser::host_exerciser_cmd::he_wait_test_completion</referencedby>
         <referencedby refid="classhello__fpga_1_1he__cmd_1a5e97cb9a6874ba32f098fabb9e2b1591" compoundref="cxl__hello__fpga_2cxl__he__cmd_8h" startline="228" endline="242">hello_fpga::he_cmd::he_wait_test_completion</referencedby>
         <referencedby refid="object__api_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="object__api_8c" startline="260" endline="353">main</referencedby>
-        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="882">host_exerciser::host_exerciser_cmd::run</referencedby>
+        <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1a83697b1ec3679aee9edec5b94bde79fa" compoundref="host__exerciser__cmd_8h" startline="732" endline="844">host_exerciser::host_exerciser_cmd::run</referencedby>
         <referencedby refid="classhost__exerciser_1_1host__exerciser__cmd_1aa97f70a05e8316fa5b6039effbceb8d2" compoundref="host__exerciser__cmd_8h" startline="505" endline="599">host_exerciser::host_exerciser_cmd::run_single_test</referencedby>
       </memberdef>
       <memberdef kind="function" id="hello__afu_8c_1aa11f434898b86d619a5ceb6a5d7bf066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">

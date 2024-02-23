@@ -887,18 +887,20 @@
 <codeline lineno="575"><highlight class="normal"></highlight></codeline>
 <codeline lineno="576" refid="classhost__exerciser_1_1host__exerciser_1aee680bcde4bfa9f283c8498bf177ac56" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classopae_1_1fpga_1_1types_1_1token_1adbc72f7f89d7accf08719ffeb4a11fe3" kindref="member">token::ptr_t</ref><sp/><ref refid="classhost__exerciser_1_1host__exerciser_1aee680bcde4bfa9f283c8498bf177ac56" kindref="member">get_token_device</ref>()</highlight></codeline>
 <codeline lineno="577"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="578"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>handle_device_-&gt;get_token();</highlight></codeline>
-<codeline lineno="579"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="580"><highlight class="normal"></highlight></codeline>
-<codeline lineno="581" refid="classhost__exerciser_1_1host__exerciser_1ac6f0c9cbf8e34553601bad5e8480eb6c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classhost__exerciser_1_1host__exerciser_1ac6f0c9cbf8e34553601bad5e8480eb6c" kindref="member">option_passed</ref>(std::string<sp/>option_str)</highlight></codeline>
-<codeline lineno="582"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="583"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(app_.count(option_str)<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="586"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="587"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="588"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>namespace<sp/>host_exerciser</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="589"><highlight class="normal"></highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(handle_device_)</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>handle_device_-&gt;get_token();</highlight></codeline>
+<codeline lineno="580"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="582"><highlight class="normal"></highlight></codeline>
+<codeline lineno="583" refid="classhost__exerciser_1_1host__exerciser_1ac6f0c9cbf8e34553601bad5e8480eb6c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classhost__exerciser_1_1host__exerciser_1ac6f0c9cbf8e34553601bad5e8480eb6c" kindref="member">option_passed</ref>(std::string<sp/>option_str)</highlight></codeline>
+<codeline lineno="584"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(app_.count(option_str)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="588"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="589"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="590"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>namespace<sp/>host_exerciser</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="samples/host_exerciser/host_exerciser.h"/>
   </compounddef>

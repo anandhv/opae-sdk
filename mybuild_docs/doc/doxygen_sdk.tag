@@ -14399,6 +14399,13 @@
       <anchor>a83697b1ec3679aee9edec5b94bde79fa</anchor>
       <arglist>(test_afu *afu, CLI::App *app)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>fpga_emif_status</name>
+      <anchorfile>classhost__exerciser_1_1host__exerciser__cmd.html</anchorfile>
+      <anchor>a0377b036a7caa446fc87b2d221279d61</anchor>
+      <arglist>(test_afu *afu)</arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>he_cfg</type>
       <name>he_lpbk_cfg_</name>
